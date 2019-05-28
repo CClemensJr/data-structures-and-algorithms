@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6360de65-8700-4d41-ace9-89ac9a9a7c53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/challenges/Array-Shift/ArrayShift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/Array-Shift/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/Array-Shift/ArrayShift.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/Array-Shift/ArrayShift.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,12 +17,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/challenges/Array-Shift/ArrayShift.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/challenges/Array-Shift/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -49,6 +52,7 @@
         <option value="$PROJECT_DIR$/data-structures/README.md" />
         <option value="$PROJECT_DIR$/assets/README.md" />
         <option value="$PROJECT_DIR$/challenges/Array-Shift/README.md" />
+        <option value="$PROJECT_DIR$/challenges/Array-Shift/ArrayShift.java" />
       </list>
     </option>
   </component>
@@ -71,27 +75,6 @@
               <item name="data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="challenges" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="Array-Shift" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="data-structures" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -101,6 +84,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
@@ -209,9 +193,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/challenges/Array-Shift/ArrayShift.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/challenges/Array-Shift/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -219,6 +200,13 @@
             <caret line="15" selection-start-line="15" selection-end-line="15" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/challenges/Array-Shift/ArrayShift.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
         </state>
       </provider>
     </entry>
