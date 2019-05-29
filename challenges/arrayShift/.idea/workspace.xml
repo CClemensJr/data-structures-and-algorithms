@@ -3,6 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="86df7598-aae0-4809-a0d9-f4e072910013" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/arrayShift/ArrayShiftTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arrayShift/ArrayShiftTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oldarrayShift/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oldarrayShift/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oldarrayShift/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oldarrayShift/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oldarrayShift/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oldarrayShift/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oldarrayShift/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oldarrayShift/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oldarrayShift/src/main/java/arrauShift/ArrayShift.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oldarrayShift/src/main/java/arrauShift/Library.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oldarrayShift/src/test/java/arrayShift/ArrayShiftTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oldarrayShift/src/test/java/arrayShift/LibraryTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -27,8 +41,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/arrayShift/ArrayShiftTest.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/arrayShift/LibraryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="51" selection-end-column="7" />
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -135,6 +161,9 @@
       </pane>
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -146,6 +175,63 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ArrayShiftTest.testMethodReturnsArray">
+    <configuration name="ArrayShiftTest.insertShiftArrayShouldReturnArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="arrayShift.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayShift.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayShift" />
+      <option name="MAIN_CLASS_NAME" value="arrayShift.ArrayShiftTest" />
+      <option name="METHOD_NAME" value="insertShiftArrayShouldReturnArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayShiftTest.testMethodReturnNotNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="arrayShift.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayShift.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayShift" />
+      <option name="MAIN_CLASS_NAME" value="arrayShift.ArrayShiftTest" />
+      <option name="METHOD_NAME" value="testMethodReturnNotNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayShiftTest.testMethodReturnsArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="arrayShift.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayShift.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayShift" />
+      <option name="MAIN_CLASS_NAME" value="arrayShift.ArrayShiftTest" />
+      <option name="METHOD_NAME" value="testMethodReturnsArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ArrayShiftTest.testMethodReturnsArray" />
+        <item itemvalue="JUnit.ArrayShiftTest.testMethodReturnNotNull" />
+        <item itemvalue="JUnit.ArrayShiftTest.insertShiftArrayShouldReturnArray" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -159,6 +245,14 @@
       <updated>1559161463339</updated>
     </task>
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ArrayShiftTest_insertShiftArrayShouldReturnArray - 2019.05.29 at 13h 43m 12s.xml">
+      <configuration name="ArrayShiftTest.insertShiftArrayShouldReturnArray" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayShiftTest_testMethodReturnNotNull - 2019.05.29 at 13h 45m 43s.xml">
+      <configuration name="ArrayShiftTest.testMethodReturnNotNull" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -176,9 +270,10 @@
       <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.32916668" />
+      <window_info anchor="bottom" id="Messages" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -202,10 +297,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/arrayShift/ArrayShiftTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/arrayShift/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="51" selection-end-column="7" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/arrayShift/ArrayShiftTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
