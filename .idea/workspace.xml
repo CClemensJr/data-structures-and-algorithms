@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6360de65-8700-4d41-ace9-89ac9a9a7c53" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/challenges/arrayShift/src/main/java/arrauShift/ArrayShift.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/arrayShift/src/main/java/arrauShift/ArrayShift.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayShift/src/test/java/arrayShift/ArrayShiftTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/arrayShift/src/test/java/arrayShift/ArrayShiftTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,11 +37,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/challenges/arrayShift/src/test/java/arrayShift/ArrayShiftTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="441">
               <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/challenges/arrayShift/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="240">
+                <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -70,6 +81,7 @@
         <option value="$PROJECT_DIR$/challenges/shiftArray/src/main/java/arrauShift/ArrayShift.java" />
         <option value="$PROJECT_DIR$/challenges/arrayShift/src/main/java/arrauShift/ArrayShift.java" />
         <option value="$PROJECT_DIR$/challenges/arrayShift/src/test/java/arrayShift/ArrayShiftTest.java" />
+        <option value="$PROJECT_DIR$/challenges/arrayShift/README.md" />
       </list>
     </option>
   </component>
@@ -186,7 +198,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2274678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -222,16 +233,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -300,16 +301,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/challenges/arrayShift/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="12" column="113" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="113" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/challenges/arrayShift/src/main/java/arrauShift/Library.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -331,6 +322,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/challenges/arrayShift/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="240">
+            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
