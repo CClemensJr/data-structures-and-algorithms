@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6360de65-8700-4d41-ace9-89ac9a9a7c53" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/challenges/arrayShift/src/main/java/arrauShift/ArrayShift.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/arrayShift/src/main/java/arrauShift/ArrayShift.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/challenges/arrayShift/src/test/java/arrayShift/ArrayShiftTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/arrayShift/src/test/java/arrayShift/ArrayShiftTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/challenges/arrayShift/src/main/java/arrauShift/ArrayShift.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+            <state relative-caret-position="105">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -40,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/challenges/arrayShift/src/test/java/arrayShift/ArrayShiftTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="441">
+              <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -67,6 +68,7 @@
         <option value="$PROJECT_DIR$/challenges/shiftArray/src/main/java/arrauShift/Library.java" />
         <option value="$PROJECT_DIR$/challenges/shiftArray/src/test/java/arrayShift/LibraryTest.java" />
         <option value="$PROJECT_DIR$/challenges/shiftArray/src/main/java/arrauShift/ArrayShift.java" />
+        <option value="$PROJECT_DIR$/challenges/arrayShift/src/main/java/arrauShift/ArrayShift.java" />
         <option value="$PROJECT_DIR$/challenges/arrayShift/src/test/java/arrayShift/ArrayShiftTest.java" />
       </list>
     </option>
@@ -320,15 +322,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/challenges/arrayShift/src/main/java/arrauShift/ArrayShift.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/challenges/arrayShift/src/test/java/arrayShift/ArrayShiftTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="441">
+          <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
         </state>
       </provider>
     </entry>
