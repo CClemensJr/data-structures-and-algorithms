@@ -16,4 +16,4 @@ When the middle of the array was reached, the value to be added was inserted int
 Big O: O(N)
 
 ##Solution
-![alt text](https://github.com/CClemensJr/data-structures-and-algorithms/blob/master/assets/shiftArray.jpeg "Shift Array Whiteboard")
+![alt text](https://github.com/CClemensJr/data-structures-and-algorithms/blob/master/assets/arrayShift.jpg "Shift Array Whiteboard")
