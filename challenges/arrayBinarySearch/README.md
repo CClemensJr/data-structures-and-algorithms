@@ -11,10 +11,10 @@
 
 ## Approach and Efficiency
 ### Approach
-> Approach goes here
+> I created variables to store the start, mid, and end points of the array. I then looped through the array comparing the mid point to the value. If the value was greater than mid, the start point was shifted to mid + 1 and the mid point shifted to the index between start and end. If the value was less then end was moved to the mid point - 1 and mid was adjust accordingly. This process continues until the value is found or all search combinations have been reached.
 
 ### Efficiency
-> Big O: Olg(n)
+> O lg(n)
 
 ## Solution
-![alt text](https://github.com/CClemensJr/data-structures-and-algorithms/blob/master/assets/arrayBinarySearch.jpg "Shift Array Whiteboard")
+![alt text](https://github.com/CClemensJr/data-structures-and-algorithms/blob/master/assets/arrayBinarySearch.jpg "Array Binary Search Whiteboard")
