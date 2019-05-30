@@ -12,6 +12,6 @@ public class BinarySearchTest {
         int val = 37;
         int expectedIndex = 2;
 
-        assertTrue(binarySearch(arr, val) == expectedIndex);
+        assertTrue(test.binarySearch(arr, val) == expectedIndex);
     }
 }
