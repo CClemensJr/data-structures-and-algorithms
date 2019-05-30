@@ -9,8 +9,8 @@ public class BinarySearchTest {
         BinarySearch test = new BinarySearch();
 
         int[] arr = { 1, 25, 37, 75, 125, 148 };
-        int val = 37;
-        int expectedIndex = 2;
+        int val = 125;
+        int expectedIndex = 4;
 
         assertTrue(test.binarySearch(arr, val) == expectedIndex);
     }
