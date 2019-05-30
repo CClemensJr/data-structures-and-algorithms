@@ -6,9 +6,14 @@
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
       <map>
-        <entry key="$USER_HOME$/IdeaProjects/CodeFellows/data-structures-and-algorithms/challenges/arrayShift" value="PREVIEW" />
-        <entry key="$USER_HOME$/IdeaProjects/CodeFellows/java-fundamentals/basiclibrary" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../arrayShift" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../java-fundamentals/basiclibrary" value="PREVIEW" />
       </map>
     </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="24" />
+    <option name="width" value="1440" />
+    <option name="height" value="812" />
   </component>
 </project>
