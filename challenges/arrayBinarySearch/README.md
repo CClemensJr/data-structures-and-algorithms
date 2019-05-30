@@ -1,19 +1,20 @@
-#Insert and Shift an Array
+# Array Binary Search
 
-##Challenge
-> Write a function called insertShiftArray which takes in an array and the value to be added. Without utilizing any of the built-in methods available to your language, return an array with the new value added at the middle index.
+## Challenge
+> Write a function called BinarySearch which takes in 2 parameters: a sorted array and the search key. Without utilizing any of the built-in methods available to your language, return the index of the array’s element that is equal to the search key, or -1 if the element does not exist.
 
-##Example
+## Example
 |Input|	Output|
 |-----|-------|
-| [2,4,6,8], 5 | [2,4,5,6,8] |
-| [4,8,15,23,42], 16 | [4,8,15,16,23,42] |
+| [2,4,6,7,8], 7 | 3 |
+| [4,8,15,23,42], 8 | 1 |
 
-##Approach and Efficiency
-> My approach to solving this problem involved creating a new array big enough to hold the original array and the value to be added to it.
-I then used a for loop to iterate over the new array, placing the values of the old array into the new array. 
-When the middle of the array was reached, the value to be added was inserted into the new array.
-Big O: O(N)
+## Approach and Efficiency
+### Approach
+> Approach goes here
 
-##Solution
-![alt text](https://github.com/CClemensJr/data-structures-and-algorithms/blob/master/assets/arrayShift.jpg "Shift Array Whiteboard")
+### Efficiency
+> Big O: Olg(n)
+
+## Solution
+![alt text](https://github.com/CClemensJr/data-structures-and-algorithms/blob/master/assets/arrayBinarySearch.jpg "Shift Array Whiteboard")
