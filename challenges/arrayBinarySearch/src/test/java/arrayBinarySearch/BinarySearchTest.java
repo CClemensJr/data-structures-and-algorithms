@@ -14,4 +14,15 @@ public class BinarySearchTest {
 
         assertTrue(test.binarySearch(arr, val) == expectedIndex);
     }
+
+    @Test
+    public void binarySearchShouldVerifyIfValueNotInArray() {
+        BinarySearch test = new BinarySearch();
+
+        int[] arr = { 1, 25, 37, 75, 125, 148 };
+        int val = 136;
+        int expectedIndex = -1;
+
+        assertTrue(test.binarySearch(arr, val) == expectedIndex);
+    }
 }
