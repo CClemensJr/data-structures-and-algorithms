@@ -16,6 +16,6 @@ public class Node {
     public int getValue() { return value; }
     public Node getNext() { return next; }
 
-    public void setValue() { this.value = value; }
-    public void setNext() { this.next = next; }
+    public void setValue(int v) { this.value = v; }
+    public void setNext(Node n) { this.next = n; }
 }
