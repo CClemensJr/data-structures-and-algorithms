@@ -13,4 +13,8 @@ public class LinkedList {
 
     // Getters and Setters
     public int getSize() { return size; }
+    public Node getHead() { return head; }
+
+    private void setSize() { this.size++; }
+    public void setHead() { this.head = head; }
 }
