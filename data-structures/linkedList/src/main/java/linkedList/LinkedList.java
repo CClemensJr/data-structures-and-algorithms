@@ -1,20 +1,38 @@
 package linkedList;
 
 public class LinkedList {
-    // Instance Variables
+/****************
+ * Instance Variables
+ * */
     private int size;
     private Node head;
 
-    // Constructors
+
+/****************
+ * Constructors
+ * */
     public LinkedList() {
         this.head = null;
         this.size = 0;
     }
 
-    // Getters and Setters
+
+/****************
+ * Getters & Setters
+ * */
     public int getSize() { return size; }
     public Node getHead() { return head; }
 
     private void setSize() { this.size++; }
-    public void setHead() { this.head = head; }
+    public void setHead(int v) { this.head.setValue(v); }
+
+
+
+/****************
+ * Getters
+ * */
+    public void insert(int v) {
+
+
+    }
 }
