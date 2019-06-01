@@ -8,7 +8,7 @@ public class LinkedListTest {
     public void canSuccessfullyInstantiateAnEmptyLinkedList() {
         LinkedList test = new LinkedList();
 
-        assertTrue(test.size == 0);
+        assertTrue(test.getSize() == 0);
     }
 
     // Can properly insert into the linked list
