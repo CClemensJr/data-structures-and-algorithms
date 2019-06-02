@@ -24,15 +24,18 @@ public class LinkedList {
     public Node getHead() { return head; }
 
     private void setSize() { this.size++; }
-    public void setHead(int v) { this.head.setValue(v); }
+    private void setHead(Node h) { this.head = h; }
 
 
 
 /****************
- * Getters
+ * Insert
+ *
+ * This method takes a value, creates a new Node, and sets that Node at the head of the linked list.
  * */
     public void insert(int v) {
-
-
+        Node node = new Node(v);
+        this.setHead(node);
+        this.setSize();
     }
 }

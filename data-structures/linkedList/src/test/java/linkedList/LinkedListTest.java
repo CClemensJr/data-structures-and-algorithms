@@ -11,7 +11,14 @@ public class LinkedListTest {
         assertTrue(test.getSize() == 0);
     }
 
-    // Can properly insert into the linked list
+    @Test
+    public void canProperlyInsertIntoTheLinkedList() {
+        LinkedList test = new LinkedList();
+
+        test.insert(7);
+
+        assertTrue(test.getHead().getValue() == 7);
+    }
 
     // The head property will properly point to the first node in the linked list
 
