@@ -58,7 +58,19 @@ public class LinkedListTest {
         assertTrue(isInList);
     }
 
-    // Will return false when searching for a value in the linked list that does not exist
+
+    @Test
+    public void willReturnFalseWhenSearchingForAValueInTheLinkedListThatDoesNotExist() {
+        LinkedList test = new LinkedList();
+
+        for (int i = 1; i < 10; i++) {
+            test.insert(i);
+        }
+
+        boolean isInList = test.includes(25);
+
+        assertFalse(isInList);
+    }
 
     // Can properly return a collection of all the values that exist in the linked list
 }
