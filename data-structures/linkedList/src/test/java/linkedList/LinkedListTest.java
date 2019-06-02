@@ -72,5 +72,17 @@ public class LinkedListTest {
         assertFalse(isInList);
     }
 
-    // Can properly return a collection of all the values that exist in the linked list
+    @Test
+    public void canProperlyReturnACollectionOfAllTheValuesThatExistInTheLinkedList() {
+        LinkedList test = new LinkedList();
+
+        for (int i = 0; i < 10; i++) {
+            test.insert(i);
+        }
+
+        int[] expected = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+        int[] actual = test.print();
+
+        assertArrayEquals(expected, actual);
+    }
 }

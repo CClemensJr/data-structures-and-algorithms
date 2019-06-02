@@ -49,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/linkedList/LinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+            <state relative-caret-position="379">
+              <caret line="85" column="43" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -169,23 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListTest.willReturnFalseWhenSearchingForAValueInTheLinkedListThatDoesNotExist">
-    <configuration name="LinkedListTest.canProperlyInsertIntoTheLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="linkedList.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="linkedList" />
-      <option name="MAIN_CLASS_NAME" value="linkedList.LinkedListTest" />
-      <option name="METHOD_NAME" value="canProperlyInsertIntoTheLinkedList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LinkedListTest.canProperlyReturnACollectionOfAllTheValuesThatExistInTheLinkedList">
     <configuration name="LinkedListTest.canProperlyInsertMultipleNodesIntoTheLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="linkedList.test" />
       <extension name="coverage">
@@ -197,6 +181,22 @@
       <option name="PACKAGE_NAME" value="linkedList" />
       <option name="MAIN_CLASS_NAME" value="linkedList.LinkedListTest" />
       <option name="METHOD_NAME" value="canProperlyInsertMultipleNodesIntoTheLinkedList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.canProperlyReturnACollectionOfAllTheValuesThatExistInTheLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="linkedList.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="linkedList" />
+      <option name="MAIN_CLASS_NAME" value="linkedList.LinkedListTest" />
+      <option name="METHOD_NAME" value="canProperlyReturnACollectionOfAllTheValuesThatExistInTheLinkedList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -252,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LinkedListTest.canProperlyReturnACollectionOfAllTheValuesThatExistInTheLinkedList" />
         <item itemvalue="JUnit.LinkedListTest.willReturnFalseWhenSearchingForAValueInTheLinkedListThatDoesNotExist" />
         <item itemvalue="JUnit.LinkedListTest.willReturnTrueWhenFindingAValueWithinTheLinkedListThatExists" />
         <item itemvalue="JUnit.LinkedListTest.canProperlyInsertMultipleNodesIntoTheLinkedList" />
         <item itemvalue="JUnit.LinkedListTest.theHeadPropertyShouldPointToTheFirstNode" />
-        <item itemvalue="JUnit.LinkedListTest.canProperlyInsertIntoTheLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -274,9 +274,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LinkedListTest_theHeadPropertyShouldPointToTheFirstNode - 2019.06.01 at 21h 23m 10s.xml">
-      <configuration name="LinkedListTest.theHeadPropertyShouldPointToTheFirstNode" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LinkedListTest_canProperlyInsertMultipleNodesIntoTheLinkedList - 2019.06.01 at 21h 29m 05s.xml">
       <configuration name="LinkedListTest.canProperlyInsertMultipleNodesIntoTheLinkedList" configurationId="JUnit" />
     </history-entry>
@@ -304,6 +301,9 @@
     <history-entry file="LinkedListTest_willReturnTrueWhenFindingAValueWithinTheLinkedListThatExists - 2019.06.01 at 22h 28m 51s.xml">
       <configuration name="LinkedListTest.willReturnTrueWhenFindingAValueWithinTheLinkedListThatExists" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LinkedListTest_willReturnFalseWhenSearchingForAValueInTheLinkedListThatDoesNotExist - 2019.06.01 at 22h 31m 14s.xml">
+      <configuration name="LinkedListTest.willReturnFalseWhenSearchingForAValueInTheLinkedListThatDoesNotExist" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="810" extended-state="6" />
@@ -318,13 +318,13 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.33008358" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.33008358" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.32916668" />
       <window_info anchor="bottom" id="Messages" weight="0.32916668" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32729805" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32729805" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39972144" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -378,8 +378,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/linkedList/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+        <state relative-caret-position="379">
+          <caret line="85" column="43" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
