@@ -17,12 +17,32 @@ public class LinkedListTest {
 
         test.insert(7);
 
-        assertTrue(test.getHead().getValue() == 7);
+        //assertTrue(test.getHead().getValue() == 7);
+        assertTrue(test.getSize() == 1);
     }
 
-    // The head property will properly point to the first node in the linked list
+    @Test
+    public void theHeadPropertyShouldPointToTheFirstNode() {
+        LinkedList test = new LinkedList();
 
-    // Can properly insert multiple nodes into the linked list
+        test.insert(7);
+
+        Node head = test.getHead();
+
+        assertTrue(head.getValue() == 7);
+    }
+
+    @Test
+    public void canProperlyInsertMultipleNodesIntoTheLinkedList() {
+        LinkedList test = new LinkedList();
+
+        test.insert(7);
+        test.insert(8);
+        test.insert(9);
+
+        assertTrue(test.getSize() == 3);
+    }
+
 
     // Will return true when finding a value within the linked list that exists
 
