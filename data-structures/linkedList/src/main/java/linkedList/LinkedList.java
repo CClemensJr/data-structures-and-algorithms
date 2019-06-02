@@ -44,7 +44,7 @@ public class LinkedList {
 
 
 /****************
- * Include
+ * Includes
  *
  * This method takes a value and returns a boolean depending whether that value exists.
  * */
@@ -58,6 +58,17 @@ public class LinkedList {
         }
 
         return (current.getValue() == v) ? true : false;
+    }
+
+
+
+/****************
+ * Print
+ *
+ * This method returns a list of all nodes in the linked list.
+ * */
+    public int[] print() {
+        return null;
     }
 
 }
