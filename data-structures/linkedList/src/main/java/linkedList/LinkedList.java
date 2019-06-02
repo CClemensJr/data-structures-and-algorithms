@@ -35,6 +35,8 @@ public class LinkedList {
  * */
     public void insert(int v) {
         Node node = new Node(v);
+
+        node.setNext(this.head);
         this.setHead(node);
         this.setSize();
     }

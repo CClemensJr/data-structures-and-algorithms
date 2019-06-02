@@ -40,11 +40,23 @@ public class LinkedListTest {
         test.insert(8);
         test.insert(9);
 
-        assertTrue(test.getSize() == 3);
+        // assertTrue(test.getSize() == 3);
+        assertTrue(test.getHead().getNext().getValue() == 8);
     }
 
 
-    // Will return true when finding a value within the linked list that exists
+    @Test
+    public void willReturnTrueWhenFindingAValueWithinTheLinkedListThatExists() {
+        LinkedList test = new LinkedList();
+
+        for (int i = 1; i < 10; i++) {
+            test.insert(i);
+        }
+
+        boolean isInList = test.includes(7);
+
+        assertTrue(isInList);
+    }
 
     // Will return false when searching for a value in the linked list that does not exist
 
