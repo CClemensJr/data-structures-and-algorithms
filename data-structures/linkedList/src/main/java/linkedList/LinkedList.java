@@ -47,7 +47,15 @@ public class LinkedList {
  * This method takes a value and returns a boolean depending whether that value exists.
  * */
     public boolean includes(int v) {
-        return false;
+        Node current = this.getHead();
+
+        while (current.getNext() != null) {
+            if (current.getValue() == v) return true;
+
+            current = current.getNext();
+        }
+
+        return (current.getValue() == v) ? true : false;
     }
 
 }
