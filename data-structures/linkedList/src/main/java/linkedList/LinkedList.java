@@ -38,4 +38,16 @@ public class LinkedList {
         this.setHead(node);
         this.setSize();
     }
+
+
+
+/****************
+ * Include
+ *
+ * This method takes a value and returns a boolean depending whether that value exists.
+ * */
+    public boolean includes(int v) {
+        return false;
+    }
+
 }
