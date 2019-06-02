@@ -68,7 +68,18 @@ public class LinkedList {
  * This method returns a list of all nodes in the linked list.
  * */
     public int[] print() {
-        return null;
+        Node current = this.getHead();
+        int[] allNodes = new int[this.getSize()];
+        int i = 0;
+
+        while (current != null) {
+            allNodes[i] = current.getValue();
+
+            i++;
+            current = current.getNext();
+        }
+
+        return allNodes;
     }
 
 }
