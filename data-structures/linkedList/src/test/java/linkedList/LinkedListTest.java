@@ -138,14 +138,12 @@ public class LinkedListTest {
         LinkedList test = new LinkedList();
 
         test.insert(0);
+        test.append(1);
+        test.append(3);
 
-        for (int i = 1; i <= 5; i++) {
-            test.append(i);
-        }
+        test.insertBefore(3, 2);
 
-        test.insertBefore(3, 49);
-
-        assertTrue(test.getHead().getNext().getNext().getNext().getValue() == 49);
+        assertTrue(test.getHead().getNext().getNext().getValue() == 2);
     }
 
     @Test
