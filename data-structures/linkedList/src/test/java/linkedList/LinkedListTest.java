@@ -1,6 +1,8 @@
 package linkedList;
 
 import org.junit.Test;
+import sun.awt.image.ImageWatched;
+
 import static org.junit.Assert.*;
 
 public class LinkedListTest {
@@ -113,7 +115,19 @@ public class LinkedListTest {
 
         assertTrue(test.getHead().getNext().getValue() == 98);
     }
-    // Can successfully add multiple nodes to the end of a linked list
+
+    @Test
+    public void canSuccessfullyAddMultipleNodesToTheTndOfALinkedList() {
+        LinkedList test = new LinkedList();
+
+        test.insert(57);
+        test.append(98);
+        test.append(103);
+        test.append(10);
+        test.append(33);
+
+        assertTrue(test.getHead().getNext().getNext().getNext().getNext().getValue() == 33);
+    }
 
 
 /****************
