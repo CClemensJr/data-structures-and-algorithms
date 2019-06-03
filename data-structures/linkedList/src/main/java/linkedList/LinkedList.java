@@ -147,7 +147,17 @@ public class LinkedList {
  *
  * This method takes a old value and a new value then inserts a Node with the new value before the node with the old value.
  * */
+    public void insertBefore(int v, int newValue) {
+        try {
+            Node node = new Node(newValue);
 
+        } catch(Exception e) {
+            System.err.println("An error has occurred: " + e);
+            System.err.println("Press any key to exit...");
+            System.console().readLine();
+            System.exit(1);
+        }
+    }
 
 
 /****************
