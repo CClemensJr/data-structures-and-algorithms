@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="272ab284-aa0f-4531-b563-f3a3e2cfe95f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/linkedList/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/linkedList/LinkedListTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -28,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/linkedList/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="168" column="69" selection-start-line="168" selection-start-column="69" selection-end-line="168" selection-end-column="69" />
+            <state relative-caret-position="292">
+              <caret line="179" column="29" selection-start-line="179" selection-start-column="29" selection-end-line="179" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -37,7 +36,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/linkedList/LinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="333">
               <caret line="146" column="5" lean-forward="true" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -157,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListTest.canSuccessfullyInsertANodeBeforeTheFirstNodeOfALinkedList">
+  <component name="RunManager" selected="JUnit.LinkedListTest.canSuccessfullyInsertANodeBeforeANodeLocatedInTheMiddleOfALinkedList">
     <configuration name="LinkedListTest.canSuccessfullyAddANodeToTheEndOfTheLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="linkedList.test" />
       <extension name="coverage">
@@ -240,8 +239,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LinkedListTest.canSuccessfullyInsertANodeBeforeTheFirstNodeOfALinkedList" />
         <item itemvalue="JUnit.LinkedListTest.canSuccessfullyInsertANodeBeforeANodeLocatedInTheMiddleOfALinkedList" />
+        <item itemvalue="JUnit.LinkedListTest.canSuccessfullyInsertANodeBeforeTheFirstNodeOfALinkedList" />
         <item itemvalue="JUnit.LinkedListTest.canSuccessfullyAddMultipleNodesToTheTndOfALinkedList" />
         <item itemvalue="JUnit.LinkedListTest.canSuccessfullyAddANodeToTheEndOfTheLinkedList" />
         <item itemvalue="JUnit.LinkedListTest.willReceiveErrorWithBadInput" />
@@ -262,15 +261,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LinkedListTest_canSuccessfullyAddANodeToTheEndOfTheLinkedList - 2019.06.03 at 11h 46m 34s.xml">
-      <configuration name="LinkedListTest.canSuccessfullyAddANodeToTheEndOfTheLinkedList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_canSuccessfullyAddMultipleNodesToTheTndOfALinkedList - 2019.06.03 at 11h 50m 41s.xml">
-      <configuration name="LinkedListTest.canSuccessfullyAddMultipleNodesToTheTndOfALinkedList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_canSuccessfullyAddMultipleNodesToTheTndOfALinkedList - 2019.06.03 at 11h 51m 02s.xml">
-      <configuration name="LinkedListTest.canSuccessfullyAddMultipleNodesToTheTndOfALinkedList" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LinkedListTest_canSuccessfullyAddMultipleNodesToTheTndOfALinkedList - 2019.06.03 at 11h 51m 21s.xml">
       <configuration name="LinkedListTest.canSuccessfullyAddMultipleNodesToTheTndOfALinkedList" configurationId="JUnit" />
     </history-entry>
@@ -292,6 +282,15 @@
     <history-entry file="LinkedListTest_canSuccessfullyInsertANodeBeforeANodeLocatedInTheMiddleOfALinkedList - 2019.06.03 at 12h 25m 00s.xml">
       <configuration name="LinkedListTest.canSuccessfullyInsertANodeBeforeANodeLocatedInTheMiddleOfALinkedList" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LinkedListTest_canSuccessfullyInsertANodeBeforeTheFirstNodeOfALinkedList - 2019.06.03 at 12h 26m 31s.xml">
+      <configuration name="LinkedListTest.canSuccessfullyInsertANodeBeforeTheFirstNodeOfALinkedList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_canSuccessfullyInsertANodeBeforeTheFirstNodeOfALinkedList - 2019.06.03 at 12h 28m 20s.xml">
+      <configuration name="LinkedListTest.canSuccessfullyInsertANodeBeforeTheFirstNodeOfALinkedList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_canSuccessfullyInsertANodeBeforeANodeLocatedInTheMiddleOfALinkedList - 2019.06.03 at 12h 33m 09s.xml">
+      <configuration name="LinkedListTest.canSuccessfullyInsertANodeBeforeANodeLocatedInTheMiddleOfALinkedList" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -307,8 +306,8 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32650602" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39972144" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32650602" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3987952" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -365,7 +364,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/linkedList/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="333">
           <caret line="146" column="5" lean-forward="true" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -375,8 +374,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/linkedList/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="168" column="69" selection-start-line="168" selection-start-column="69" selection-end-line="168" selection-end-column="69" />
+        <state relative-caret-position="292">
+          <caret line="179" column="29" selection-start-line="179" selection-start-column="29" selection-end-line="179" selection-end-column="29" />
         </state>
       </provider>
     </entry>

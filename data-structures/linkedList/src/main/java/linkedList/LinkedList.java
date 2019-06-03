@@ -166,7 +166,23 @@ public class LinkedList {
 //                    current = current.getNext();
 //                }
 //            }
-           if (this.getHead().getValue() == v) this.insert(newValue);
+           if (this.getHead().getValue() == v) {
+               this.insert(newValue);
+           } else {
+               Node current = this.getHead();
+               Node newNode = new Node(newValue);
+
+               while (current.getNext() != null) {
+                   if (current.getNext().getValue() == v) {
+                       newNode.setNext(current.getNext());
+                       current.setNext(newNode);
+
+                       break;
+                   }
+
+                   current = current.getNext();
+               }
+           }
 
         } catch(Exception e) {
             System.err.println("An error has occurred: " + e);
