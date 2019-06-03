@@ -149,7 +149,22 @@ public class LinkedList {
  * */
     public void insertBefore(int v, int newValue) {
         try {
+            Node current = this.getHead();
+
+            if (current.getValue() == newValue) this.insert(newValue);
+
             Node node = new Node(newValue);
+
+            while (current.getNext() != null) {
+                if (current.getValue() != v) {
+                    node.setNext(current.getNext());
+                    current.setNext(node);
+
+                    current = current.getNext();
+                }
+
+                current = current.getNext();
+            }
 
         } catch(Exception e) {
             System.err.println("An error has occurred: " + e);
