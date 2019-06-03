@@ -171,14 +171,11 @@ public class LinkedListTest {
 
         test.insert(0);
         test.append(1);
-        test.append(2);
-        test.append(4);
-        test.insertAfter(2, 3);
+        test.append(3);
 
-        int[] expected = { 0, 1, 2, 3, 4 };
-        int[] actual = test.print();
+        test.insertAfter(1, 2);
 
-        assertArrayEquals(expected, actual);
+        assertTrue(test.getHead().getNext().getNext().getValue() == 2);
     }
 
     @Test

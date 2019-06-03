@@ -197,25 +197,21 @@ public class LinkedList {
         try {
             if (this.getFoot().getValue() == v) {
                 this.append(newValue);
-            }
-//            } else {
-//                Node current = this.getHead();
-//                Node newNode = new Node(newValue);
-//
-//                while (current.getNext() != null) {
-//                    if (current.getNext().getValue() == v) {
-//                        newNode.setNext(current.getNext());
-//                        current.setNext(newNode);
-//
-//                        break;
-//                    }
-//
-//                    current = current.getNext();
-//                }
-//
-//                this.setFoot(current);
-//            }
+            } else {
+                Node current = this.getHead();
+                Node newNode = new Node(newValue);
 
+                while (current != null) {
+                    if (current.getNext() == null) this.setFoot(current);
+
+                    if (current.getValue() == v) {
+                        newNode.setNext(current.getNext());
+                        current.setNext(newNode);
+                    }
+
+                    current = current.getNext();
+                }
+            }
         } catch(Exception e) {
             System.err.println("An error has occurred: " + e);
             System.err.println("Press any key to exit...");
