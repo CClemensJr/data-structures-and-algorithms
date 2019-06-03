@@ -118,7 +118,28 @@ public class LinkedList {
  *
  * This method adds a new node to the end of the linked list.
  * */
+    public void append(int v) {
+        try {
+            Node current = this.getHead();
+            Node node = new Node(v);
 
+            while (current != null) {
+                if (current.getNext() == null) {
+                    current.setNext(node);
+
+                    current = current.getNext();
+                }
+
+                current = current.getNext();
+            }
+
+        } catch(Exception e) {
+            System.err.println("An error has occurred: " + e);
+            System.err.println("Press any key to exit...");
+            System.console().readLine();
+            System.exit(1);
+        }
+    }
 
 
 /****************
