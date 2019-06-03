@@ -133,8 +133,36 @@ public class LinkedListTest {
 /****************
  * Insert Before tests
  * */
-    // Can successfully insert a node before a node located i the middle of a linked list
-    // Can successfully insert a node before the first node of a linked list
+    @Test
+    public void canSuccessfullyInsertANodeBeforeANodeLocatedInTheMiddleOfALinkedList() {
+        LinkedList test = new LinkedList();
+
+        test.insert(0);
+
+        for (int i = 1; i <= 5; i++) {
+            test.append(i);
+        }
+
+        test.insertBefore(3, 49);
+
+        assertTrue(test.getHead().getNext().getNext().getNext().getValue() == 49);
+    }
+
+    @Test
+    public void canSuccessfullyInsertANodeBeforeTheFirstNodeOfALinkedList() {
+        LinkedList test = new LinkedList();
+
+        test.insert(0);
+
+        for (int i = 1; i <= 5; i++) {
+            test.append(i);
+        }
+
+        test.insertBefore(0, 49);
+
+        assertTrue(test.getHead().getValue() == 49);
+    }
+
 
 /****************
  * Insert After tests
