@@ -165,6 +165,34 @@ public class LinkedListTest {
 /****************
  * Insert After tests
  * */
-    // Can successfully insert after a node in the middle of the linked list
-    // Can successfully insert a node after the last node of the linked list
+    @Test
+    public void canSuccessfullyInsertAfterANodeInTheMiddleOfTheLinkedList() {
+        LinkedList test = new LinkedList();
+
+        test.insert(0);
+        test.append(1);
+        test.append(2);
+        test.append(4);
+        test.insertAfter(2, 3);
+
+        int[] expected = { 0, 1, 2, 3, 4 };
+        int[] actual = test.print();
+
+        assertArrayEquals(expected, actual);
+    }
+
+    @Test
+    public void canSuccessfullyInsertANodeAfterTheLastNodeOfTheLinkedList() {
+        LinkedList test = new LinkedList();
+
+        test.insert(0);
+
+        for (int i = 1; i <= 5; i++) {
+            test.append(i);
+        }
+
+        test.insertAfter(5, 6);
+
+        assertTrue(test.getLastNode().getValue() == 6);
+    }
 }
