@@ -81,5 +81,4 @@ public class LinkedList {
 
         return allNodes;
     }
-
 }
