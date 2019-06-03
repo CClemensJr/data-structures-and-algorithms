@@ -6,6 +6,7 @@ public class LinkedList {
  * */
     private int size;
     private Node head;
+    private Node foot;
 
 
 /****************
@@ -13,6 +14,7 @@ public class LinkedList {
  * */
     public LinkedList() {
         this.head = null;
+        this.foot = null;
         this.size = 0;
     }
 
