@@ -43,7 +43,11 @@ public class LinkedList {
 
         } catch(Exception e) {
 
-            System.out.println("An error has occurred");
+            System.err.println("An error has occurred: " + e);
+
+        } finally {
+
+            System.exit(1);
         }
     }
 
@@ -68,7 +72,11 @@ public class LinkedList {
 
         } catch(Exception e) {
 
-            System.out.println("An error has occurred");
+            System.err.println("An error has occurred: " + e);
+
+        } finally {
+
+            System.exit(1);
         }
 
         return false;
@@ -98,7 +106,9 @@ public class LinkedList {
 
         } catch(Exception e) {
 
-            System.out.println("An error has occurred");
+            System.err.println("An error has occurred: " + e);
+        } finally {
+            System.exit(1);
         }
 
         return null;
