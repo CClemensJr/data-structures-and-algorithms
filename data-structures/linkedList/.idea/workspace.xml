@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="272ab284-aa0f-4531-b563-f3a3e2cfe95f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/linkedList/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/linkedList/LinkedListTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -25,16 +24,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/linkedList/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="178" column="37" selection-start-line="178" selection-start-column="37" selection-end-line="178" selection-end-column="37" />
+            <state relative-caret-position="106">
+              <caret line="198" column="38" lean-forward="true" selection-start-line="198" selection-start-column="38" selection-end-line="198" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/linkedList/LinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="382">
@@ -64,8 +63,8 @@
         <option value="$PROJECT_DIR$/src/test/java/linkedList/LibraryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/linkedList/Node.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/linkedList/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/test/java/linkedList/LinkedListTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/linkedList/LinkedList.java" />
       </list>
     </option>
   </component>
@@ -157,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListTest.canSuccessfullyInsertANodeBeforeANodeLocatedInTheMiddleOfALinkedList">
+  <component name="RunManager" selected="JUnit.LinkedListTest.canSuccessfullyInsertANodeAfterTheLastNodeOfTheLinkedList">
     <configuration name="LinkedListTest.canSuccessfullyAddANodeToTheEndOfTheLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="linkedList.test" />
       <extension name="coverage">
@@ -185,6 +184,22 @@
       <option name="PACKAGE_NAME" value="linkedList" />
       <option name="MAIN_CLASS_NAME" value="linkedList.LinkedListTest" />
       <option name="METHOD_NAME" value="canSuccessfullyAddMultipleNodesToTheTndOfALinkedList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.canSuccessfullyInsertANodeAfterTheLastNodeOfTheLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="linkedList.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="linkedList" />
+      <option name="MAIN_CLASS_NAME" value="linkedList.LinkedListTest" />
+      <option name="METHOD_NAME" value="canSuccessfullyInsertANodeAfterTheLastNodeOfTheLinkedList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -222,29 +237,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.willReceiveErrorWithBadInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="linkedList.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="linkedList" />
-      <option name="MAIN_CLASS_NAME" value="linkedList.LinkedListTest" />
-      <option name="METHOD_NAME" value="willReceiveErrorWithBadInput" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LinkedListTest.canSuccessfullyInsertANodeAfterTheLastNodeOfTheLinkedList" />
         <item itemvalue="JUnit.LinkedListTest.canSuccessfullyInsertANodeBeforeANodeLocatedInTheMiddleOfALinkedList" />
         <item itemvalue="JUnit.LinkedListTest.canSuccessfullyInsertANodeBeforeTheFirstNodeOfALinkedList" />
         <item itemvalue="JUnit.LinkedListTest.canSuccessfullyAddMultipleNodesToTheTndOfALinkedList" />
         <item itemvalue="JUnit.LinkedListTest.canSuccessfullyAddANodeToTheEndOfTheLinkedList" />
-        <item itemvalue="JUnit.LinkedListTest.willReceiveErrorWithBadInput" />
       </list>
     </recent_temporary>
   </component>
@@ -363,13 +362,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/linkedList/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="178" column="37" selection-start-line="178" selection-start-column="37" selection-end-line="178" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/linkedList/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
@@ -377,6 +369,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/linkedList/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="198" column="38" lean-forward="true" selection-start-line="198" selection-start-column="38" selection-end-line="198" selection-end-column="38" />
         </state>
       </provider>
     </entry>

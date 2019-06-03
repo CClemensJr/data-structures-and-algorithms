@@ -193,4 +193,35 @@ public class LinkedList {
  *
  * This method takes a old value and a new value then inserts a Node with the new value after the node with the old value.
  * */
+    public void insertAfter(int v, int newValue) {
+        try {
+            if (this.getFoot().getValue() == v) {
+                this.append(newValue);
+            }
+//            } else {
+//                Node current = this.getHead();
+//                Node newNode = new Node(newValue);
+//
+//                while (current.getNext() != null) {
+//                    if (current.getNext().getValue() == v) {
+//                        newNode.setNext(current.getNext());
+//                        current.setNext(newNode);
+//
+//                        break;
+//                    }
+//
+//                    current = current.getNext();
+//                }
+//
+//                this.setFoot(current);
+//            }
+
+        } catch(Exception e) {
+            System.err.println("An error has occurred: " + e);
+            System.err.println("Press any key to exit...");
+            System.console().readLine();
+            System.exit(1);
+        }
+    }
+
 }
