@@ -110,4 +110,28 @@ public class LinkedList {
 
         return null;
     }
+
+
+
+/****************
+ * Append
+ *
+ * This method adds a new node to the end of the linked list.
+ * */
+
+
+
+/****************
+ * InsertBefore
+ *
+ * This method takes a old value and a new value then inserts a Node with the new value before the node with the old value.
+ * */
+
+
+
+/****************
+ * InsertAfter
+ *
+ * This method takes a old value and a new value then inserts a Node with the new value after the node with the old value.
+ * */
 }

@@ -99,4 +99,32 @@ public class LinkedListTest {
 
         assertArrayEquals(expected, actual);
     }
+
+
+/****************
+ * Append tests
+ * */
+    @Test
+    public void canSuccessfullyAddANodeToTheEndOfTheLinkedList() {
+        LinkedList test = new LinkedList();
+
+        test.insert(57);
+        test.append(98);
+
+        assertTrue(test.getHead().getNext().getValue() == 98);
+    }
+    // Can successfully add multiple nodes to the end of a linked list
+
+
+/****************
+ * Insert Before tests
+ * */
+    // Can successfully insert a node before a node located i the middle of a linked list
+    // Can successfully insert a node before the first node of a linked list
+
+/****************
+ * Insert After tests
+ * */
+    // Can successfully insert after a node in the middle of the linked list
+    // Can successfully insert a node after the last node of the linked list
 }
