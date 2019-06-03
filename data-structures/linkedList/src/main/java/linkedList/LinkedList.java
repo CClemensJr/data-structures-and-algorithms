@@ -34,11 +34,17 @@ public class LinkedList {
  * This method takes a value, creates a new Node, and sets that Node at the head of the linked list.
  * */
     public void insert(int v) {
-        Node node = new Node(v);
+        try {
+            Node node = new Node(v);
 
-        node.setNext(this.head);
-        this.setHead(node);
-        this.setSize();
+            node.setNext(this.head);
+            this.setHead(node);
+            this.setSize();
+
+        } catch(Exception e) {
+
+            System.out.println("An error has occurred");
+        }
     }
 
 
@@ -49,15 +55,23 @@ public class LinkedList {
  * This method takes a value and returns a boolean depending whether that value exists.
  * */
     public boolean includes(int v) {
-        Node current = this.getHead();
+        try {
+            Node current = this.getHead();
 
-        while (current.getNext() != null) {
-            if (current.getValue() == v) return true;
+            while (current.getNext() != null) {
+                if (current.getValue() == v) return true;
 
-            current = current.getNext();
+                current = current.getNext();
+            }
+
+            return (current.getValue() == v) ? true : false;
+
+        } catch(Exception e) {
+
+            System.out.println("An error has occurred");
         }
 
-        return (current.getValue() == v) ? true : false;
+        return false;
     }
 
 
@@ -68,17 +82,25 @@ public class LinkedList {
  * This method returns a list of all nodes in the linked list.
  * */
     public int[] print() {
-        Node current = this.getHead();
-        int[] allNodes = new int[this.getSize()];
-        int i = 0;
+        try {
+            Node current = this.getHead();
+            int[] allNodes = new int[this.getSize()];
+            int i = 0;
 
-        while (current != null) {
-            allNodes[i] = current.getValue();
+            while (current != null) {
+                allNodes[i] = current.getValue();
 
-            i++;
-            current = current.getNext();
+                i++;
+                current = current.getNext();
+            }
+
+            return allNodes;
+
+        } catch(Exception e) {
+
+            System.out.println("An error has occurred");
         }
 
-        return allNodes;
+        return null;
     }
 }
