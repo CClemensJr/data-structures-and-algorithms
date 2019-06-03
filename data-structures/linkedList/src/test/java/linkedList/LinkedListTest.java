@@ -193,6 +193,6 @@ public class LinkedListTest {
 
         test.insertAfter(5, 6);
 
-        assertTrue(test.getLastNode().getValue() == 6);
+        assertTrue(test.getFoot().getValue() == 6);
     }
 }

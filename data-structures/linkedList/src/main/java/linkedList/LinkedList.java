@@ -66,8 +66,11 @@ public class LinkedList {
             while (current.getNext() != null) {
                 if (current.getValue() == v) return true;
 
+
                 current = current.getNext();
             }
+
+            this.setFoot(current);
 
             return (current.getValue() == v) ? true : false;
 
@@ -96,6 +99,8 @@ public class LinkedList {
             int i = 0;
 
             while (current != null) {
+                if (current.getNext() == null) this.setFoot(current);
+
                 allNodes[i] = current.getValue();
 
                 i++;
@@ -131,6 +136,8 @@ public class LinkedList {
                     current.setNext(node);
 
                     current = current.getNext();
+
+                    this.setFoot(current);
                 }
 
                 current = current.getNext();
@@ -152,23 +159,6 @@ public class LinkedList {
  * */
     public void insertBefore(int v, int newValue) {
         try {
-//            if (this.getHead().getValue() == newValue) {
-//                this.insert(newValue);
-//            } else {
-//                Node current = this.getHead();
-//                Node node = new Node(newValue);
-//
-//                while (current.getNext() != null) {
-//                    if (current.getNext().getValue() != v) {
-//                        node.setNext(current.getNext());
-//                        current.setNext(node);
-//
-//                        current = current.getNext();
-//                    }
-//
-//                    current = current.getNext();
-//                }
-//            }
            if (this.getHead().getValue() == v) {
                this.insert(newValue);
            } else {
@@ -185,6 +175,8 @@ public class LinkedList {
 
                    current = current.getNext();
                }
+
+               this.setFoot(current);
            }
 
         } catch(Exception e) {
