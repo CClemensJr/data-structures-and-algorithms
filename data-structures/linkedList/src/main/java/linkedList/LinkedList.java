@@ -24,10 +24,11 @@ public class LinkedList {
  * */
     public int getSize() { return size; }
     public Node getHead() { return head; }
+    public Node getFoot() { return foot; }
 
     private void setSize() { this.size++; }
     private void setHead(Node h) { this.head = h; }
-
+    private void setFoot(Node f) { this.foot = f; }
 
 
 /****************
