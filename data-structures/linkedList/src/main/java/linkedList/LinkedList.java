@@ -43,8 +43,6 @@ public class LinkedList {
 
         } catch(Exception e) {
             System.err.println("An error has occurred: " + e);
-
-        } finally {
             System.err.println("Press any key to exit...");
             System.console().readLine();
             System.exit(1);
@@ -72,11 +70,10 @@ public class LinkedList {
 
         } catch(Exception e) {
             System.err.println("An error has occurred: " + e);
-
-        } finally {
             System.err.println("Press any key to exit...");
             System.console().readLine();
             System.exit(1);
+
         }
 
         return false;
@@ -105,9 +102,9 @@ public class LinkedList {
             return allNodes;
 
         } catch(Exception e) {
-
             System.err.println("An error has occurred: " + e);
-        } finally {
+            System.err.println("Press any key to exit...");
+            System.console().readLine();
             System.exit(1);
         }
 

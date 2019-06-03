@@ -4,6 +4,9 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class LinkedListTest {
+/****************
+ * General tests
+ * */
     @Test
     public void canSuccessfullyInstantiateAnEmptyLinkedList() {
         LinkedList test = new LinkedList();
@@ -11,6 +14,10 @@ public class LinkedListTest {
         assertTrue(test.getSize() == 0);
     }
 
+
+/****************
+ * Insert tests
+ * */
     @Test
     public void canProperlyInsertIntoTheLinkedList() {
         LinkedList test = new LinkedList();
@@ -45,6 +52,9 @@ public class LinkedListTest {
     }
 
 
+/****************
+ * Includes tests
+ * */
     @Test
     public void willReturnTrueWhenFindingAValueWithinTheLinkedListThatExists() {
         LinkedList test = new LinkedList();
@@ -72,6 +82,10 @@ public class LinkedListTest {
         assertFalse(isInList);
     }
 
+
+/****************
+ * Print tests
+ * */
     @Test
     public void canProperlyReturnACollectionOfAllTheValuesThatExistInTheLinkedList() {
         LinkedList test = new LinkedList();
