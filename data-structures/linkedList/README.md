@@ -22,3 +22,15 @@
 
 ### Print
 > This method returns a list of all nodes in the linked list.
+
+### Append
+> This method takes a value and adds a new node to the end of the linked list.
+![Linked List Append Whiteboard](https://github.com/CClemensJr/data-structures-and-algorithms/blob/master/assets/llInsertionsAppend.JPG "Linked List Append Whiteboard")
+
+### InsertBefore
+> This method takes an old value and a new value and inserts a new node with the new value before the node with the old value.
+![Linked List Insert Before Whiteboard](https://github.com/CClemensJr/data-structures-and-algorithms/blob/master/assets/llInsertionsInsertBefore.JPG "Linked List Insert Before Whiteboard")
+
+### InsertAfter
+> This method takes an old value and a new value and appends a new node with the new value after the node with the old value.
+![Linked List Insert After Whiteboard](https://github.com/CClemensJr/data-structures-and-algorithms/blob/master/assets/llInsertionsInsertAfter.JPG "Linked List Insert After Whiteboard")
