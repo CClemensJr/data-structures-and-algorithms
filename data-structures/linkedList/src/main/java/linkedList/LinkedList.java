@@ -228,12 +228,15 @@ public class LinkedList {
  * This method takes a value k and returns the node that is kth from the end of the linked list
  * */
     public int kthNodeFromTheEnd(int k) {
-        try {
-            if (k > this.getSize()) throw new IndexOutOfBoundsException("kthNodeFromTheEnd");
+        //try {
+            if (k > this.getSize()) throw new IndexOutOfBoundsException("The number provided is larger than the list.");
 
-        } catch(IndexOutOfBoundsException e) {
-            System.out.println("The number provided is larger than the list.");
-        }
+//        } catch(Exception e) {
+//            System.err.println("An error has occurred: " + e);
+//            System.err.println("Press any key to exit...");
+//            System.console().readLine();
+//            System.exit(1);
+//        }
 
         return 0;
     }

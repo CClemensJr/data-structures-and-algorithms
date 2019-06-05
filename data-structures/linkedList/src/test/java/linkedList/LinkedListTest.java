@@ -1,6 +1,8 @@
 package linkedList;
 
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
 import sun.awt.image.ImageWatched;
 
 import static org.junit.Assert.*;
@@ -197,7 +199,24 @@ public class LinkedListTest {
 /****************
  * Kth From the End tests
  * */
-    // Where k is greater than the length of the linked list
+    @Rule
+    public ExpectedException exceptionRule = ExpectedException.none();
+
+    @Test()
+    public void exceptionThrownWhereKIsGreaterThanTheLengthOfTheLinkedList() {
+        LinkedList test = new LinkedList();
+
+        test.insert(0);
+
+        for (int i = 1; i <= 5; i++) {
+            test.append(i);
+        }
+
+        exceptionRule.expect(IndexOutOfBoundsException.class);
+        exceptionRule.expectMessage("The number provided is larger than the list.");
+
+        test.kthNodeFromTheEnd(59);
+    }
     // Where k and the length of the list are the same
     // Where k is not a positive integer
     // Where the linked list is of a size 1
