@@ -34,3 +34,7 @@
 ### InsertAfter
 > This method takes an old value and a new value and appends a new node with the new value after the node with the old value.
 ![Linked List Insert After Whiteboard](https://github.com/CClemensJr/data-structures-and-algorithms/blob/master/assets/llInsertionsInsertAfter.JPG "Linked List Insert After Whiteboard")
+
+### kth From the End
+> This method takes an value k and returns the value of the node that is kth from the end.
+![Linked List Kth From The End Whiteboard](https://github.com/CClemensJr/data-structures-and-algorithms/blob/master/assets/llKthFromEnd.jpg "Linked List kth From End Whiteboard")

@@ -1,6 +1,8 @@
 package linkedList;
 
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
 import sun.awt.image.ImageWatched;
 
 import static org.junit.Assert.*;
@@ -191,5 +193,77 @@ public class LinkedListTest {
         test.insertAfter(5, 6);
 
         assertTrue(test.getFoot().getValue() == 6);
+    }
+
+
+/****************
+ * Kth From the End tests
+ * */
+    @Rule
+    public ExpectedException exceptionRule = ExpectedException.none();
+
+    @Test()
+    public void exceptionThrownWhereKIsGreaterThanTheLengthOfTheLinkedList() {
+        LinkedList test = new LinkedList();
+
+        test.insert(0);
+
+        for (int i = 1; i <= 5; i++) {
+            test.append(i);
+        }
+
+        exceptionRule.expect(IndexOutOfBoundsException.class);
+        exceptionRule.expectMessage("The number provided is larger than the list.");
+
+        test.kthNodeFromTheEnd(59);
+    }
+
+    @Test
+    public void returnsHeadWhenKAndTheListLengthAreTheSame() {
+        LinkedList test = new LinkedList();
+
+        test.insert(0);
+
+        for (int i = 1; i <= 5; i++) {
+            test.append(i);
+        }
+
+        assertTrue(test.kthNodeFromTheEnd(6) == 0);
+    }
+
+    @Test
+    public void returnsFootWhenKIsZero() {
+        LinkedList test = new LinkedList();
+
+        test.insert(0);
+
+        for (int i = 1; i <= 5; i++) {
+            test.append(i);
+        }
+
+        assertTrue(test.kthNodeFromTheEnd(0) == 5);
+    }
+
+    @Test
+    public void shouldReturnCorrectNodeValueIfInMiddleOfList() {
+        LinkedList test = new LinkedList();
+
+        test.insert(0);
+
+        for (int i = 1; i <= 5; i++) {
+            test.append(i);
+        }
+
+        assertTrue(test.kthNodeFromTheEnd(3) == 2);
+    }
+
+    @Test
+    public void shouldReturnHeadValueIfListIsSizeofOne() {
+        LinkedList test = new LinkedList();
+
+        test.insert(0);
+
+
+        assertTrue(test.kthNodeFromTheEnd(3) == 0);
     }
 }
