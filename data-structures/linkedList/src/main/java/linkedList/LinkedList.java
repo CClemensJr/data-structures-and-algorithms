@@ -230,6 +230,7 @@ public class LinkedList {
     public int kthNodeFromTheEnd(int k) {
         //try {
             if (k > this.getSize()) throw new IndexOutOfBoundsException("The number provided is larger than the list.");
+            if (k == this.getSize()) return this.getHead().getValue();
 
 //        } catch(Exception e) {
 //            System.err.println("An error has occurred: " + e);
