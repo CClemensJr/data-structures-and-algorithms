@@ -243,7 +243,28 @@ public class LinkedListTest {
 
         assertTrue(test.kthNodeFromTheEnd(0) == 5);
     }
+
+    @Test
+    public void shouldReturnCorrectNodeValueIfInMiddleOfList() {
+        LinkedList test = new LinkedList();
+
+        test.insert(0);
+
+        for (int i = 1; i <= 5; i++) {
+            test.append(i);
+        }
+
+        assertTrue(test.kthNodeFromTheEnd(3) == 2);
+    }
+
+    @Test
+    public void shouldReturnHeadValueIfListIsSizeofOne() {
+        LinkedList test = new LinkedList();
+
+        test.insert(0);
+
+
+        assertTrue(test.kthNodeFromTheEnd(3) == 0);
+    }
     // Where k is not a positive integer
-    // Where the linked list is of a size 1
-    // “Happy Path” where k is not at the end, but somewhere in the middle of the linked list
 }
