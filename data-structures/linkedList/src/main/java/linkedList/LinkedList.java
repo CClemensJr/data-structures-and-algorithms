@@ -234,6 +234,7 @@ public class LinkedList {
         //try {
             if (k > this.getSize()) throw new IndexOutOfBoundsException("The number provided is larger than the list.");
             if (k == this.getSize()) return this.getHead().getValue();
+            if (k == 0) return this.getFoot().getValue();
 
 //        } catch(Exception e) {
 //            System.err.println("An error has occurred: " + e);

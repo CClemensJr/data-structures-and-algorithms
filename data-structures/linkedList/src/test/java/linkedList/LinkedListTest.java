@@ -228,10 +228,21 @@ public class LinkedListTest {
             test.append(i);
         }
 
-        System.out.println(test.getSize());
-        assertTrue(test.kthNodeFromTheEnd(5) == 0);
+        assertTrue(test.kthNodeFromTheEnd(6) == 0);
     }
-    // Where k and the length of the list are the same
+
+    @Test
+    public void returnsFootWhenKIsZero() {
+        LinkedList test = new LinkedList();
+
+        test.insert(0);
+
+        for (int i = 1; i <= 5; i++) {
+            test.append(i);
+        }
+
+        assertTrue(test.kthNodeFromTheEnd(0) == 5);
+    }
     // Where k is not a positive integer
     // Where the linked list is of a size 1
     // “Happy Path” where k is not at the end, but somewhere in the middle of the linked list
