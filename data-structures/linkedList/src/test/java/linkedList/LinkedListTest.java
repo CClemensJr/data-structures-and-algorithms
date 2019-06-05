@@ -266,5 +266,4 @@ public class LinkedListTest {
 
         assertTrue(test.kthNodeFromTheEnd(3) == 0);
     }
-    // Where k is not a positive integer
 }
