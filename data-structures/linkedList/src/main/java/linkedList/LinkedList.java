@@ -220,4 +220,16 @@ public class LinkedList {
         }
     }
 
+
+
+/****************
+ * KthFromTheEnd
+ *
+ * This method takes a value k and returns the node that is kth from the end of the linked list
+ * */
+    public int kthNodeFromTheEnd(int k) {
+
+        return 0;
+    }
+
 }
