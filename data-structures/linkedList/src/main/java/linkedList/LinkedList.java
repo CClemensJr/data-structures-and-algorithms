@@ -138,6 +138,7 @@ public class LinkedList {
                     current = current.getNext();
 
                     this.setFoot(current);
+                    this.setSize();
                 }
 
                 current = current.getNext();
@@ -169,6 +170,7 @@ public class LinkedList {
                    if (current.getNext().getValue() == v) {
                        newNode.setNext(current.getNext());
                        current.setNext(newNode);
+                       this.setSize();
 
                        break;
                    }
@@ -207,6 +209,7 @@ public class LinkedList {
                     if (current.getValue() == v) {
                         newNode.setNext(current.getNext());
                         current.setNext(newNode);
+                        this.setSize();
                     }
 
                     current = current.getNext();

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="272ab284-aa0f-4531-b563-f3a3e2cfe95f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/linkedList/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/linkedList/LinkedListTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -27,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/linkedList/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="232" column="70" selection-start-line="232" selection-start-column="70" selection-end-line="232" selection-end-column="70" />
+            <state relative-caret-position="329">
+              <caret line="211" column="39" selection-start-line="211" selection-start-column="39" selection-end-line="211" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -36,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/linkedList/LinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="205" column="20" lean-forward="true" selection-start-line="205" selection-start-column="20" selection-end-line="205" selection-end-column="20" />
+            <state relative-caret-position="424">
+              <caret line="230" column="43" selection-start-line="230" selection-start-column="43" selection-end-line="230" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListTest.exceptionThrownWhereKIsGreaterThanTheLengthOfTheLinkedList">
+  <component name="RunManager" selected="JUnit.LinkedListTest.returnsHeadWhenKAndTheListLengthAreTheSame">
     <configuration name="LinkedListTest.canSuccessfullyInsertANodeAfterTheLastNodeOfTheLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="linkedList.test" />
       <extension name="coverage">
@@ -186,22 +187,6 @@
       <option name="PACKAGE_NAME" value="linkedList" />
       <option name="MAIN_CLASS_NAME" value="linkedList.LinkedListTest" />
       <option name="METHOD_NAME" value="canSuccessfullyInsertANodeBeforeANodeLocatedInTheMiddleOfALinkedList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListTest.canSuccessfullyInsertANodeBeforeTheFirstNodeOfALinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="linkedList.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="linkedList" />
-      <option name="MAIN_CLASS_NAME" value="linkedList.LinkedListTest" />
-      <option name="METHOD_NAME" value="canSuccessfullyInsertANodeBeforeTheFirstNodeOfALinkedList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -239,13 +224,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LinkedListTest.returnsHeadWhenKAndTheListLengthAreTheSame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="linkedList.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="linkedList" />
+      <option name="MAIN_CLASS_NAME" value="linkedList.LinkedListTest" />
+      <option name="METHOD_NAME" value="returnsHeadWhenKAndTheListLengthAreTheSame" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LinkedListTest.returnsHeadWhenKAndTheListLengthAreTheSame" />
         <item itemvalue="JUnit.LinkedListTest.exceptionThrownWhereKIsGreaterThanTheLengthOfTheLinkedList" />
         <item itemvalue="JUnit.LinkedListTest.canSuccessfullyInsertAfterANodeInTheMiddleOfTheLinkedList" />
         <item itemvalue="JUnit.LinkedListTest.canSuccessfullyInsertANodeBeforeANodeLocatedInTheMiddleOfALinkedList" />
         <item itemvalue="JUnit.LinkedListTest.canSuccessfullyInsertANodeAfterTheLastNodeOfTheLinkedList" />
-        <item itemvalue="JUnit.LinkedListTest.canSuccessfullyInsertANodeBeforeTheFirstNodeOfALinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -263,24 +264,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LinkedListTest_canSuccessfullyInsertAfterANodeInTheMiddleOfTheLinkedList - 2019.06.03 at 14h 56m 11s.xml">
-      <configuration name="LinkedListTest.canSuccessfullyInsertAfterANodeInTheMiddleOfTheLinkedList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_canSuccessfullyInsertANodeBeforeANodeLocatedInTheMiddleOfALinkedList - 2019.06.03 at 14h 56m 18s.xml">
-      <configuration name="LinkedListTest.canSuccessfullyInsertANodeBeforeANodeLocatedInTheMiddleOfALinkedList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_canSuccessfullyInsertAfterANodeInTheMiddleOfTheLinkedList - 2019.06.03 at 15h 01m 34s.xml">
-      <configuration name="LinkedListTest.canSuccessfullyInsertAfterANodeInTheMiddleOfTheLinkedList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_exceptionThrownWhereKIsGreaterThanTheLengthOfTheLinkedList - 2019.06.04 at 22h 33m 11s.xml">
-      <configuration name="LinkedListTest.exceptionThrownWhereKIsGreaterThanTheLengthOfTheLinkedList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_exceptionThrownWhereKIsGreaterThanTheLengthOfTheLinkedList - 2019.06.04 at 22h 36m 53s.xml">
-      <configuration name="LinkedListTest.exceptionThrownWhereKIsGreaterThanTheLengthOfTheLinkedList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_exceptionThrownWhereKIsGreaterThanTheLengthOfTheLinkedList - 2019.06.04 at 22h 37m 30s.xml">
-      <configuration name="LinkedListTest.exceptionThrownWhereKIsGreaterThanTheLengthOfTheLinkedList" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LinkedListTest_exceptionThrownWhereKIsGreaterThanTheLengthOfTheLinkedList - 2019.06.04 at 22h 44m 08s.xml">
       <configuration name="LinkedListTest.exceptionThrownWhereKIsGreaterThanTheLengthOfTheLinkedList" configurationId="JUnit" />
     </history-entry>
@@ -292,6 +275,24 @@
     </history-entry>
     <history-entry file="LinkedListTest_exceptionThrownWhereKIsGreaterThanTheLengthOfTheLinkedList - 2019.06.04 at 22h 50m 10s.xml">
       <configuration name="LinkedListTest.exceptionThrownWhereKIsGreaterThanTheLengthOfTheLinkedList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_returnsHeadWhenKAndTheListLengthAreTheSame - 2019.06.04 at 22h 54m 17s.xml">
+      <configuration name="LinkedListTest.returnsHeadWhenKAndTheListLengthAreTheSame" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_returnsHeadWhenKAndTheListLengthAreTheSame - 2019.06.04 at 22h 56m 13s.xml">
+      <configuration name="LinkedListTest.returnsHeadWhenKAndTheListLengthAreTheSame" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_returnsHeadWhenKAndTheListLengthAreTheSame - 2019.06.04 at 22h 57m 04s.xml">
+      <configuration name="LinkedListTest.returnsHeadWhenKAndTheListLengthAreTheSame" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_returnsHeadWhenKAndTheListLengthAreTheSame - 2019.06.04 at 22h 57m 13s.xml">
+      <configuration name="LinkedListTest.returnsHeadWhenKAndTheListLengthAreTheSame" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_returnsHeadWhenKAndTheListLengthAreTheSame - 2019.06.04 at 23h 00m 05s.xml">
+      <configuration name="LinkedListTest.returnsHeadWhenKAndTheListLengthAreTheSame" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_returnsHeadWhenKAndTheListLengthAreTheSame - 2019.06.04 at 23h 00m 20s.xml">
+      <configuration name="LinkedListTest.returnsHeadWhenKAndTheListLengthAreTheSame" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -308,13 +309,13 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32574257" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987952" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32574257" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3980198" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2851485" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2851485" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32916668" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32771084" />
@@ -366,8 +367,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/linkedList/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="205" column="20" lean-forward="true" selection-start-line="205" selection-start-column="20" selection-end-line="205" selection-end-column="20" />
+        <state relative-caret-position="424">
+          <caret line="230" column="43" selection-start-line="230" selection-start-column="43" selection-end-line="230" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -376,8 +377,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/linkedList/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="232" column="70" selection-start-line="232" selection-start-column="70" selection-end-line="232" selection-end-column="70" />
+        <state relative-caret-position="329">
+          <caret line="211" column="39" selection-start-line="211" selection-start-column="39" selection-end-line="211" selection-end-column="39" />
         </state>
       </provider>
     </entry>

@@ -217,6 +217,20 @@ public class LinkedListTest {
 
         test.kthNodeFromTheEnd(59);
     }
+
+    @Test
+    public void returnsHeadWhenKAndTheListLengthAreTheSame() {
+        LinkedList test = new LinkedList();
+
+        test.insert(0);
+
+        for (int i = 1; i <= 5; i++) {
+            test.append(i);
+        }
+
+        System.out.println(test.getSize());
+        assertTrue(test.kthNodeFromTheEnd(5) == 0);
+    }
     // Where k and the length of the list are the same
     // Where k is not a positive integer
     // Where the linked list is of a size 1
