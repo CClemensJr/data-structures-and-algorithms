@@ -38,3 +38,7 @@
 ### kth From the End
 > This method takes an value k and returns the value of the node that is kth from the end.
 ![Linked List Kth From The End Whiteboard](https://github.com/CClemensJr/data-structures-and-algorithms/blob/master/assets/llKthFromEnd.jpg "Linked List kth From End Whiteboard")
+
+### Merge Lists
+> This method takes two linked lists and merges them together.
+![Linked List Merge Lists](https://github.com/CClemensJr/data-structures-and-algorithms/blob/master/assets/ll_merge.jpg "Merge Lists Whiteboard")
