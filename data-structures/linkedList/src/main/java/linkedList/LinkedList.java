@@ -138,6 +138,7 @@ public class LinkedList {
                     current = current.getNext();
 
                     this.setFoot(current);
+                    this.setSize();
                 }
 
                 current = current.getNext();
@@ -169,6 +170,7 @@ public class LinkedList {
                    if (current.getNext().getValue() == v) {
                        newNode.setNext(current.getNext());
                        current.setNext(newNode);
+                       this.setSize();
 
                        break;
                    }
@@ -207,6 +209,7 @@ public class LinkedList {
                     if (current.getValue() == v) {
                         newNode.setNext(current.getNext());
                         current.setNext(newNode);
+                        this.setSize();
                     }
 
                     current = current.getNext();
@@ -218,6 +221,40 @@ public class LinkedList {
             System.console().readLine();
             System.exit(1);
         }
+    }
+
+
+
+/****************
+ * KthFromTheEnd
+ *
+ * This method takes a value k and returns the node that is kth from the end of the linked list
+ * */
+    public int kthNodeFromTheEnd(int k) {
+        //try {
+        if (k > this.getSize() && this.getSize() > 1) throw new IndexOutOfBoundsException("The number provided is larger than the list.");
+        if (k == this.getSize() || this.getSize() == 1) return this.getHead().getValue();
+        if (k == 0) return this.getFoot().getValue();
+
+        Node current = this.getHead();
+        int i = 1;
+
+        while (current != null && i <= (this.getSize() - k)) {
+            if (i == (this.getSize() - k)) return current.getValue();
+
+            i++;
+            current = current.getNext();
+        }
+
+
+//        } catch(Exception e) {
+//            System.err.println("An error has occurred: " + e);
+//            System.err.println("Press any key to exit...");
+//            System.console().readLine();
+//            System.exit(1);
+//        }
+
+        return 0;
     }
 
 }
