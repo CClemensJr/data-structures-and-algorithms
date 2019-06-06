@@ -231,7 +231,6 @@ public class LinkedList {
  * This method takes a value k and returns the node that is kth from the end of the linked list
  * */
     public int kthNodeFromTheEnd(int k) {
-        //try {
         if (k > this.getSize() && this.getSize() > 1) throw new IndexOutOfBoundsException("The number provided is larger than the list.");
         if (k == this.getSize() || this.getSize() == 1) return this.getHead().getValue();
         if (k == 0) return this.getFoot().getValue();
@@ -246,15 +245,16 @@ public class LinkedList {
             current = current.getNext();
         }
 
-
-//        } catch(Exception e) {
-//            System.err.println("An error has occurred: " + e);
-//            System.err.println("Press any key to exit...");
-//            System.console().readLine();
-//            System.exit(1);
-//        }
-
         return 0;
     }
 
+
+/****************
+ * MergeLists
+ *
+ * This method takes two linked lists and merges them together.
+ * */
+    public static LinkedList mergeList(LinkedList listA, LinkedList listB) {
+        return listA;
+    }
 }
