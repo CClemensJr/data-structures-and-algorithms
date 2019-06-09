@@ -255,6 +255,7 @@ public class LinkedList {
  * This method takes two linked lists and merges them together.
  * */
     public static LinkedList mergeList(LinkedList listA, LinkedList listB) {
+
         return listA;
     }
 }
