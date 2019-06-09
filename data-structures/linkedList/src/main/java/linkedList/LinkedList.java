@@ -254,7 +254,11 @@ public class LinkedList {
  *
  * This method takes two linked lists and merges them together.
  * */
-    public static LinkedList mergeList(LinkedList listA, LinkedList listB) {
+    public static LinkedList mergeList(LinkedList list1, LinkedList list2) {
+        Node current1 = list1.getHead();
+        Node current2 = list2.getHead();
+        Node tmp =
+
         return listA;
     }
 }
