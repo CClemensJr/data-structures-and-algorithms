@@ -34,6 +34,8 @@ public class Queue {
 /************
  * Additional Instance Methods
  * */
+    // The enqueue method takes any value as an argument and adds a new node with that value to the back of the queue
+    // with an O(1) Time performance
     public void enqueue(Object value) {
         Node node = new Node(value);
 
@@ -41,4 +43,13 @@ public class Queue {
         setRear(node);
     }
 
+    // The dequeue method does not take any argument, removes the node from the front of the queue, and returns the node’s value.
+    public Object dequeue() {
+        Node temp = getFront();
+
+        setFront(getFront().getNext());
+        temp.setNext(null);
+
+        return temp.getValue();
+    }
 }
