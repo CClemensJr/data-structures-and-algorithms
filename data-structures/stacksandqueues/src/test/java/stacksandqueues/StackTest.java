@@ -68,6 +68,19 @@ public class StackTest {
 
         assertTrue(testStack.getSize() == 0);
     }
-    // Can successfully peek the next item on the stack
+
+    @Test
+    public void canSuccessfullyPeekTheNextItemOnTheStack() {
+        Stack testStack = new Stack();
+
+        testStack.push("7");
+        testStack.push("77");
+        testStack.push("777");
+        testStack.push("7777");
+        testStack.push("77777");
+        testStack.push("777777");
+
+        assertTrue(testStack.peek() == "777777");
+    }
 
 }
