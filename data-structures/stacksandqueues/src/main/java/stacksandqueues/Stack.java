@@ -33,29 +33,54 @@ public class Stack {
     // The push method takes any value as an argument and adds a new node with that value to the top of the stack with
     // an O(1) Time performance.
     public void push(Object value) {
-        Node node = new Node(value);
+        try {
+            Node node = new Node(value);
 
-        node.setNext(getTop());
-        setTop(node);
-        setSize(1);
+            node.setNext(getTop());
+            setTop(node);
+            setSize(1);
+
+        } catch (Exception e) {
+
+            System.err.println("An error has occurred: " + e);
+        }
     }
 
 
     // The push method does not take any argument, removes the node from the top of the stack, and returns the node’s value.
     public Object pop() {
-        Node temp = getTop();
+        try {
+            Node temp = getTop();
 
-        this.setTop(this.getTop().getNext());
-        this.setSize(-1);
+            this.setTop(this.getTop().getNext());
+            this.setSize(-1);
 
-        temp.setNext(null);
+            temp.setNext(null);
 
-        return temp.getValue();
+            return temp.getValue();
+
+        } catch (Exception e) {
+
+            System.err.println("An error has occurred: " + e);
+        }
+
+        return null;
     }
 
 
     // The peek method does not take an argument and returns the value of the node located on top of the stack, without
     // removing it from the stack
-    public Object peek() { return this.getTop().getValue(); }
+    public Object peek() {
+        try {
+
+            return this.getTop().getValue();
+
+        } catch (Exception e) {
+
+            System.err.println("An error has occurred: " + e);
+        }
+
+        return null;
+    }
 
 }
