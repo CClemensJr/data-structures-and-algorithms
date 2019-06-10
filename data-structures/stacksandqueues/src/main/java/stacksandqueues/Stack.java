@@ -34,14 +34,20 @@ public class Stack {
     // an O(1) Time performance.
     public void push(Object value) {
         setTop(new Node(value));
-        setSize();
+        setSize(1);
     }
 
 
     // The push method does not take any argument, removes the node from the top of the stack, and returns the node’s value.
     public Object pop() {
+        Node temp = getTop().getNext();
 
+        this.setTop(this.getTop().getNext());
+        this.setSize(-1);
 
+        temp.setNext(null);
+
+        return temp;
     }
 
 }
