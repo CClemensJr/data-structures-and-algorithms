@@ -255,9 +255,18 @@ public class LinkedList {
  * This method takes two linked lists and merges them together.
  * */
     public static LinkedList mergeList(LinkedList list1, LinkedList list2) {
-//        Node current1 = list1.getHead();
-//        Node current2 = list2.getHead();
-//        Node tmp =
+        Node l1Current = list1.getHead();
+        Node l2Current = list2.getHead();
+        Node temp;
+
+        while (l1Current.getNext() != null && l2Current.getNext() != null) {
+            temp = l1Current.getNext();
+            l1Current.setNext(l2Current);
+            l1Current = temp;
+            temp = l2Current.getNext();
+            l2Current.setNext(l1Current);
+            l2Current = temp;
+        }
 
         return list1;
     }
