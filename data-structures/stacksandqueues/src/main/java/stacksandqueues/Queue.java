@@ -13,8 +13,8 @@ public class Queue {
  * Constructors
  * */
     public Queue() {
-        this.front = null;
-        this.rear = null;
+        //this.front = null;
+        //this.rear = null;
         this.size = 0;
     }
 
@@ -39,8 +39,15 @@ public class Queue {
     public void enqueue(Object value) {
         Node node = new Node(value);
 
-        getRear().setNext(node);
-        setRear(node);
+        if (this.getFront() == null) {
+            this.setFront(node);
+            this.setRear(node);
+        } else {
+            getRear().setNext(node);
+            setRear(node);
+        }
+
+        setSize(1);
     }
 
     // The dequeue method does not take any argument, removes the node from the front of the queue, and returns the node’s value.
@@ -49,6 +56,7 @@ public class Queue {
 
         setFront(getFront().getNext());
         temp.setNext(null);
+        setSize(-1);
 
         return temp.getValue();
     }
