@@ -33,14 +33,17 @@ public class Stack {
     // The push method takes any value as an argument and adds a new node with that value to the top of the stack with
     // an O(1) Time performance.
     public void push(Object value) {
-        setTop(new Node(value));
+        Node node = new Node(value);
+
+        node.setNext(getTop());
+        setTop(node);
         setSize(1);
     }
 
 
     // The push method does not take any argument, removes the node from the top of the stack, and returns the node’s value.
     public Object pop() {
-        Node temp = getTop().getNext();
+        Node temp = getTop();
 
         this.setTop(this.getTop().getNext());
         this.setSize(-1);
