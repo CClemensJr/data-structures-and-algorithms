@@ -70,6 +70,22 @@ public class QueueTest {
         assertTrue(testQueue.peek() == testQueue.getFront().getValue());
     }
 
-    // Can successfully empty a queue after multiple dequeues
+    @Test
+    public void canSuccessfullyEmptyAQueueAfterMultipleDequeues() {
+        Queue testQueue = new Queue();
+
+        testQueue.enqueue("7");
+        testQueue.enqueue("77");
+        testQueue.enqueue("777");
+        testQueue.enqueue("7777");
+        testQueue.enqueue("77777");
+        testQueue.enqueue("777777");
+
+        for (int i = 0; i < 6; i++) {
+            testQueue.dequeue();
+        }
+
+        assertTrue(testQueue.getSize() == 0);
+    }
 
 }
