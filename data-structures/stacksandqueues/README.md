@@ -1,44 +1,29 @@
-# Singly Linked List
-> A Linked List is a sequence of Nodes that are connected/linked to each other. The most defining feature of a Linked List is that each Node references the next Node in the link.
+# Stacks and Queues
+> 
 
 ## Challenge
-> Implement a Singly Linked List Data Structure
+> Implement a Stack and a Queue Data Structure.
 
 ## Approach and Efficiency
-> For this data-structure I created a LinkedList class that created an empty linked list with a head of null. The object then has access to three methods: insert(), includes(), and print().
-
-> insert(int v): This method always adds the new node to the front of the linked list so the time and space efficiency is O(1);
-
-> includes(int v): This method uses a while loop to iterate over the list to verify if v exists in the list. This results in a time efficiency of O(n) and a space efficiency of O(1) since no additional space is being created.  
-
-> print(): This method uses a while loop to iterate over the list, adding the value of each node to an array. This results in a time efficiency of O(n) and a space efficiency of O(n) since the array size increases with the size of the list.
+> For this data structure I used getters and setters to handle creating stacks and queues resulting in a Time efficiency of O(1).
 
 ## API
-### Insert
-> This method takes a value, creates a new Node, and sets that Node at the head of the linked list.
+### Stack Methods
+#### push()
+> This method takes any value as an argument and adds a new node with that value to the top of the stack with an O(1) Time performance.
 
-### Includes
-> This method takes a value and returns a boolean depending whether that value exists.
+#### pop()
+> This method does not take any argument, removes the node from the top of the stack, and returns the node’s value.
 
-### Print
-> This method returns a list of all nodes in the linked list.
+#### peek()
+> This method does not take an argument and returns the value of the node located on top of the stack, without removing it from the stack.
 
-### Append
-> This method takes a value and adds a new node to the end of the linked list.
-![Linked List Append Whiteboard](https://github.com/CClemensJr/data-structures-and-algorithms/blob/master/assets/llInsertionsAppend.JPG "Linked List Append Whiteboard")
+### Queue Methods
+#### enqueue()
+> This method takes any value as an argument and adds a new node with that value to the back of the queue with an O(1) Time performance.
 
-### InsertBefore
-> This method takes an old value and a new value and inserts a new node with the new value before the node with the old value.
-![Linked List Insert Before Whiteboard](https://github.com/CClemensJr/data-structures-and-algorithms/blob/master/assets/llInsertionsInsertBefore.JPG "Linked List Insert Before Whiteboard")
+#### dequeue()
+> This method does not take any argument, removes the node from the front of the queue, and returns the node’s value.
 
-### InsertAfter
-> This method takes an old value and a new value and appends a new node with the new value after the node with the old value.
-![Linked List Insert After Whiteboard](https://github.com/CClemensJr/data-structures-and-algorithms/blob/master/assets/llInsertionsInsertAfter.JPG "Linked List Insert After Whiteboard")
-
-### kth From the End
-> This method takes an value k and returns the value of the node that is kth from the end.
-![Linked List Kth From The End Whiteboard](https://github.com/CClemensJr/data-structures-and-algorithms/blob/master/assets/llKthFromEnd.jpg "Linked List kth From End Whiteboard")
-
-### Merge Lists
-> This method takes two linked lists and merges them together.
-![Linked List Merge Lists](https://github.com/CClemensJr/data-structures-and-algorithms/blob/master/assets/ll_merge.jpg "Merge Lists Whiteboard")
+#### peek()
+> This method does not take an argument and returns the value of the node located in the front of the queue, without removing it from the queue
