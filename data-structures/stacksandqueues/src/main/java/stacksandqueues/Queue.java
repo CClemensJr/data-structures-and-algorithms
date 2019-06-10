@@ -13,8 +13,8 @@ public class Queue {
  * Constructors
  * */
     public Queue() {
-        //this.front = null;
-        //this.rear = null;
+        this.front = null;
+        this.rear = null;
         this.size = 0;
     }
 
@@ -27,7 +27,7 @@ public class Queue {
     public int getSize() { return this.size; }
 
     public void setFront(Node f) { this.front = f; }
-    public void setRear(Node r) { this.front = r; }
+    public void setRear(Node r) { this.rear = r; }
     public void setSize(int s) { this.size = (s == 1) ? this.size + 1 : this.size - 1; }
 
 
@@ -39,9 +39,9 @@ public class Queue {
     public void enqueue(Object value) {
         Node node = new Node(value);
 
-        if (this.getFront() == null) {
-            this.setFront(node);
-            this.setRear(node);
+        if (getFront() == null) {
+            setFront(node);
+            setRear(node);
         } else {
             getRear().setNext(node);
             setRear(node);
