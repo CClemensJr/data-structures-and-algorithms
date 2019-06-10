@@ -34,4 +34,11 @@ public class Queue {
 /************
  * Additional Instance Methods
  * */
+    public void enqueue(Object value) {
+        Node node = new Node(value);
+
+        getRear().setNext(node);
+        setRear(node);
+    }
+
 }
