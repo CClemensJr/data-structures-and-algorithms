@@ -30,8 +30,10 @@ public class Stack {
 /************
  * Additional Instance Methods
  * */
-    public void push(Object value) {
+    // The push method takes any value as an argument and adds a new node with that value to the top of the stack with
+    // an O(1) Time performance.
+    public void push(Object value) { this.top = new Node(value); }
 
-    }
+
 
 }
