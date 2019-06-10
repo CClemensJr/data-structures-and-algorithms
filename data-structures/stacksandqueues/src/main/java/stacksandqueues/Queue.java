@@ -63,5 +63,5 @@ public class Queue {
 
     // The peek method does not take an argument and returns the value of the node located in the front of the queue,
     // without removing it from the queue
-    public Object peek() { return getFront(); }
+    public Object peek() { return getFront().getValue(); }
 }
