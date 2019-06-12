@@ -4,7 +4,6 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
-import static linkedList.LinkedList.mergeList;
 import static org.junit.Assert.*;
 
 public class LinkedListTest {
@@ -277,15 +276,18 @@ public class LinkedListTest {
         LinkedList test2 = new LinkedList();
 
         test1.insert(0);
-        test2.insert(3);
+        test2.insert(4);
 
-        for (int i = 1; i <= 5; i++) {
-            test1.append(i);
-            test2.append(i * 2);
-        }
+        test1.append(1);
+        test1.append(2);
+        test1.append(3);
 
-        LinkedList mergedList = mergeList(test1, test2);
+        test2.append(5);
+        test2.append(6);
+        test2.append(7);
 
-        assertTrue(mergedList.getSize() == 12);
+        LinkedList.mergeList(test1, test2);
+
+        assertTrue(test1.getHead().getNext().getValue() == 4);
     }
 }
