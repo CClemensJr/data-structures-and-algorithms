@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59b737fe-c3b4-4a7f-9ff5-8a5d40ecd346" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../assets/queueWithStacks.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../challenges/queueWithStacks/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../challenges/queueWithStacks/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../challenges/queueWithStacks/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../challenges/queueWithStacks/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../challenges/queueWithStacks/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../challenges/queueWithStacks/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../challenges/queueWithStacks/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../challenges/queueWithStacks/src/main/java/queueWithStacks/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../challenges/queueWithStacks/src/main/java/queueWithStacks/PseudoQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../challenges/queueWithStacks/src/test/java/queueWithStacks/LibraryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../challenges/queueWithStacks/src/test/java/queueWithStacks/PseudoQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stacksandqueues/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stacksandqueues/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stacksandqueues/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stacksandqueues/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stacksandqueues/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stacksandqueues/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stacksandqueues/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stacksandqueues/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stacksandqueues/src/main/java/stacksandqueues/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stacksandqueues/src/main/java/stacksandqueues/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stacksandqueues/src/main/java/stacksandqueues/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stacksandqueues/src/main/java/stacksandqueues/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stacksandqueues/src/test/java/stacksandqueues/LibraryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stacksandqueues/src/test/java/stacksandqueues/NodeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stacksandqueues/src/test/java/stacksandqueues/QueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stacksandqueues/src/test/java/stacksandqueues/StackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -85,10 +57,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1437" />
-    <option name="height" value="813" />
+    <option name="width" value="1440" />
+    <option name="height" value="799" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -275,10 +247,9 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="799" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="799" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -294,7 +265,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3281471" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3281471" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32920793" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32920793" />
