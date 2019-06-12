@@ -3,7 +3,6 @@ package linkedList;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
-import sun.awt.image.ImageWatched;
 
 import static org.junit.Assert.*;
 
@@ -265,5 +264,30 @@ public class LinkedListTest {
 
 
         assertTrue(test.kthNodeFromTheEnd(3) == 0);
+    }
+
+
+/****************
+ * Merge Lists tests
+ * */
+    @Test
+    public void shouldReturnAMergedLinkedList() {
+        LinkedList test1 = new LinkedList();
+        LinkedList test2 = new LinkedList();
+
+        test1.insert(0);
+        test2.insert(4);
+
+        test1.append(1);
+        test1.append(2);
+        test1.append(3);
+
+        test2.append(5);
+        test2.append(6);
+        test2.append(7);
+
+        LinkedList.mergeList(test1, test2);
+
+        assertTrue(test1.getHead().getNext().getValue() == 4);
     }
 }

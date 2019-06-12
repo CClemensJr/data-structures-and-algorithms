@@ -72,7 +72,7 @@ public class LinkedList {
 
             this.setFoot(current);
 
-            return (current.getValue() == v) ? true : false;
+            return current.getValue() == v;
 
         } catch(Exception e) {
             System.err.println("An error has occurred: " + e);
@@ -254,8 +254,29 @@ public class LinkedList {
  *
  * This method takes two linked lists and merges them together.
  * */
-    public static LinkedList mergeList(LinkedList listA, LinkedList listB) {
+    public static LinkedList mergeList(LinkedList list1, LinkedList list2) {
+        try {
+            Node l1Current = list1.getHead();
+            Node l2Current = list2.getHead();
+            Node temp;
 
-        return listA;
+            while (l1Current != null && l2Current != null) {
+                temp = l1Current.getNext();
+                l1Current.setNext(l2Current);
+                l1Current = temp;
+                temp = l2Current.getNext();
+                l2Current.setNext(l1Current);
+                l2Current = temp;
+            }
+
+            return list1;
+        } catch(Exception e) {
+            System.err.println("An error has occurred: " + e);
+            System.err.println("Press any key to exit...");
+            System.console().readLine();
+            System.exit(1);
+        }
+
+        return null;
     }
 }
