@@ -1,4 +1,4 @@
-package dataStructuresAndAlgorithms.challenges.arrayShift;
+package dataStructuresAndAlgorithms;
 
 import dataStructuresAndAlgorithms.challenges.arrayShift.ArrayShift;
 import org.junit.Test;

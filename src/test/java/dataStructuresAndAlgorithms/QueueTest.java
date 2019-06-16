@@ -1,5 +1,6 @@
-package dataStructuresAndAlgorithms.dataStructures.stacksAndQueues;
+package dataStructuresAndAlgorithms;
 
+import dataStructuresAndAlgorithms.dataStructures.stacksAndQueues.Queue;
 import org.junit.Test;
 import static org.junit.Assert.*;
 

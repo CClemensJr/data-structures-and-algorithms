@@ -1,5 +1,7 @@
-package dataStructuresAndAlgorithms.dataStructures.linkedList;
+package dataStructuresAndAlgorithms;
 
+import dataStructuresAndAlgorithms.dataStructures.linkedList.LinkedList;
+import dataStructuresAndAlgorithms.dataStructures.linkedList.Node;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
