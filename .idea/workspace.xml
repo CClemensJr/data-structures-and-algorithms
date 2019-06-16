@@ -3,104 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8aea3860-68c0-48a8-8219-7acf4c43cf7f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayBinarySearch/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayBinarySearch/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayBinarySearch/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayBinarySearch/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayBinarySearch/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayBinarySearch/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayBinarySearch/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayBinarySearch/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayBinarySearch/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayBinarySearch/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayBinarySearch/out/production/classes/arrayBinarySearch/BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayBinarySearch/out/production/classes/arrayBinarySearch/Library.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayBinarySearch/out/test/classes/arrayBinarySearch/BinarySearchTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayBinarySearch/out/test/classes/arrayBinarySearch/LibraryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayBinarySearch/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayBinarySearch/src/main/java/arrayBinarySearch/Library.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayBinarySearch/src/test/java/arrayBinarySearch/LibraryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayShift/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayShift/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayShift/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayShift/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayShift/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayShift/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayShift/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayShift/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayShift/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayShift/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayShift/out/production/classes/arrayShift/ArrayShift.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayShift/out/production/classes/arrayShift/Library.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayShift/out/test/classes/arrayShift/LibraryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayShift/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayShift/src/main/java/arrayShift/Library.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/arrayShift/src/test/java/arrayShift/LibraryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/fifoAnimalShelter/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/fifoAnimalShelter/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/fifoAnimalShelter/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/fifoAnimalShelter/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/fifoAnimalShelter/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/fifoAnimalShelter/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/fifoAnimalShelter/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/fifoAnimalShelter/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/fifoAnimalShelter/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/fifoAnimalShelter/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/fifoAnimalShelter/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/fifoAnimalShelter/src/main/java/AnimalShelter/Library.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/fifoAnimalShelter/src/test/java/AnimalShelter/LibraryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/multiBracketValidation/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/multiBracketValidation/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/multiBracketValidation/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/multiBracketValidation/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/multiBracketValidation/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/multiBracketValidation/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/multiBracketValidation/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/multiBracketValidation/src/main/java/multiBracketValidation/Library.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/multiBracketValidation/src/test/java/multiBracketValidation/LibraryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/queueWithStacks/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/queueWithStacks/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/queueWithStacks/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/queueWithStacks/.idea/libraries/gradle_wrapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/queueWithStacks/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/queueWithStacks/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/queueWithStacks/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/queueWithStacks/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/queueWithStacks/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/queueWithStacks/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/queueWithStacks/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/queueWithStacks/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/queueWithStacks/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/queueWithStacks/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/queueWithStacks/src/main/java/queueWithStacks/Library.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/queueWithStacks/src/test/java/queueWithStacks/LibraryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/linkedList/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/linkedList/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/linkedList/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/linkedList/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/linkedList/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/linkedList/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/linkedList/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/linkedList/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/linkedList/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/linkedList/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/linkedList/out/production/classes/linkedList/Library.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/linkedList/out/production/classes/linkedList/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/linkedList/out/production/classes/linkedList/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/linkedList/out/test/classes/linkedList/LibraryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/linkedList/out/test/classes/linkedList/LinkedListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/linkedList/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/linkedList/src/test/java/linkedList/LibraryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/stacksandqueues/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/stacksandqueues/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/stacksandqueues/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/stacksandqueues/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/stacksandqueues/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/stacksandqueues/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/stacksandqueues/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/stacksandqueues/src/test/java/stacksandqueues/LibraryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/queueWithStacks/PseudoQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/queueWithStacks/PseudoQueue.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -122,86 +25,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/AnimalShelterTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/queueWithStacks/PseudoQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/linkedList/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/arrayBinarySearch/BinarySearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/ArrayBinarySearchTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="254">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/ArrayShiftTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/linkedList/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/LinkedListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="61" selection-start-column="61" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/NodeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="66" selection-start-column="66" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/QueueTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="66" selection-start-column="66" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/StackTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+            <state relative-caret-position="-74">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -222,6 +63,7 @@
         <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/NodeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/QueueTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/StackTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/queueWithStacks/PseudoQueue.java" />
       </list>
     </option>
   </component>
@@ -279,6 +121,54 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structures-and-algorithms" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="challenges" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structures-and-algorithms" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="arrayBinarySearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structures-and-algorithms" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="queueWithStacks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structures-and-algorithms" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structures-and-algorithms" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedList" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -391,19 +281,14 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.32891566" />
-      <window_info anchor="bottom" id="Messages" weight="0.32891566" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
@@ -411,15 +296,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -427,20 +317,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/linkedList/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/linkedList/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -453,17 +329,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/arrayBinarySearch/BinarySearch.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/StackTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/AnimalShelterTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/QueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="66" selection-start-column="66" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/NodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="66" selection-start-column="66" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/LinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="61" selection-start-column="61" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/ArrayShiftTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -477,38 +374,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/ArrayShiftTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/linkedList/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/LinkedListTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/AnimalShelterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="61" selection-start-column="61" selection-end-column="61" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/NodeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/arrayBinarySearch/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="66" selection-start-column="66" selection-end-column="66" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/QueueTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/linkedList/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="66" selection-start-column="66" selection-end-column="66" />
+        <state relative-caret-position="-74">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/StackTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/queueWithStacks/PseudoQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        <state relative-caret-position="254">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
