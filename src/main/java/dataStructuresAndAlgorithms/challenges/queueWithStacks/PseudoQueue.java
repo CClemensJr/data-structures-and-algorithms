@@ -39,6 +39,10 @@ public class PseudoQueue {
     }
 
     public Object dequeue() {
-        return null;
+        while (this.enqueStack.getTop() != null) {
+            this.dequeStack.push(enqueStack.pop());
+        }
+
+        return this.dequeStack.pop();
     }
 }
