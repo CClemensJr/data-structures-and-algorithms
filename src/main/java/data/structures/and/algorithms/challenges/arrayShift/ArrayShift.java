@@ -1,4 +1,4 @@
-package arrayShift;
+package data.structures.and.algorithms.challenges.arrayShift;
 
 public class ArrayShift {
     /***********

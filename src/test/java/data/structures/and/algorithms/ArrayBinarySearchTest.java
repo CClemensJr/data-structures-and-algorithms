@@ -1,9 +1,9 @@
-package arrayBinarySearch;
+package data.structures.and.algorithms;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class BinarySearchTest {
+public class ArrayBinarySearchTest {
     @Test
     public void binarySearchShouldReturnTheCorrectIndex() {
         BinarySearch test = new BinarySearch();

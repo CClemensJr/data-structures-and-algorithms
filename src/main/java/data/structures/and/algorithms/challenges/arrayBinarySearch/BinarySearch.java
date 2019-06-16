@@ -1,4 +1,4 @@
-package arrayBinarySearch;
+package data.structures.and.algorithms.challenges.arrayBinarySearch;
 
 public class BinarySearch {
     public int binarySearch(int[] arr, int val) {
