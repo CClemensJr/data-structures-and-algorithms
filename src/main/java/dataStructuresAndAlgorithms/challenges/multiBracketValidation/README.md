@@ -31,4 +31,4 @@
 ```
 
 ## Solution
-![alt text](https://github.com/CClemensJr/data-structures-and-algorithms/blob/master/assets/multiBracketValidation.JPG "MultiBracketValidation")
+![alt text](https://github.com/CClemensJr/data-structures-and-algorithms/blob/master/assets/multBracketValidation.jpeg "MultiBracketValidation")
