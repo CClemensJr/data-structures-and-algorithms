@@ -1,4 +1,4 @@
-package stacksandqueues;
+package data.structures.and.algorithms.dataStructures.stacksAndQueues;
 
 public class Stack {
 /************
