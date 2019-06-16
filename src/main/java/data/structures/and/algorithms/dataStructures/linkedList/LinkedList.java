@@ -1,4 +1,4 @@
-package linkedList;
+package data.structures.and.algorithms.dataStructures.linkedList;
 
 public class LinkedList {
 /****************
