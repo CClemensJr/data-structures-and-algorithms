@@ -38,13 +38,12 @@ public class PseudoQueueTest {
         testQueue.enqueue("777777");
 
         assertTrue(testQueue.getFront().getValue() == "7");
-        // assertTrue(testQueue.getRear().getValue() == "777777");
         assertTrue(testQueue.getSize() == 6);
     }
 
     @Test
     public void canSuccessfullyDequeueOutOfAQueueTheExpectedValue() {
-        Queue testQueue = new Queue();
+        PseudoQueue testQueue = new PseudoQueue();
 
         testQueue.enqueue("7");
         testQueue.enqueue("77");
@@ -54,29 +53,14 @@ public class PseudoQueueTest {
         testQueue.enqueue("777777");
 
 
-        assertTrue(testQueue.dequeue().toString() == "7");
-        assertTrue(testQueue.getFront().getValue() == "77");
-        //assertTrue(testQueue.getRear().getValue() == "777777");
+        assertTrue(testQueue.dequeue() == "7");
         assertTrue(testQueue.getSize() == 5);
     }
 
-    @Test
-    public void canSuccessfullyPeekIntoAQueueSeeingTheExpectedValue() {
-        Queue testQueue = new Queue();
-
-        testQueue.enqueue("7");
-        testQueue.enqueue("77");
-        testQueue.enqueue("777");
-        testQueue.enqueue("7777");
-        testQueue.enqueue("77777");
-        testQueue.enqueue("777777");
-
-        assertTrue(testQueue.peek() == testQueue.getFront().getValue());
-    }
 
     @Test
     public void canSuccessfullyEmptyAQueueAfterMultipleDequeues() {
-        Queue testQueue = new Queue();
+        PseudoQueue testQueue = new PseudoQueue();
 
         testQueue.enqueue("7");
         testQueue.enqueue("77");

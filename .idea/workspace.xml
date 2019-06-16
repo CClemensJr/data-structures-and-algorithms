@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aea3860-68c0-48a8-8219-7acf4c43cf7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/queueWithStacks/PseudoQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/queueWithStacks/PseudoQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/PseudoQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/PseudoQueueTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -25,7 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/queueWithStacks/PseudoQueue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
@@ -37,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/PseudoQueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+            <state relative-caret-position="180">
+              <caret line="62" column="49" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,8 +82,8 @@
         <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/LinkedListTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/NodeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/StackTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/PseudoQueueTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/queueWithStacks/PseudoQueue.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/PseudoQueueTest.java" />
       </list>
     </option>
   </component>
@@ -245,8 +244,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PseudoQueueTest.canSuccessfullyEnqueueMultipleValuesIntoAQueue">
-    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PseudoQueueTest.canSuccessfullyEmptyAQueueAfterMultipleDequeues">
+    <configuration name="PseudoQueueTest.canSuccessfullyDequeueOutOfAQueueTheExpectedValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms.test" />
       <extension name="coverage">
         <pattern>
@@ -255,8 +254,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.LinkedListTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.PseudoQueueTest" />
+      <option name="METHOD_NAME" value="canSuccessfullyDequeueOutOfAQueueTheExpectedValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PseudoQueueTest.canSuccessfullyEmptyAQueueAfterMultipleDequeues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructuresAndAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.PseudoQueueTest" />
+      <option name="METHOD_NAME" value="canSuccessfullyEmptyAQueueAfterMultipleDequeues" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -309,28 +325,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructuresAndAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.QueueTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PseudoQueueTest.canSuccessfullyEmptyAQueueAfterMultipleDequeues" />
+        <item itemvalue="JUnit.PseudoQueueTest.canSuccessfullyDequeueOutOfAQueueTheExpectedValue" />
         <item itemvalue="JUnit.PseudoQueueTest.canSuccessfullyEnqueueMultipleValuesIntoAQueue" />
         <item itemvalue="JUnit.PseudoQueueTest.canSuccessfullyEnqueueIntoAQueue" />
         <item itemvalue="JUnit.PseudoQueueTest.canSuccessfullyInstantiateAnEmptyQueue" />
-        <item itemvalue="JUnit.LinkedListTest" />
-        <item itemvalue="JUnit.QueueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -348,18 +349,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PseudoQueueTest_canSuccessfullyInstantiateAnEmptyQueue - 2019.06.16 at 13h 49m 48s.xml">
-      <configuration name="PseudoQueueTest.canSuccessfullyInstantiateAnEmptyQueue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PseudoQueueTest_canSuccessfullyInstantiateAnEmptyQueue - 2019.06.16 at 13h 51m 57s.xml">
-      <configuration name="PseudoQueueTest.canSuccessfullyInstantiateAnEmptyQueue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PseudoQueueTest_canSuccessfullyEnqueueIntoAQueue - 2019.06.16 at 15h 24m 19s.xml">
-      <configuration name="PseudoQueueTest.canSuccessfullyEnqueueIntoAQueue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PseudoQueueTest_canSuccessfullyInstantiateAnEmptyQueue - 2019.06.16 at 15h 24m 24s.xml">
-      <configuration name="PseudoQueueTest.canSuccessfullyInstantiateAnEmptyQueue" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PseudoQueueTest_canSuccessfullyInstantiateAnEmptyQueue - 2019.06.16 at 15h 30m 06s.xml">
       <configuration name="PseudoQueueTest.canSuccessfullyInstantiateAnEmptyQueue" configurationId="JUnit" />
     </history-entry>
@@ -377,6 +366,18 @@
     </history-entry>
     <history-entry file="PseudoQueueTest_canSuccessfullyEnqueueMultipleValuesIntoAQueue - 2019.06.16 at 15h 41m 05s.xml">
       <configuration name="PseudoQueueTest.canSuccessfullyEnqueueMultipleValuesIntoAQueue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PseudoQueueTest_canSuccessfullyDequeueOutOfAQueueTheExpectedValue - 2019.06.16 at 15h 48m 11s.xml">
+      <configuration name="PseudoQueueTest.canSuccessfullyDequeueOutOfAQueueTheExpectedValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PseudoQueueTest_canSuccessfullyDequeueOutOfAQueueTheExpectedValue - 2019.06.16 at 15h 48m 40s.xml">
+      <configuration name="PseudoQueueTest.canSuccessfullyDequeueOutOfAQueueTheExpectedValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PseudoQueueTest_canSuccessfullyDequeueOutOfAQueueTheExpectedValue - 2019.06.16 at 15h 49m 31s.xml">
+      <configuration name="PseudoQueueTest.canSuccessfullyDequeueOutOfAQueueTheExpectedValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PseudoQueueTest_canSuccessfullyDequeueOutOfAQueueTheExpectedValue - 2019.06.16 at 15h 59m 45s.xml">
+      <configuration name="PseudoQueueTest.canSuccessfullyDequeueOutOfAQueueTheExpectedValue" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -527,20 +528,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/PseudoQueueTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/queueWithStacks/PseudoQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+        <state relative-caret-position="375">
+          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/queueWithStacks/PseudoQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/PseudoQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+        <state relative-caret-position="180">
+          <caret line="62" column="49" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
