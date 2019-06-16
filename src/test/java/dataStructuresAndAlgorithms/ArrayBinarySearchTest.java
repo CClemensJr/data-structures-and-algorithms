@@ -1,5 +1,6 @@
-package dataStructuresAndAlgorithms.challenges.arrayBinarySearch;
+package dataStructuresAndAlgorithms;
 
+import dataStructuresAndAlgorithms.challenges.arrayBinarySearch.BinarySearch;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
