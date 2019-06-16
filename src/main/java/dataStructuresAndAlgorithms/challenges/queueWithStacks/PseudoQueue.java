@@ -25,7 +25,7 @@ public class PseudoQueue {
  * Getters/Setters
  * */
     public Node getFront() { return this.front; }
-    public int getSize() { return this.size; }
+    public int getSize() { return this.enqueStack.getSize() + this.dequeStack.getSize(); }
 
 
 /***********
@@ -33,6 +33,8 @@ public class PseudoQueue {
  * */
     public void enqueue(Object value) {
         this.enqueStack.push(value);
+
+        if (this.front == null) this.front = enqueStack.getTop();
     }
 
     public Object dequeue() {
