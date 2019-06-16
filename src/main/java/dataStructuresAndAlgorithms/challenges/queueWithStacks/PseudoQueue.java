@@ -10,14 +10,15 @@ public class PseudoQueue {
     protected Stack enqueStack;
     protected Stack dequeStack;
     protected Node front;
-    protected int size;
+    //protected int size;
 
 
 /***********
  * Constructor
  * */
     public PseudoQueue() {
-        this.size = 0;
+        this.enqueStack = new Stack();
+        this.dequeStack = new Stack();
     }
 
 
@@ -34,7 +35,7 @@ public class PseudoQueue {
     public void enqueue(Object value) {
         this.enqueStack.push(value);
 
-        if (this.front == null) this.front = enqueStack.getTop();
+        if (this.front == null) this.front = this.enqueStack.getTop();
     }
 
     public Object dequeue() {

@@ -4,6 +4,7 @@ import dataStructuresAndAlgorithms.challenges.queueWithStacks.PseudoQueue;
 import dataStructuresAndAlgorithms.dataStructures.stacksAndQueues.Queue;
 import org.junit.Test;
 
+import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
 
 public class PseudoQueueTest {
@@ -11,6 +12,7 @@ public class PseudoQueueTest {
     public void canSuccessfullyInstantiateAnEmptyQueue() {
         PseudoQueue testQueue = new PseudoQueue();
 
+        assertNull(testQueue.getFront());
         assertTrue(testQueue.getSize() == 0);
     }
 
@@ -19,7 +21,6 @@ public class PseudoQueueTest {
         PseudoQueue testQueue = new PseudoQueue();
 
         testQueue.enqueue("7");
-
 
         assertTrue(testQueue.getFront().getValue() == "7");
         assertTrue(testQueue.getSize() == 1);
