@@ -1,6 +1,6 @@
 package dataStructuresAndAlgorithms.dataStructures.tree;
 
-public class BinaryTree extends Tree{
+public class BinaryTree extends Tree {
 /***************
  * Instance Variables
  * */
@@ -9,6 +9,11 @@ public class BinaryTree extends Tree{
 /***************
  * Constructors
  * */
+    public BinaryTree() {}
+
+    public BinaryTree(T value) {
+        this.setRoot(value);
+    }
 
 
 /***************
