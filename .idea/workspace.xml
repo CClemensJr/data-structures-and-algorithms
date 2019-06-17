@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aea3860-68c0-48a8-8219-7acf4c43cf7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Tree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -24,20 +24,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="315">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="24" selection-end-column="59" />
               <folding>
                 <element signature="e#198#199#0" expanded="true" />
                 <element signature="e#232#233#0" expanded="true" />
@@ -98,10 +102,10 @@
         <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/StackTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/queueWithStacks/PseudoQueue.java" />
         <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/PseudoQueueTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Tree.java" />
         <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/TreeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Tree.java" />
       </list>
     </option>
   </component>
@@ -569,13 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -588,11 +585,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="24" selection-end-column="59" />
           <folding>
             <element signature="e#198#199#0" expanded="true" />
             <element signature="e#232#233#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
           </folding>
         </state>
       </provider>
