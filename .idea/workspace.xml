@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8aea3860-68c0-48a8-8219-7acf4c43cf7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/PseudoQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/PseudoQueueTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="8aea3860-68c0-48a8-8219-7acf4c43cf7f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -23,50 +21,7 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/queueWithStacks/PseudoQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/PseudoQueueTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="62" column="49" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/stacksAndQueues/Queue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/stacksAndQueues/Stack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-40">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -349,9 +304,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PseudoQueueTest_canSuccessfullyInstantiateAnEmptyQueue - 2019.06.16 at 15h 30m 06s.xml">
-      <configuration name="PseudoQueueTest.canSuccessfullyInstantiateAnEmptyQueue" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PseudoQueueTest_canSuccessfullyInstantiateAnEmptyQueue - 2019.06.16 at 15h 30m 32s.xml">
       <configuration name="PseudoQueueTest.canSuccessfullyInstantiateAnEmptyQueue" configurationId="JUnit" />
     </history-entry>
@@ -379,10 +331,12 @@
     <history-entry file="PseudoQueueTest_canSuccessfullyDequeueOutOfAQueueTheExpectedValue - 2019.06.16 at 15h 59m 45s.xml">
       <configuration name="PseudoQueueTest.canSuccessfullyDequeueOutOfAQueueTheExpectedValue" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PseudoQueueTest_canSuccessfullyEmptyAQueueAfterMultipleDequeues - 2019.06.16 at 16h 02m 32s.xml">
+      <configuration name="PseudoQueueTest.canSuccessfullyEmptyAQueueAfterMultipleDequeues" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -394,12 +348,12 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32891566" />
@@ -521,10 +475,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/stacksAndQueues/Queue.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/PseudoQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="453">
+          <caret line="62" column="49" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -538,13 +495,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/PseudoQueueTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/stacksAndQueues/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="62" column="49" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
