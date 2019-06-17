@@ -31,8 +31,8 @@ public class Tree<T> {
     public void addNode(T value) {
         try {
             if (this.root == null) { this.root = new Node(value); }
-            if (this.root.getLeftChild() == null) { this.root.setLeftChild(value); }
-            if (this.root.getRightChild() == null) { this.root.setRightChild(value); }
+            else if (this.root.getLeftChild() == null) { this.root.setLeftChild(value); }
+            else if (this.root.getRightChild() == null) { this.root.setRightChild(value); }
         } catch(Exception e) {
             System.out.println("An error has occurred: " + e);
         }
