@@ -21,4 +21,6 @@ public class Tree<T> {
  * Getters / Setters
  * */
     public Node getRoot() { return this.root; }
+
+    public void setRoot(T value) { this.root = new Node(value); }
 }

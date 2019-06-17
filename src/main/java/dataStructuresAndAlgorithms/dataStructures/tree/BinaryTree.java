@@ -1,6 +1,6 @@
 package dataStructuresAndAlgorithms.dataStructures.tree;
 
-public class BinaryTree extends Tree {
+public class BinaryTree<T> extends Tree {
 /***************
  * Instance Variables
  * */
