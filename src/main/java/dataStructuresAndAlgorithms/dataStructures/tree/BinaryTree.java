@@ -1,4 +1,4 @@
 package dataStructuresAndAlgorithms.dataStructures.tree;
 
-public class tree {
+public class BinaryTree {
 }
