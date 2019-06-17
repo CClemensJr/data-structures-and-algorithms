@@ -57,19 +57,51 @@ public class TreeTest {
 
     @Test
     public void canSuccessfullyReturnACollectionFromAPreorderTraversal() {
-        BinaryTree test = new BinaryTree("This is the root node.");
+        BinaryTree test = new BinaryTree("This is the root node");
 
         test.addNode("This is the left child");
         test.addNode("This is the right child");
 
         ArrayList<String> expected = new ArrayList<String>();
 
-        expected.add("This is the root node.");
+        expected.add("This is the root node");
         expected.add("This is the left child");
         expected.add("This is the right child");
 
         assertEquals(expected, test.preOrder(test.getRoot()));
     }
-//    Can successfully return a collection from an inorder traversal
-//    Can successfully return a collection from a postorder traversal
+
+
+    @Test
+    public void canSuccessfullyReturnACollectionFromAnInorderTraversal() {
+        BinaryTree test = new BinaryTree("This is the root node");
+
+        test.addNode("This is the left child");
+        test.addNode("This is the right child");
+
+        ArrayList<String> expected = new ArrayList<String>();
+
+        expected.add("This is the left child");
+        expected.add("This is the root node");
+        expected.add("This is the right child");
+
+        assertEquals(expected, test.inOrder(test.getRoot()));
+    }
+
+
+    @Test
+    public void canSuccessfullyReturnACollectionFromAPostorderTraversal() {
+        BinaryTree test = new BinaryTree("This is the root node");
+
+        test.addNode("This is the left child");
+        test.addNode("This is the right child");
+
+        ArrayList<String> expected = new ArrayList<String>();
+
+        expected.add("This is the left child");
+        expected.add("This is the right child");
+        expected.add("This is the root node");
+
+        assertEquals(expected, test.postOrder(test.getRoot()));
+    }
 }

@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
               <folding>
                 <element signature="e#212#213#0" expanded="true" />
                 <element signature="e#250#251#0" expanded="true" />
@@ -42,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Node.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="27" column="77" lean-forward="true" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
+              <caret line="27" column="77" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
               <folding>
                 <element signature="e#198#199#0" expanded="true" />
                 <element signature="e#232#233#0" expanded="true" />
@@ -54,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="72" column="46" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
+            <state relative-caret-position="279">
+              <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -63,11 +63,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/TreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="70" column="60" selection-start-line="70" selection-start-column="60" selection-end-line="70" selection-end-column="60" />
+            <state relative-caret-position="435">
+              <caret line="102" column="46" lean-forward="true" selection-start-line="102" selection-start-column="46" selection-end-line="102" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1889#1897#0" expanded="true" />
+                <element signature="e#2491#2499#0" expanded="true" />
+                <element signature="e#2951#2959#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -237,23 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TreeTest.canSuccessfullyReturnACollectionFromAPreorderTraversal">
-    <configuration name="TreeTest.canSuccessfullyAddALeftAndRightTreesToSingleRootNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructuresAndAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.TreeTest" />
-      <option name="METHOD_NAME" value="canSuccessfullyAddALeftAndRightTreesToSingleRootNode" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TreeTest.canSuccessfullyReturnACollectionFromAPostorderTraversal">
     <configuration name="TreeTest.canSuccessfullyAddALeftChildAndRightChildToASingleRootNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms.test" />
       <extension name="coverage">
@@ -286,7 +272,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeTest.canSuccessfullyInstantiateABinaryTreeWithASingleRootNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeTest.canSuccessfullyReturnACollectionFromAPostorderTraversal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms.test" />
       <extension name="coverage">
         <pattern>
@@ -296,7 +282,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
       <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.TreeTest" />
-      <option name="METHOD_NAME" value="canSuccessfullyInstantiateABinaryTreeWithASingleRootNode" />
+      <option name="METHOD_NAME" value="canSuccessfullyReturnACollectionFromAPostorderTraversal" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -318,13 +304,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeTest.canSuccessfullyReturnACollectionFromAnInorderTraversal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructuresAndAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.TreeTest" />
+      <option name="METHOD_NAME" value="canSuccessfullyReturnACollectionFromAnInorderTraversal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TreeTest.canSuccessfullyReturnACollectionFromAPostorderTraversal" />
+        <item itemvalue="JUnit.TreeTest.canSuccessfullyReturnACollectionFromAnInorderTraversal" />
         <item itemvalue="JUnit.TreeTest.canSuccessfullyReturnACollectionFromAPreorderTraversal" />
         <item itemvalue="JUnit.TreeTest.canSuccessfullyAddMultipleNodesToSingleRootNode" />
         <item itemvalue="JUnit.TreeTest.canSuccessfullyAddALeftChildAndRightChildToASingleRootNode" />
-        <item itemvalue="JUnit.TreeTest.canSuccessfullyAddALeftAndRightTreesToSingleRootNode" />
-        <item itemvalue="JUnit.TreeTest.canSuccessfullyInstantiateABinaryTreeWithASingleRootNode" />
       </list>
     </recent_temporary>
   </component>
@@ -342,35 +344,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TreeTest_canSuccessfullyAddALeftAndRightTreesToSingleRootNode - 2019.06.17 at 11h 18m 55s.xml">
-      <configuration name="TreeTest.canSuccessfullyAddALeftAndRightTreesToSingleRootNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest_canSuccessfullyAddALeftAndRightTreesToSingleRootNode - 2019.06.17 at 11h 20m 32s.xml">
-      <configuration name="TreeTest.canSuccessfullyAddALeftAndRightTreesToSingleRootNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest_canSuccessfullyAddALeftAndRightTreesToSingleRootNode - 2019.06.17 at 11h 21m 29s.xml">
-      <configuration name="TreeTest.canSuccessfullyAddALeftAndRightTreesToSingleRootNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest_canSuccessfullyAddALeftChildAndRightChildToASingleRootNode - 2019.06.17 at 11h 46m 39s.xml">
-      <configuration name="TreeTest.canSuccessfullyAddALeftChildAndRightChildToASingleRootNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest_canSuccessfullyAddALeftChildAndRightChildToASingleRootNode - 2019.06.17 at 11h 46m 53s.xml">
-      <configuration name="TreeTest.canSuccessfullyAddALeftChildAndRightChildToASingleRootNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest_canSuccessfullyAddALeftChildAndRightChildToASingleRootNode - 2019.06.17 at 11h 50m 04s.xml">
-      <configuration name="TreeTest.canSuccessfullyAddALeftChildAndRightChildToASingleRootNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest_canSuccessfullyAddMultipleNodesToSingleRootNode - 2019.06.17 at 11h 56m 09s.xml">
-      <configuration name="TreeTest.canSuccessfullyAddMultipleNodesToSingleRootNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest_canSuccessfullyReturnACollectionFromAPreorderTraversal - 2019.06.17 at 12h 15m 13s.xml">
-      <configuration name="TreeTest.canSuccessfullyReturnACollectionFromAPreorderTraversal" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TreeTest_canSuccessfullyReturnACollectionFromAPreorderTraversal - 2019.06.17 at 13h 35m 37s.xml">
       <configuration name="TreeTest.canSuccessfullyReturnACollectionFromAPreorderTraversal" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TreeTest_canSuccessfullyReturnACollectionFromAPreorderTraversal - 2019.06.17 at 13h 36m 13s.xml">
       <configuration name="TreeTest.canSuccessfullyReturnACollectionFromAPreorderTraversal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_canSuccessfullyReturnACollectionFromAPreorderTraversal - 2019.06.17 at 13h 38m 06s.xml">
+      <configuration name="TreeTest.canSuccessfullyReturnACollectionFromAPreorderTraversal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_canSuccessfullyReturnACollectionFromAPreorderTraversal - 2019.06.17 at 13h 39m 00s.xml">
+      <configuration name="TreeTest.canSuccessfullyReturnACollectionFromAPreorderTraversal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_canSuccessfullyReturnACollectionFromAPreorderTraversal - 2019.06.17 at 13h 39m 16s.xml">
+      <configuration name="TreeTest.canSuccessfullyReturnACollectionFromAPreorderTraversal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_canSuccessfullyReturnACollectionFromAPreorderTraversal - 2019.06.17 at 13h 39m 48s.xml">
+      <configuration name="TreeTest.canSuccessfullyReturnACollectionFromAPreorderTraversal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_canSuccessfullyReturnACollectionFromAPreorderTraversal - 2019.06.17 at 13h 40m 35s.xml">
+      <configuration name="TreeTest.canSuccessfullyReturnACollectionFromAPreorderTraversal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_canSuccessfullyReturnACollectionFromAPreorderTraversal - 2019.06.17 at 13h 40m 53s.xml">
+      <configuration name="TreeTest.canSuccessfullyReturnACollectionFromAPreorderTraversal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_canSuccessfullyReturnACollectionFromAnInorderTraversal - 2019.06.17 at 13h 41m 52s.xml">
+      <configuration name="TreeTest.canSuccessfullyReturnACollectionFromAnInorderTraversal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_canSuccessfullyReturnACollectionFromAnInorderTraversal - 2019.06.17 at 13h 43m 19s.xml">
+      <configuration name="TreeTest.canSuccessfullyReturnACollectionFromAnInorderTraversal" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -387,7 +389,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -396,7 +398,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -568,10 +570,21 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="27" column="77" lean-forward="true" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
+          <caret line="27" column="77" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
           <folding>
             <element signature="e#198#199#0" expanded="true" />
             <element signature="e#232#233#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <folding>
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -583,31 +596,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-          <folding>
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="72" column="46" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
+        <state relative-caret-position="279">
+          <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/TreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="70" column="60" selection-start-line="70" selection-start-column="60" selection-end-line="70" selection-end-column="60" />
+        <state relative-caret-position="435">
+          <caret line="102" column="46" lean-forward="true" selection-start-line="102" selection-start-column="46" selection-end-line="102" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1889#1897#0" expanded="true" />
+            <element signature="e#2491#2499#0" expanded="true" />
+            <element signature="e#2951#2959#0" expanded="true" />
           </folding>
         </state>
       </provider>

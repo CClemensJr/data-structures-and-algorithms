@@ -31,10 +31,10 @@ public class BinaryTree<T> extends Tree {
  * */
     public ArrayList<T> preOrder(Node root) {
         try {
-            this.binaryTreeList.add((T) root);
+            this.binaryTreeList.add((T) root.getValue());
 
-            if (root.getLeftChild() == null) preOrder(root.getLeftChild());
-            if (root.getRightChild() == null) preOrder(root.getRightChild());
+            if (root.getLeftChild() != null) preOrder(root.getLeftChild());
+            if (root.getRightChild() != null) preOrder(root.getRightChild());
 
             return this.binaryTreeList;
 
@@ -48,11 +48,11 @@ public class BinaryTree<T> extends Tree {
 
     public ArrayList<T> inOrder(Node root) {
         try {
-            if (root.getLeftChild() == null) preOrder(root.getLeftChild());
+            if (root.getLeftChild() != null) preOrder(root.getLeftChild());
 
-            this.binaryTreeList.add((T) root);
+            this.binaryTreeList.add((T) root.getValue());
 
-            if (root.getRightChild() == null) preOrder(root.getRightChild());
+            if (root.getRightChild() != null) preOrder(root.getRightChild());
 
             return this.binaryTreeList;
 
@@ -66,11 +66,11 @@ public class BinaryTree<T> extends Tree {
 
     public ArrayList<T> postOrder(Node root) {
         try {
-            if (root.getLeftChild() == null) preOrder(root.getLeftChild());
+            if (root.getLeftChild() != null) preOrder(root.getLeftChild());
 
-            if (root.getRightChild() == null) preOrder(root.getRightChild());
+            if (root.getRightChild() != null) preOrder(root.getRightChild());
 
-            this.binaryTreeList.add((T) root);
+            this.binaryTreeList.add((T) root.getValue());
 
             return this.binaryTreeList;
 
