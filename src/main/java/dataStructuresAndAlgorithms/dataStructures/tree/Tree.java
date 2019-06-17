@@ -23,4 +23,18 @@ public class Tree<T> {
     public Node getRoot() { return this.root; }
 
     public void setRoot(T value) { this.root = new Node(value); }
+
+
+/***************
+ * Instance Methods
+ * */
+    public void addNode(T value) {
+        try {
+            if (this.root == null) { this.root = new Node(value); }
+            if (this.root.getLeftChild() == null) { this.root.setLeftChild(value); }
+            if (this.root.getRightChild() == null) { this.root.setRightChild(value); }
+        } catch(Exception e) {
+            System.out.println("An error has occurred: " + e);
+        }
+    }
 }
