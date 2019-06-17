@@ -1,9 +1,30 @@
 package dataStructuresAndAlgorithms;
 
+import dataStructuresAndAlgorithms.dataStructures.tree.Tree;
+import org.junit.Test;
+import static org.junit.Assert.*;
+
 public class TreeTest {
-//    Can successfully instantiate an empty tree
-//    Can successfully instantiate a tree with a single root node
-//    Can successfully add a left child and right child to a single root node
+    @Test
+    public void canSuccessfullyInstantiateAnEmptyTree() {
+        Tree test = new Tree();
+
+        assertNull(test.getRoot());
+    }
+
+    @Test
+    public void canSuccessfullyInstantiateATreeWithASingleRootNode() {
+        Tree test = new Tree("I tested this");
+
+        assertTrue(test.getRoot().getValue() == "I tested this");
+    }
+    @Test
+    public void canSuccessfullyAddALeftChildAndRightChildToASingleRootNode() {
+        Tree test = new Tree("This is the root node.");
+
+        test.setLeft("This is the left child");
+        test.setRight("This is the right child");
+    }
 //    Can successfully return a collection from a preorder traversal
 //    Can successfully return a collection from an inorder traversal
 //    Can successfully return a collection from a postorder traversal

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aea3860-68c0-48a8-8219-7acf4c43cf7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/TreeTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -24,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="360">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#212#213#0" expanded="true" />
                 <element signature="e#250#251#0" expanded="true" />
@@ -37,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="24" selection-end-column="59" />
+            <state relative-caret-position="405">
+              <caret line="27" column="76" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
               <folding>
                 <element signature="e#198#199#0" expanded="true" />
                 <element signature="e#232#233#0" expanded="true" />
@@ -53,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="345">
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -62,8 +65,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/TreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="360">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -102,10 +108,11 @@
         <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/StackTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/queueWithStacks/PseudoQueue.java" />
         <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/PseudoQueueTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/TreeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Tree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/TreeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Node.java" />
       </list>
     </option>
   </component>
@@ -177,16 +184,6 @@
               <item name="data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="data-structures-and-algorithms" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="dataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-structures-and-algorithms" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -241,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PseudoQueueTest.canSuccessfullyEmptyAQueueAfterMultipleDequeues">
+  <component name="RunManager" selected="JUnit.TreeTest.canSuccessfullyAddALeftChildAndRightChildToASingleRootNode">
     <configuration name="PseudoQueueTest.canSuccessfullyDequeueOutOfAQueueTheExpectedValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms.test" />
       <extension name="coverage">
@@ -274,7 +271,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PseudoQueueTest.canSuccessfullyEnqueueIntoAQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeTest.canSuccessfullyAddALeftChildAndRightChildToASingleRootNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms.test" />
       <extension name="coverage">
         <pattern>
@@ -283,14 +280,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.PseudoQueueTest" />
-      <option name="METHOD_NAME" value="canSuccessfullyEnqueueIntoAQueue" />
+      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.TreeTest" />
+      <option name="METHOD_NAME" value="canSuccessfullyAddALeftChildAndRightChildToASingleRootNode" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PseudoQueueTest.canSuccessfullyEnqueueMultipleValuesIntoAQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeTest.canSuccessfullyInstantiateATreeWithASingleRootNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms.test" />
       <extension name="coverage">
         <pattern>
@@ -299,14 +296,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.PseudoQueueTest" />
-      <option name="METHOD_NAME" value="canSuccessfullyEnqueueMultipleValuesIntoAQueue" />
+      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.TreeTest" />
+      <option name="METHOD_NAME" value="canSuccessfullyInstantiateATreeWithASingleRootNode" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PseudoQueueTest.canSuccessfullyInstantiateAnEmptyQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeTest.canSuccessfullyInstantiateAnEmptyTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms.test" />
       <extension name="coverage">
         <pattern>
@@ -315,8 +312,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.PseudoQueueTest" />
-      <option name="METHOD_NAME" value="canSuccessfullyInstantiateAnEmptyQueue" />
+      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.TreeTest" />
+      <option name="METHOD_NAME" value="canSuccessfullyInstantiateAnEmptyTree" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -324,11 +321,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TreeTest.canSuccessfullyAddALeftChildAndRightChildToASingleRootNode" />
+        <item itemvalue="JUnit.TreeTest.canSuccessfullyInstantiateATreeWithASingleRootNode" />
+        <item itemvalue="JUnit.TreeTest.canSuccessfullyInstantiateAnEmptyTree" />
         <item itemvalue="JUnit.PseudoQueueTest.canSuccessfullyEmptyAQueueAfterMultipleDequeues" />
         <item itemvalue="JUnit.PseudoQueueTest.canSuccessfullyDequeueOutOfAQueueTheExpectedValue" />
-        <item itemvalue="JUnit.PseudoQueueTest.canSuccessfullyEnqueueMultipleValuesIntoAQueue" />
-        <item itemvalue="JUnit.PseudoQueueTest.canSuccessfullyEnqueueIntoAQueue" />
-        <item itemvalue="JUnit.PseudoQueueTest.canSuccessfullyInstantiateAnEmptyQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -346,15 +343,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PseudoQueueTest_canSuccessfullyInstantiateAnEmptyQueue - 2019.06.16 at 15h 30m 32s.xml">
-      <configuration name="PseudoQueueTest.canSuccessfullyInstantiateAnEmptyQueue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PseudoQueueTest_canSuccessfullyEnqueueIntoAQueue - 2019.06.16 at 15h 30m 53s.xml">
-      <configuration name="PseudoQueueTest.canSuccessfullyEnqueueIntoAQueue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PseudoQueueTest_canSuccessfullyEnqueueIntoAQueue - 2019.06.16 at 15h 39m 24s.xml">
-      <configuration name="PseudoQueueTest.canSuccessfullyEnqueueIntoAQueue" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PseudoQueueTest_canSuccessfullyEnqueueMultipleValuesIntoAQueue - 2019.06.16 at 15h 40m 32s.xml">
       <configuration name="PseudoQueueTest.canSuccessfullyEnqueueMultipleValuesIntoAQueue" configurationId="JUnit" />
     </history-entry>
@@ -375,6 +363,15 @@
     </history-entry>
     <history-entry file="PseudoQueueTest_canSuccessfullyEmptyAQueueAfterMultipleDequeues - 2019.06.16 at 16h 02m 32s.xml">
       <configuration name="PseudoQueueTest.canSuccessfullyEmptyAQueueAfterMultipleDequeues" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PseudoQueueTest_canSuccessfullyEmptyAQueueAfterMultipleDequeues - 2019.06.17 at 10h 20m 01s.xml">
+      <configuration name="PseudoQueueTest.canSuccessfullyEmptyAQueueAfterMultipleDequeues" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_canSuccessfullyInstantiateAnEmptyTree - 2019.06.17 at 10h 26m 53s.xml">
+      <configuration name="TreeTest.canSuccessfullyInstantiateAnEmptyTree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_canSuccessfullyInstantiateATreeWithASingleRootNode - 2019.06.17 at 10h 29m 48s.xml">
+      <configuration name="TreeTest.canSuccessfullyInstantiateATreeWithASingleRootNode" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -555,21 +552,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/TreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -583,24 +566,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="24" selection-end-column="59" />
+        <state relative-caret-position="345">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/LibraryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/TreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
           <folding>
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#212#213#0" expanded="true" />
             <element signature="e#250#251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="76" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
           </folding>
         </state>
       </provider>
