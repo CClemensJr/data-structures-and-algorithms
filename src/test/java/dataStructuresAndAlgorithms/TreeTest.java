@@ -5,6 +5,9 @@ import dataStructuresAndAlgorithms.dataStructures.tree.BinaryTree;
 import dataStructuresAndAlgorithms.dataStructures.tree.Node;
 import dataStructuresAndAlgorithms.dataStructures.tree.Tree;
 import org.junit.Test;
+
+import java.util.ArrayList;
+
 import static org.junit.Assert.*;
 
 public class TreeTest {
@@ -54,8 +57,18 @@ public class TreeTest {
 
     @Test
     public void canSuccessfullyReturnACollectionFromAPreorderTraversal() {
+        BinaryTree test = new BinaryTree("This is the root node.");
 
+        test.addNode("This is the left child");
+        test.addNode("This is the right child");
 
+        ArrayList<String> expected = new ArrayList<String>();
+
+        expected.add("This is the root node.");
+        expected.add("This is the left child");
+        expected.add("This is the right child");
+
+        assertEquals(expected, test.preOrder(test.getRoot()));
     }
 //    Can successfully return a collection from an inorder traversal
 //    Can successfully return a collection from a postorder traversal
