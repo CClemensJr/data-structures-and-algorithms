@@ -4,12 +4,25 @@
 ## Challenge
 > Implement a Tree Data Structure.
 
+## Challenge 2.0
+> Write a breadth first traversal method which takes a Binary Tree as its unique input. 
+	Without utilizing any of the built-in methods available to your language, traverse 
+	the input tree using a Breadth-first approach; print every visited node's value.
+	
+### Example
+|Input|Output|
+|-----|-------|
+| [3, 5, 15] | 3 5 15|
+| [3, 5, 19]  | 3 5 19 |
+
+
+
 ## Approach and Efficiency
 ### Binary Tree
 > A binary tree is unordered so to find a value the whole tree may need to be searched.
 	Recursion is used to go traverse through the tree. This results in:
 ```
-    Time: O(N)
+    Time: O(n)
     Space: O(H), where H is the height of the tree
 ```
 	
@@ -21,6 +34,15 @@
 ```
 	Time: O(log n)
 	Space: O(1)
+```
+
+### Breadth First Traversal
+> For this problem I decided to use a queue to traverse through the tree level by level.
+	At each level the nodes were enqueued and when they are dequeued the value is sent to 
+	the console.
+```
+	Time: O(n)
+	Space: O(W), where W is the width of the tree.
 ```
 
 ## API
@@ -45,3 +67,7 @@
     Contains takes a value and traverses through the tree, returning true or false based on if it is in the tree.
 ```
 
+
+### Solution
+![alt text](https://github.com/CClemensJr/data-structures-and-algorithms/blob/master/assets/breadthFirstTraversal1.JPG "Breadth First Traversal Part 1")
+![alt text](https://github.com/CClemensJr/data-structures-and-algorithms/blob/master/assets/breadthFirstTraversal2.JPG "Breadth First Traversal Part 2")
