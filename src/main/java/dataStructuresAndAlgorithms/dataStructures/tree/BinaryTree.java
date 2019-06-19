@@ -1,12 +1,13 @@
 package dataStructuresAndAlgorithms.dataStructures.tree;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class BinaryTree<T> extends Tree {
 /***************
  * Instance Variables
  * */
-    private ArrayList<T> binaryTreeList;
+    private List<T> binaryTreeList;
 
 
 /***************
@@ -29,7 +30,7 @@ public class BinaryTree<T> extends Tree {
 /***************
  * Instance methods
  * */
-    public ArrayList<T> preOrder(Node root) {
+    public List<T> preOrder(Node root) {
         try {
             this.binaryTreeList.add((T) root.getValue());
 
@@ -46,7 +47,7 @@ public class BinaryTree<T> extends Tree {
     }
 
 
-    public ArrayList<T> inOrder(Node root) {
+    public List<T> inOrder(Node root) {
         try {
             if (root.getLeftChild() != null) preOrder(root.getLeftChild());
 
@@ -64,7 +65,7 @@ public class BinaryTree<T> extends Tree {
     }
 
 
-    public ArrayList<T> postOrder(Node root) {
+    public List<T> postOrder(Node root) {
         try {
             if (root.getLeftChild() != null) preOrder(root.getLeftChild());
 
@@ -73,6 +74,18 @@ public class BinaryTree<T> extends Tree {
             this.binaryTreeList.add((T) root.getValue());
 
             return this.binaryTreeList;
+
+        } catch(Exception e) {
+            System.out.println("An error has occurred: " + e);
+        }
+
+        return null;
+    }
+
+
+    public List<T> breadthFirst(Node root) {
+        try {
+
 
         } catch(Exception e) {
             System.out.println("An error has occurred: " + e);
