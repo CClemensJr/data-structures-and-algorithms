@@ -91,7 +91,10 @@ public class BinaryTree<T> extends Tree {
             queue.enqueue(root);
 
             while (queue.peek() != null) {
-                this.binaryTreeList.add((T) queue.dequeue());
+                Node front = (Node) queue.dequeue();
+
+                this.binaryTreeList.add((T) front);
+                System.out.println(front.getValue());
 
                 if (root.getLeftChild() != null) queue.enqueue(root.getLeftChild());
                 if (root.getRightChild() != null) queue.enqueue(root.getRightChild());

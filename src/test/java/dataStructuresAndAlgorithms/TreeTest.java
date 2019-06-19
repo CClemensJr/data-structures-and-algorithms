@@ -104,4 +104,21 @@ public class TreeTest {
 
         assertEquals(expected, test.postOrder(test.getRoot()));
     }
+
+
+    @Test
+    public void canSuccessfullyReturnACollectionFromABreadthFirstTraversal() {
+        BinaryTree test = new BinaryTree("This is the root node");
+
+        test.addNode("This is the left child");
+        test.addNode("This is the right child");
+
+        ArrayList<String> expected = new ArrayList<String>();
+
+        expected.add("This is the root node");
+        expected.add("This is the left child");
+        expected.add("This is the right child");
+
+        assertEquals(expected, test.breadthFirst(test.getRoot()));
+    }
 }
