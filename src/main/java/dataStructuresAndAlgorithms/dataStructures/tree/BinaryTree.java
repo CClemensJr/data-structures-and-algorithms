@@ -1,12 +1,14 @@
 package dataStructuresAndAlgorithms.dataStructures.tree;
 
 import java.util.ArrayList;
+import java.util.List;
+import dataStructuresAndAlgorithms.dataStructures.stacksAndQueues.Queue;
 
 public class BinaryTree<T> extends Tree {
 /***************
  * Instance Variables
  * */
-    private ArrayList<T> binaryTreeList;
+    private List<T> binaryTreeList;
 
 
 /***************
@@ -29,7 +31,7 @@ public class BinaryTree<T> extends Tree {
 /***************
  * Instance methods
  * */
-    public ArrayList<T> preOrder(Node root) {
+    public List<T> preOrder(Node root) {
         try {
             this.binaryTreeList.add((T) root.getValue());
 
@@ -46,7 +48,7 @@ public class BinaryTree<T> extends Tree {
     }
 
 
-    public ArrayList<T> inOrder(Node root) {
+    public List<T> inOrder(Node root) {
         try {
             if (root.getLeftChild() != null) preOrder(root.getLeftChild());
 
@@ -64,13 +66,39 @@ public class BinaryTree<T> extends Tree {
     }
 
 
-    public ArrayList<T> postOrder(Node root) {
+    public List<T> postOrder(Node root) {
         try {
             if (root.getLeftChild() != null) preOrder(root.getLeftChild());
 
             if (root.getRightChild() != null) preOrder(root.getRightChild());
 
             this.binaryTreeList.add((T) root.getValue());
+
+            return this.binaryTreeList;
+
+        } catch(Exception e) {
+            System.out.println("An error has occurred: " + e);
+        }
+
+        return null;
+    }
+
+
+    public List<T> breadthFirst(Node root) {
+        try {
+            Queue queue = new Queue();
+
+            queue.enqueue(root);
+
+            while (queue.peek() != null) {
+                Node front = (Node) queue.dequeue();
+
+                this.binaryTreeList.add((T) front);
+                System.out.println(front.getValue());
+
+                if (root.getLeftChild() != null) queue.enqueue(root.getLeftChild());
+                if (root.getRightChild() != null) queue.enqueue(root.getRightChild());
+            }
 
             return this.binaryTreeList;
 
