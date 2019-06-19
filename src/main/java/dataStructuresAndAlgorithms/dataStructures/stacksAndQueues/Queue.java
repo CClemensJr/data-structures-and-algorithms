@@ -1,6 +1,6 @@
 package dataStructuresAndAlgorithms.dataStructures.stacksAndQueues;
 
-public class Queue {
+public class Queue<T> {
 /************
  * Instance Variables
  * */
@@ -36,7 +36,7 @@ public class Queue {
  * */
     // The enqueue method takes any value as an argument and adds a new node with that value to the back of the queue
     // with an O(1) Time performance
-    public void enqueue(Object value) {
+    public void enqueue(T value) {
         try {
             Node node = new Node(value);
 
@@ -57,7 +57,7 @@ public class Queue {
     }
 
     // The dequeue method does not take any argument, removes the node from the front of the queue, and returns the node’s value.
-    public Object dequeue() {
+    public T dequeue() {
         try {
             Node temp = getFront();
 
@@ -77,7 +77,7 @@ public class Queue {
 
     // The peek method does not take an argument and returns the value of the node located in the front of the queue,
     // without removing it from the queue
-    public Object peek() {
+    public T peek() {
         try {
 
             return getFront().getValue();

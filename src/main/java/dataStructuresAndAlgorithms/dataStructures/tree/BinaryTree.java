@@ -2,6 +2,7 @@ package dataStructuresAndAlgorithms.dataStructures.tree;
 
 import java.util.ArrayList;
 import java.util.List;
+import dataStructuresAndAlgorithms.dataStructures.stacksAndQueues.Queue;
 
 public class BinaryTree<T> extends Tree {
 /***************
@@ -85,7 +86,9 @@ public class BinaryTree<T> extends Tree {
 
     public List<T> breadthFirst(Node root) {
         try {
+            Queue queue = new Queue();
 
+            queue.enqueue();
 
         } catch(Exception e) {
             System.out.println("An error has occurred: " + e);
