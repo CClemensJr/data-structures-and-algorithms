@@ -65,7 +65,7 @@ public class Queue<T> {
             temp.setNext(null);
             setSize(-1);
 
-            return temp.getValue();
+            return (T) temp.getValue();
 
         } catch(Exception e) {
 
@@ -80,7 +80,7 @@ public class Queue<T> {
     public T peek() {
         try {
 
-            return getFront().getValue();
+            return (T) getFront().getValue();
 
         } catch(Exception e) {
 

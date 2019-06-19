@@ -1,26 +1,26 @@
 package dataStructuresAndAlgorithms.dataStructures.stacksAndQueues;
 
-public class Node {
+public class Node<T> {
 /************
  * Instance Variables
  * */
-    private Object value;
+    private T value;
     private Node next;
 
 
 /************
  * Constructors
  * */
-    public Node(Object v) { this.value = v; }
+    public Node(T value) { this.value = value; }
 
 
 /************
  * Getters/Setters
  * */
-    public Object getValue() { return this.value; }
+    public T getValue() { return this.value; }
     public Node getNext() { return this.next; }
 
-    public void setValue(Object v) { this.value = v; }
+    public void setValue(T value) { this.value = value; }
     public void setNext(Node n) { this.next = n; }
 
 
