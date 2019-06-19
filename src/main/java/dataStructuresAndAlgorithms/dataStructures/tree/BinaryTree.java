@@ -93,16 +93,17 @@ public class BinaryTree<T> extends Tree {
             while (queue.peek() != null) {
                 Node front = (Node) queue.dequeue();
 
-                this.binaryTreeList.add((T) front);
+                this.binaryTreeList.add((T) front.getValue());
                 System.out.println(front.getValue());
 
-                if (root.getLeftChild() != null) queue.enqueue(root.getLeftChild());
-                if (root.getRightChild() != null) queue.enqueue(root.getRightChild());
+                if (front.getLeftChild() != null) queue.enqueue(front.getLeftChild());
+                if (front.getRightChild() != null) queue.enqueue(front.getRightChild());
             }
 
             return this.binaryTreeList;
 
         } catch(Exception e) {
+
             System.out.println("An error has occurred: " + e);
         }
 
