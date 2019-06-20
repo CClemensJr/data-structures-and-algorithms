@@ -111,17 +111,24 @@ public class BinaryTree<T> extends Tree {
     }
 
 
-    public T findMaximumValue(Node root) {
+    // Found a similar solution on geeksforgeeks
+    public int getMaximumValue(Node root) {
         try {
+            Node node = root;
+            int maxValue = (int)root.getValue();
+            int leftValue = findMaximumValue(node.getLeftChild());
+            int rightValue = findMaximumValue(node.getRightChild());
 
+            if (leftValue > maxValue) maxValue = leftValue;
+            if (rightValue > maxValue) maxValue = rightValue;
 
-            return (T) this.getRoot().getValue();
+            return maxValue;
 
         } catch(Exception e) {
 
             System.out.println("An error has occurred: " + e);
         }
 
-        return null;
+        return 0;
     }
 }
