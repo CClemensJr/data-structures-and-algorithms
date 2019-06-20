@@ -132,4 +132,6 @@ public class TreeTest {
         int expected = 46;
 
         assertEquals(expected, test.getMaximumValue(test.getRoot()));
+
+    }
 }
