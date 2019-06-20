@@ -121,4 +121,17 @@ public class TreeTest {
 
         assertEquals(expected, test.breadthFirst(test.getRoot()));
     }
+
+    @Test
+    public void canSuccessfullyTheMaximumValue() {
+        BinaryTree test = new BinaryTree(17);
+
+        test.addNode(29);
+        test.addNode(46);
+
+        int expected = 46;
+
+        assertEquals(expected, test.getMaximumValue(test.getRoot()));
+
+    }
 }
