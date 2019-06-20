@@ -109,4 +109,19 @@ public class BinaryTree<T> extends Tree {
 
         return null;
     }
+
+
+    public T findMaximumValue(Node root) {
+        try {
+
+
+            return (T) this.getRoot().getValue();
+
+        } catch(Exception e) {
+
+            System.out.println("An error has occurred: " + e);
+        }
+
+        return null;
+    }
 }
