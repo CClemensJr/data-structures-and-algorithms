@@ -11,7 +11,7 @@ public class AnimalShelterTest {
         AnimalShelter test = new AnimalShelter();
 
         int expected = 0;
-        int actual = test.getSize();
+        int actual = test.getShelter().getSize();
 
         assertEquals(expected, actual);
     }
@@ -24,7 +24,7 @@ public class AnimalShelterTest {
         testShelter.enqueue(testDog);
 
         String expected = "dog";
-        String actual = testShelter.getShelter().getFront().getValue();
+        String actual = (String) testShelter.getShelter().peek();
 
         assertEquals(expected, actual);
     }
