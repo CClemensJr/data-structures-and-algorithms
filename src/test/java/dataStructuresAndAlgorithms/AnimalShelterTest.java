@@ -28,4 +28,17 @@ public class AnimalShelterTest {
 
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void canDequeueCatOrDog() {
+        AnimalShelter testShelter = new AnimalShelter();
+        Animal testCat = new Animal("cat");
+
+        testShelter.enqueue(testCat);
+
+        String expected = "cat";
+        String actual = (String) testShelter.getShelter().dequeue();
+
+        assertEquals(expected, actual);
+    }
 }

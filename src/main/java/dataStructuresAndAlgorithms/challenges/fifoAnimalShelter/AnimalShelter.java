@@ -44,6 +44,23 @@ public class AnimalShelter {
 
 
     public Animal dequeue(Animal preference) {
+        try {
+            if (preference.getTypeOfAnimal() == "dog" || preference.getTypeOfAnimal() == "cat" ) {
+                while(shelter.peek() != preference) {
+                    shelter.enqueue(shelter.dequeue());
+                }
+
+                return (Animal) shelter.dequeue();
+
+            } else {
+                return null;
+            }
+
+        } catch(Exception e) {
+
+            System.err.println("An error has occurred: " + e);
+        }
+
         return null;
     }
 }
