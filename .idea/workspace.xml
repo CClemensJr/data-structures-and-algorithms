@@ -25,23 +25,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/multiBracketValidation/MultiBracketValidation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="465">
+              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/MultiBracketValidationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="391">
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,8 +93,8 @@
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/fifoAnimalShelter/Animal.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/fifoAnimalShelter/AnimalShelter.java" />
         <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/AnimalShelterTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/MultiBracketValidationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/multiBracketValidation/MultiBracketValidation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/MultiBracketValidationTest.java" />
       </list>
     </option>
   </component>
@@ -225,71 +222,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MultiBracketValidationTest.canReturnFalseIfMissingABracket">
-    <configuration name="AnimalShelterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructuresAndAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.AnimalShelterTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnimalShelterTest.canCreateAnEmptyShelter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructuresAndAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.AnimalShelterTest" />
-      <option name="METHOD_NAME" value="canCreateAnEmptyShelter" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnimalShelterTest.canDequeueCatOrDog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructuresAndAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.AnimalShelterTest" />
-      <option name="METHOD_NAME" value="canDequeueCatOrDog" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnimalShelterTest.canEnqueueCatOrDog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructuresAndAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.AnimalShelterTest" />
-      <option name="METHOD_NAME" value="canEnqueueCatOrDog" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultiBracketValidationTest.canReturnFalseIfMissingABracket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MultiBracketValidationTest.canReturnFalseIfMultiplePairsOfInValidBracketsReceived">
+    <configuration name="MultiBracketValidationTest.canReturnFalseIfInValidNestedBracketsReceived" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms.test" />
       <extension name="coverage">
         <pattern>
@@ -299,7 +233,71 @@
       </extension>
       <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
       <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.MultiBracketValidationTest" />
-      <option name="METHOD_NAME" value="canReturnFalseIfMissingABracket" />
+      <option name="METHOD_NAME" value="canReturnFalseIfInValidNestedBracketsReceived" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiBracketValidationTest.canReturnFalseIfMultiplePairsOfInValidBracketsReceived" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructuresAndAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.MultiBracketValidationTest" />
+      <option name="METHOD_NAME" value="canReturnFalseIfMultiplePairsOfInValidBracketsReceived" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiBracketValidationTest.canReturnTrueIfMultiplePairsOfValidBracketsReceived" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructuresAndAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.MultiBracketValidationTest" />
+      <option name="METHOD_NAME" value="canReturnTrueIfMultiplePairsOfValidBracketsReceived" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiBracketValidationTest.canReturnTrueIfNestedBracketsReceived" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructuresAndAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.MultiBracketValidationTest" />
+      <option name="METHOD_NAME" value="canReturnTrueIfNestedBracketsReceived" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiBracketValidationTest.canReturnTrueIfOnePairOfBracketsReceived" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructuresAndAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.MultiBracketValidationTest" />
+      <option name="METHOD_NAME" value="canReturnTrueIfOnePairOfBracketsReceived" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -307,11 +305,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MultiBracketValidationTest.canReturnFalseIfMissingABracket" />
-        <item itemvalue="JUnit.AnimalShelterTest.canDequeueCatOrDog" />
-        <item itemvalue="JUnit.AnimalShelterTest.canEnqueueCatOrDog" />
-        <item itemvalue="JUnit.AnimalShelterTest" />
-        <item itemvalue="JUnit.AnimalShelterTest.canCreateAnEmptyShelter" />
+        <item itemvalue="JUnit.MultiBracketValidationTest.canReturnFalseIfMultiplePairsOfInValidBracketsReceived" />
+        <item itemvalue="JUnit.MultiBracketValidationTest.canReturnFalseIfInValidNestedBracketsReceived" />
+        <item itemvalue="JUnit.MultiBracketValidationTest.canReturnTrueIfNestedBracketsReceived" />
+        <item itemvalue="JUnit.MultiBracketValidationTest.canReturnTrueIfMultiplePairsOfValidBracketsReceived" />
+        <item itemvalue="JUnit.MultiBracketValidationTest.canReturnTrueIfOnePairOfBracketsReceived" />
       </list>
     </recent_temporary>
   </component>
@@ -329,35 +327,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TreeTest_canSuccessfullyReturnACollectionFromAnInorderTraversal - 2019.06.17 at 13h 43m 19s.xml">
-      <configuration name="TreeTest.canSuccessfullyReturnACollectionFromAnInorderTraversal" configurationId="JUnit" />
+    <history-entry file="MultiBracketValidationTest_canReturnTrueIfOnePairOfBracketsReceived - 2019.06.21 at 10h 23m 49s.xml">
+      <configuration name="MultiBracketValidationTest.canReturnTrueIfOnePairOfBracketsReceived" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_canSuccessfullyReturnACollectionFromABreadthFirstTraversal - 2019.06.19 at 09h 38m 15s.xml">
-      <configuration name="TreeTest.canSuccessfullyReturnACollectionFromABreadthFirstTraversal" configurationId="JUnit" />
+    <history-entry file="MultiBracketValidationTest_canReturnTrueIfOnePairOfBracketsReceived - 2019.06.21 at 10h 24m 37s.xml">
+      <configuration name="MultiBracketValidationTest.canReturnTrueIfOnePairOfBracketsReceived" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_canSuccessfullyReturnACollectionFromABreadthFirstTraversal - 2019.06.19 at 09h 39m 33s.xml">
-      <configuration name="TreeTest.canSuccessfullyReturnACollectionFromABreadthFirstTraversal" configurationId="JUnit" />
+    <history-entry file="MultiBracketValidationTest_canReturnTrueIfOnePairOfBracketsReceived - 2019.06.21 at 10h 26m 00s.xml">
+      <configuration name="MultiBracketValidationTest.canReturnTrueIfOnePairOfBracketsReceived" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnimalShelterTest_canCreateAnEmptyShelter - 2019.06.20 at 22h 14m 58s.xml">
-      <configuration name="AnimalShelterTest.canCreateAnEmptyShelter" configurationId="JUnit" />
+    <history-entry file="MultiBracketValidationTest_canReturnTrueIfOnePairOfBracketsReceived - 2019.06.21 at 10h 26m 26s.xml">
+      <configuration name="MultiBracketValidationTest.canReturnTrueIfOnePairOfBracketsReceived" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnimalShelterTest_canEnqueueCatOrDog - 2019.06.20 at 22h 21m 11s.xml">
-      <configuration name="AnimalShelterTest.canEnqueueCatOrDog" configurationId="JUnit" />
+    <history-entry file="MultiBracketValidationTest_canReturnTrueIfOnePairOfBracketsReceived - 2019.06.21 at 10h 26m 43s.xml">
+      <configuration name="MultiBracketValidationTest.canReturnTrueIfOnePairOfBracketsReceived" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnimalShelterTest_canEnqueueCatOrDog - 2019.06.20 at 22h 21m 53s.xml">
-      <configuration name="AnimalShelterTest.canEnqueueCatOrDog" configurationId="JUnit" />
+    <history-entry file="MultiBracketValidationTest_canReturnTrueIfOnePairOfBracketsReceived - 2019.06.21 at 10h 30m 02s.xml">
+      <configuration name="MultiBracketValidationTest.canReturnTrueIfOnePairOfBracketsReceived" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnimalShelterTest_canEnqueueCatOrDog - 2019.06.20 at 22h 25m 28s.xml">
-      <configuration name="AnimalShelterTest.canEnqueueCatOrDog" configurationId="JUnit" />
+    <history-entry file="MultiBracketValidationTest_canReturnTrueIfMultiplePairsOfValidBracketsReceived - 2019.06.21 at 10h 30m 40s.xml">
+      <configuration name="MultiBracketValidationTest.canReturnTrueIfMultiplePairsOfValidBracketsReceived" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnimalShelterTest - 2019.06.20 at 22h 29m 09s.xml">
-      <configuration name="AnimalShelterTest" configurationId="JUnit" />
+    <history-entry file="MultiBracketValidationTest_canReturnTrueIfNestedBracketsReceived - 2019.06.21 at 10h 31m 39s.xml">
+      <configuration name="MultiBracketValidationTest.canReturnTrueIfNestedBracketsReceived" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnimalShelterTest_canEnqueueCatOrDog - 2019.06.20 at 22h 30m 17s.xml">
-      <configuration name="AnimalShelterTest.canEnqueueCatOrDog" configurationId="JUnit" />
+    <history-entry file="MultiBracketValidationTest_canReturnFalseIfInValidNestedBracketsReceived - 2019.06.21 at 10h 34m 59s.xml">
+      <configuration name="MultiBracketValidationTest.canReturnFalseIfInValidNestedBracketsReceived" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultiBracketValidationTest_canReturnFalseIfMissingABracket - 2019.06.21 at 10h 02m 45s.xml">
-      <configuration name="MultiBracketValidationTest.canReturnFalseIfMissingABracket" configurationId="JUnit" />
+    <history-entry file="MultiBracketValidationTest_canReturnFalseIfInValidNestedBracketsReceived - 2019.06.21 at 10h 35m 11s.xml">
+      <configuration name="MultiBracketValidationTest.canReturnFalseIfInValidNestedBracketsReceived" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -640,20 +638,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/MultiBracketValidationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/multiBracketValidation/MultiBracketValidation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="465">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/multiBracketValidation/MultiBracketValidation.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/MultiBracketValidationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        <state relative-caret-position="391">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

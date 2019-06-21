@@ -12,5 +12,38 @@ public class MultiBracketValidationTest {
         assertFalse(multiBracketValidation(test));
     }
 
+    @Test
+    public void canReturnTrueIfOnePairOfValidBracketsReceived() {
+        String test = "{}";
 
+        assertEquals(true, multiBracketValidation(test));
+    }
+
+    @Test
+    public void canReturnTrueIfMultiplePairsOfValidBracketsReceived() {
+        String test = "{}()[]";
+
+        assertEquals(true, multiBracketValidation(test));
+    }
+
+    @Test
+    public void canReturnTrueIfValidNestedBracketsReceived() {
+        String test = "{([])}";
+
+        assertEquals(true, multiBracketValidation(test));
+    }
+
+    @Test
+    public void canReturnFalseIfOnePairOfInValidBracketsReceived() {
+        String test = "{}";
+
+        assertEquals(true, multiBracketValidation(test));
+    }
+
+    @Test
+    public void canReturnFalseIfMultiplePairsOfInValidBracketsReceived() {
+        String test = "{}()[]";
+
+        assertEquals(true, multiBracketValidation(test));
+    }
 }
