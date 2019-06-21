@@ -24,7 +24,7 @@ public class AnimalShelter {
  * Getters / Setters
  * */
     public int getSize() { return this.size; }
-
+    public Queue getShelter() { return this.shelter; }
 
 /********
  * Instance Methods
