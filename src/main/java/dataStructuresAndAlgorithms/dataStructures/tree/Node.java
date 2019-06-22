@@ -24,6 +24,7 @@ public class Node<T> {
     public Node getLeftChild() { return this.leftChild; }
     public Node getRightChild() { return this.rightChild; }
 
+    public void setValue(T value) { this.value = value; }
     public void setLeftChild(T value) { this.leftChild = new Node(value); }
     public void setRightChild(T value) { this.rightChild = new Node(value); }
 }

@@ -17,7 +17,7 @@ public class BinaryTree<T> extends Tree {
     public BinaryTree() { binaryTreeList = new ArrayList<>(); }
 
     public BinaryTree(T value) {
-        binaryTreeList = new ArrayList<>();
+        //binaryTreeList = new ArrayList<>();
 
         this.setRoot(value);
     }
@@ -31,6 +31,22 @@ public class BinaryTree<T> extends Tree {
 /***************
  * Instance methods
  * */
+    public List<T> preOrder() {
+        try {
+            this.binaryTreeList = new ArrayList<>();
+
+            preOrder(this.getRoot());
+
+            return this.binaryTreeList;
+
+        } catch(Exception e) {
+            System.out.println("An error has occurred: " + e);
+        }
+
+        return null;
+    }
+
+
     public List<T> preOrder(Node root) {
         try {
             this.binaryTreeList.add((T) root.getValue());
