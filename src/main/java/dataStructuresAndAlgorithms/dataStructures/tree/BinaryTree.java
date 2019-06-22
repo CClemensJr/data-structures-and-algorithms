@@ -16,11 +16,7 @@ public class BinaryTree<T> extends Tree {
  * */
     public BinaryTree() { binaryTreeList = new ArrayList<>(); }
 
-    public BinaryTree(T value) {
-        //binaryTreeList = new ArrayList<>();
-
-        this.setRoot(value);
-    }
+    public BinaryTree(T value) { this.setRoot(value); }
 
 
 /***************
