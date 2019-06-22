@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aea3860-68c0-48a8-8219-7acf4c43cf7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/TreeTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -30,8 +27,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="570">
+              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/TreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
+            <state relative-caret-position="427">
               <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -237,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTreeTest.canUpdateNodeValueToFizz">
+  <component name="RunManager" selected="JUnit.TreeTest.canSuccessfullyReturnTrueIfValueInTree">
     <configuration name="FizzBuzzTreeTest.canUpdateNodeValueToFizz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms.test" />
       <extension name="coverage">
@@ -286,22 +286,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiBracketValidationTest.canReturnTrueIfMultiplePairsOfValidBracketsReceived" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructuresAndAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.MultiBracketValidationTest" />
-      <option name="METHOD_NAME" value="canReturnTrueIfMultiplePairsOfValidBracketsReceived" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MultiBracketValidationTest.canReturnTrueIfNestedBracketsReceived" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms.test" />
       <extension name="coverage">
@@ -318,13 +302,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeTest.canSuccessfullyReturnTrueIfValueInTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructuresAndAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.TreeTest" />
+      <option name="METHOD_NAME" value="canSuccessfullyReturnTrueIfValueInTree" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TreeTest.canSuccessfullyReturnTrueIfValueInTree" />
         <item itemvalue="JUnit.FizzBuzzTreeTest.canUpdateNodeValueToFizz" />
         <item itemvalue="JUnit.MultiBracketValidationTest.canReturnFalseIfMultiplePairsOfInValidBracketsReceived" />
         <item itemvalue="JUnit.MultiBracketValidationTest.canReturnFalseIfInValidNestedBracketsReceived" />
         <item itemvalue="JUnit.MultiBracketValidationTest.canReturnTrueIfNestedBracketsReceived" />
-        <item itemvalue="JUnit.MultiBracketValidationTest.canReturnTrueIfMultiplePairsOfValidBracketsReceived" />
       </list>
     </recent_temporary>
   </component>
@@ -342,9 +342,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizzBuzzTreeTest_canUpdateNodeValueToFizz - 2019.06.21 at 14h 30m 14s.xml">
-      <configuration name="FizzBuzzTreeTest.canUpdateNodeValueToFizz" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FizzBuzzTreeTest_canUpdateNodeValueToFizz - 2019.06.21 at 15h 09m 35s.xml">
       <configuration name="FizzBuzzTreeTest.canUpdateNodeValueToFizz" configurationId="JUnit" />
     </history-entry>
@@ -372,6 +369,9 @@
     <history-entry file="FizzBuzzTreeTest_canUpdateNodeValueToFizz - 2019.06.22 at 11h 37m 23s.xml">
       <configuration name="FizzBuzzTreeTest.canUpdateNodeValueToFizz" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TreeTest_canSuccessfullyReturnTrueIfValueInTree - 2019.06.22 at 12h 21m 14s.xml">
+      <configuration name="TreeTest.canSuccessfullyReturnTrueIfValueInTree" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -386,7 +386,7 @@
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15654951" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15654951" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -402,7 +402,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33762378" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33762378" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32891566" />
@@ -664,7 +664,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/TreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
+        <state relative-caret-position="427">
           <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -684,8 +684,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="570">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
