@@ -8,19 +8,6 @@ public class FizzBuzzTree<T> {
 
     public static void fizzBuzzTree(BinaryTree tree) {
         try {
-//            List nodes = tree.preOrder(tree.getRoot());
-//            BinaryTree newTree = new BinaryTree();
-//
-//            for (Object node : nodes) {
-//                if ((int) node % 5 == 0 && (int) node % 3 == 0 ) { node = "FizzBuzz"; }
-//                if ((int) node % 3 == 0) { node = "Fizz"; }
-//                if ((int) node % 5 == 0) { node = "Buzz"; }
-//
-//                newTree.addNode(node);
-//            }
-//
-//            return newTree;
-
             // If the tree isn't null, send the root node to fizzbuzznode
             if (tree != null) fizzBuzzNode(tree.getRoot());
         } catch (Exception e) {
@@ -54,5 +41,7 @@ public class FizzBuzzTree<T> {
         } catch (Exception e) {
             System.out.println("An error has occurred: " + e);
         }
+
+        return value;
     }
 }
