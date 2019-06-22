@@ -1,36 +1,51 @@
 package dataStructuresAndAlgorithms.challenges.fizzBuzzTree;
 
 import dataStructuresAndAlgorithms.dataStructures.tree.*;
-import java.util.List;
 
 
+// Vinh helped me out with this solution
 public class FizzBuzzTree<T> {
 
+    /**
+     * This method takes a tree and sends it to the setNodes function if  not null
+     * @param tree
+     */
     public static void fizzBuzzTree(BinaryTree tree) {
         try {
-            // If the tree isn't null, send the root node to fizzbuzznode
-            if (tree != null) fizzBuzzNode(tree.getRoot());
+            if (tree != null && tree.getRoot() != null) { setNodes(tree.getRoot()); }
+
         } catch (Exception e) {
+
             System.out.println("An error has occurred: " + e);
         }
 
-//        return null;
     }
 
 
-    public static void fizzBuzzNode(Node root) {
-        // if root isn't null
-        if(root != null) {
-            // Set the value of root equal to the value returned from the fizzBuzz method
-            root.setValue(fizzBuzz(root.getValue()));
-            // Then use recursion to continue traversing down the tree
-            fizzBuzzNode(root.getLeftChild());
-            fizzBuzzNode(root.getRightChild());
+    /**
+     * This method recursively takes a root node, sends it to the check values method, and then sets the value accordingly.
+     * @param root
+     */
+    public static void setNodes(Node root) {
+        try {
+            root.setValue(checkValues(root.getValue()));
+
+            setNodes(root.getLeftChild());
+            setNodes(root.getRightChild());
+
+        } catch (Exception e) {
+
+            System.out.println("An error has occurred: " + e);
         }
     }
 
 
-    public static Object fizzBuzz(Object value) {
+    /**
+     * This method takes a value, converts it to "Fizz" "Buzz" or "FizzBuzz" if divisible by 3, 5, or 15, and then sends it back to the setNodes method.
+     * @param value
+     * @return
+     */
+    public static Object checkValues(Object value) {
         try {
             if ((int) value % 5 == 0 && (int) value % 3 == 0 ) { value = "FizzBuzz"; }
             else if ((int) value % 3 == 0) { value = "Fizz"; }
@@ -39,6 +54,7 @@ public class FizzBuzzTree<T> {
             return value;
 
         } catch (Exception e) {
+
             System.out.println("An error has occurred: " + e);
         }
 

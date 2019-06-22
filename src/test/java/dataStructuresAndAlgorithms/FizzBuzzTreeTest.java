@@ -16,8 +16,8 @@ public class FizzBuzzTreeTest {
         BinaryTree test2 = new BinaryTree(5);
         BinaryTree test3 = new BinaryTree(15);
 
-        test1.getRoot().setLeftChild(test2.getRoot());
-        test1.getRoot().setRightChild(test3.getRoot());
+        test1.getRoot().setLeftChild(test2.getRoot().getValue());
+        test1.getRoot().setRightChild(test3.getRoot().getValue());
 
         fizzBuzzTree(test1);
 
