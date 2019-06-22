@@ -1,6 +1,7 @@
 package dataStructuresAndAlgorithms;
 
 import dataStructuresAndAlgorithms.challenges.arrayBinarySearch.BinarySearch;
+import dataStructuresAndAlgorithms.dataStructures.tree.BinarySearchTree;
 import dataStructuresAndAlgorithms.dataStructures.tree.BinaryTree;
 import dataStructuresAndAlgorithms.dataStructures.tree.Node;
 import dataStructuresAndAlgorithms.dataStructures.tree.Tree;
@@ -11,6 +12,9 @@ import java.util.ArrayList;
 import static org.junit.Assert.*;
 
 public class TreeTest {
+/**********
+ * Tree Tests
+ * */
     @Test
     public void canSuccessfullyInstantiateAnEmptyTree() {
         Tree test = new Tree();
@@ -18,26 +22,9 @@ public class TreeTest {
         assertNull(test.getRoot());
     }
 
-
-    @Test
-    public void canSuccessfullyInstantiateAnEmptyBinaryTree() {
-        BinaryTree test = new BinaryTree();
-
-        assertNull(test.getRoot());
-    }
-
-
     @Test
     public void canSuccessfullyInstantiateATreeWithASingleRootNode() {
         Tree test = new Tree("I tested this");
-
-        assertTrue(test.getRoot().getValue() == "I tested this");
-    }
-
-
-    @Test
-    public void canSuccessfullyInstantiateABinaryTreeWithASingleRootNode() {
-        BinaryTree test = new BinaryTree("I tested this");
 
         assertTrue(test.getRoot().getValue() == "I tested this");
     }
@@ -54,6 +41,23 @@ public class TreeTest {
     }
 
 
+
+/**********
+ * Binary Tree Tests
+ * */
+    @Test
+    public void canSuccessfullyInstantiateAnEmptyBinaryTree() {
+        BinaryTree test = new BinaryTree();
+
+        assertNull(test.getRoot());
+    }
+
+    @Test
+    public void canSuccessfullyInstantiateABinaryTreeWithASingleRootNode() {
+        BinaryTree test = new BinaryTree("I tested this");
+
+        assertTrue(test.getRoot().getValue() == "I tested this");
+    }
 
     @Test
     public void canSuccessfullyReturnACollectionFromAPreorderTraversal() {
@@ -132,6 +136,23 @@ public class TreeTest {
         int expected = 46;
 
         assertEquals(expected, test.getMaximumValue(test.getRoot()));
+
+    }
+
+
+/**********
+ * Binary Search Tree Tests
+ * */
+    @Test
+    public void canSuccessfullyReturnTrueIfValueInTree() {
+        BinarySearchTree test = new BinarySearchTree(17);
+
+        test.addNode(29);
+        test.addNode(46);
+
+        boolean expected = true;
+
+        assertEquals(expected, test.contains(46));
 
     }
 }
