@@ -22,11 +22,25 @@
 ```
 
 ## Algorithm
+```
+    1. Create method that takes an array
+    2. Loop through the array
+    3. Set a j variable equal to i - 1.
+    4. Set a temp variable equal to the array at position i.
+    5. Loop through the array again while j is greater than 0 and temp is less than array at position j
+    6. Set j = to j - 1
+    7. Set array at position j + 1 equal to temp
+    8. Return array.
+```
 
 ## Pseudocode
-
+![Insertion Sort PsuedoCode](https://github.com/CClemensJr/data-structures-and-algorithms/blob/master/assets/insertionSortPseudo.png "Insertion Sort Pseudo")
 
 ## Readings and References
+
 ### Watch
+* [Youtube](https://youtu.be/OGzPmgsI-pQ)
+
 ### Read
-### Bookmark
+* [Geeks for Geeks](https://www.geeksforgeeks.org/insertion-sort/)
+* [Wikipedia](https://en.wikipedia.org/wiki/Insertion_sort)
