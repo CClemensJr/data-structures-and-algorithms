@@ -1,7 +1,7 @@
 package dataStructuresAndAlgorithms;
 
-import org.junit.Test;
 
+import org.junit.Test;
 import static dataStructuresAndAlgorithms.dataStructures.sorts.Sort.insertionSort;
 import static org.junit.Assert.*;
 
