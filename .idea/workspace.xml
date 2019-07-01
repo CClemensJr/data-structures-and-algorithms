@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8aea3860-68c0-48a8-8219-7acf4c43cf7f" name="Default Changelist" comment="" />
+    <list default="true" id="8aea3860-68c0-48a8-8219-7acf4c43cf7f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/Sort.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -21,7 +23,26 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/Sort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/InsertionSortTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -61,6 +82,7 @@
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/BinaryTree.java" />
         <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/TreeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/Sort.java" />
       </list>
     </option>
   </component>
@@ -125,6 +147,27 @@
               <item name="dataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="sorts" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structures-and-algorithms" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structures-and-algorithms" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structures-and-algorithms" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -141,17 +184,17 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets" />
-      <recent name="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/fizzBuzzTree" />
-      <recent name="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/insertionSort" />
       <recent name="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges" />
       <recent name="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures" />
       <recent name="$PROJECT_DIR$/src/test/java/data/structures/and/algorithms" />
       <recent name="$PROJECT_DIR$/src/main/java/data/structures/and/algorithms/challenges/queueWithStacks" />
-      <recent name="$PROJECT_DIR$/src/main/java/data/structures/and/algorithms/challenges/multiBracketValidation" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/fizzBuzzTree" />
+      <recent name="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -313,6 +356,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22889842" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -617,6 +661,20 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/InsertionSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
