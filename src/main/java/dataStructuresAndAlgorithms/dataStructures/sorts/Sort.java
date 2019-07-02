@@ -1,5 +1,9 @@
 package dataStructuresAndAlgorithms.dataStructures.sorts;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import static java.util.Arrays.copyOfRange;
 
 public class Sort {
@@ -34,7 +38,12 @@ public class Sort {
     }
 
 
-    public static int[] mergeSort(int[] arr) {
+/**
+ * This method takes in an array and returns it, sorted, using the merge sort technique
+ * @param arr
+ * @return
+ */
+    public static void mergeSort(int[] arr) {
         try {
             int n = arr.length;
 
@@ -48,6 +57,42 @@ public class Sort {
 
                 merge(b, c, arr);
             }
+        } catch (Exception e) {
+
+            System.out.println("An error has occurred: " + e);
+        }
+    }
+
+
+    public static ArrayList<int[]> merge(int[] b, int[] c, int[] a) {
+        try {
+            int i = 0;
+            int j = 0;
+            int k = 0;
+
+            while (i < b.length && j < c.length) {
+                if (b[i] <= c[j]) {
+                    a[k] = b[i];
+
+                    i++;
+                } else {
+                    a[k] = c[j];
+
+                    j++;
+                }
+            }
+
+            ArrayList<int[]> aList = new ArrayList<>();
+
+            if (i == b.length) {
+                aList.addAll(Arrays.asList(a));
+                aList.addAll(Arrays.asList(c));
+            } else {
+                aList.addAll(Arrays.asList(a));
+                aList.addAll(Arrays.asList(c));
+            }
+
+            return aList;
         } catch (Exception e) {
 
             System.out.println("An error has occurred: " + e);
