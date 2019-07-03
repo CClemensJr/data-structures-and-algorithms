@@ -137,11 +137,11 @@ public class Sort {
             for(int i = left; i <= right; i++) {
                 if (arr[i] <= pivot) {
                     low++;
-                    Swap(arr, i, low);
+                    swap(arr, i, low);
                 }
             }
 
-            Swap(arr, right, low + 1);
+            swap(arr, right, low + 1);
 
             return low + 1;
         } catch (Exception e) {
@@ -150,6 +150,15 @@ public class Sort {
         }
 
         return 0;
+    }
+
+
+    public static void swap(int[] arr, int i, int low) {
+        int temp;
+
+        temp = arr[i];
+        arr[i] = arr[low];
+        arr[low] = temp;
     }
 
 }
