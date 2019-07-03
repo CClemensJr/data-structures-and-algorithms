@@ -116,10 +116,40 @@ public class Sort {
  * Quick Sort and Friends
  * */
     public static void quickSort(int[] arr, int left, int right) {
-        int position = partition(arr, left, right);
+        try {
+            int position = partition(arr, left, right);
 
-        quickSort(arr, left, position - 1);
-        quickSort(arr, position + 1, right);
+            quickSort(arr, left, position - 1);
+            quickSort(arr, position + 1, right);
+
+        } catch (Exception e) {
+
+            System.out.println("An error has occurred: " + e);
+        }
+    }
+
+
+    public static int partition(int[] arr, int left, int right) {
+        try {
+            int pivot = arr[right];
+            int low = left - 1;
+
+            for(int i = left; i <= right; i++) {
+                if (arr[i] <= pivot) {
+                    low++;
+                    Swap(arr, i, low);
+                }
+            }
+
+            Swap(arr, right, low + 1);
+
+            return low + 1;
+        } catch (Exception e) {
+
+            System.out.println("An error has occurred: " + e);
+        }
+
+        return 0;
     }
 
 }
