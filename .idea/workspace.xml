@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aea3860-68c0-48a8-8219-7acf4c43cf7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/QUICK-SORT-LECTURE-NOTES.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/QUICK-SORT-LECTURE-NOTES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/Sort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/Sort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="106" selection-start-line="106" selection-end-line="106" />
+            <state relative-caret-position="578">
+              <caret line="121" column="44" selection-start-line="121" selection-start-column="44" selection-end-line="121" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/QUICK-SORT-LECTURE-NOTES.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="187">
+              <first_editor relative-caret-position="240">
                 <caret line="16" column="119" selection-start-line="16" selection-start-column="119" selection-end-line="16" selection-end-column="119" />
               </first_editor>
               <second_editor />
@@ -124,9 +124,9 @@
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/LECTURE-NOTES.md" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/MERGE-SORT-LECTURE-NOTES.md" />
         <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/SortTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/Sort.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/QUICK-SORT-LECTURE-NOTES.md" />
+        <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/Sort.java" />
       </list>
     </option>
   </component>
@@ -760,16 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -783,10 +773,20 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/QUICK-SORT-LECTURE-NOTES.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="187">
+          <first_editor relative-caret-position="240">
             <caret line="16" column="119" selection-start-line="16" selection-start-column="119" selection-end-line="16" selection-end-column="119" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="121" column="44" selection-start-line="121" selection-start-column="44" selection-end-line="121" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

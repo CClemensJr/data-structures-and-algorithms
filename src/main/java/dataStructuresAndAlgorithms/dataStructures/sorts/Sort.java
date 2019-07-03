@@ -8,11 +8,15 @@ import static java.util.Arrays.copyOfRange;
 
 public class Sort {
 
-/**
- * This method takes an array and returns it, sorted, using the insertion sort technique.
- * @param arr
- * @return
- */
+/**************
+ * Insertion Sort
+ * */
+
+    /**
+     * This method takes an array and returns it, sorted, using the insertion sort technique.
+     * @param arr
+     * @return
+     */
     public static int[] insertionSort(int[] arr) {
         try {
             for (int i = 1; i < arr.length; i++) {
@@ -39,11 +43,14 @@ public class Sort {
 
 
 
-/**
- * This method takes in an array and returns it, sorted, using the merge sort technique
- * @param arr
- * @return
- */
+/**************
+ * Merge Sort and Friends
+ * */
+    /**
+     * This method takes in an array and returns it, sorted, using the merge sort technique
+     * @param arr
+     * @return
+     */
     public static void mergeSort(int[] arr) {
         try {
             int n = arr.length;
@@ -105,5 +112,14 @@ public class Sort {
 
 
 
+/**************
+ * Quick Sort and Friends
+ * */
+    public static void quickSort(int[] arr, int left, int right) {
+        int position = partition(arr, left, right);
+
+        quickSort(arr, left, position - 1);
+        quickSort(arr, position + 1, right);
+    }
 
 }
