@@ -5,8 +5,7 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
-import static dataStructuresAndAlgorithms.dataStructures.sorts.Sort.insertionSort;
-import static dataStructuresAndAlgorithms.dataStructures.sorts.Sort.mergeSort;
+import static dataStructuresAndAlgorithms.dataStructures.sorts.Sort.*;
 import static org.junit.Assert.*;
 
 public class SortTest {
@@ -20,12 +19,23 @@ public class SortTest {
     }
 
 
+//    @Test
+//    public void canUseMergeSort() {
+//        int[] test = { 12, 11, 13, 5, 6 };
+//        int[] expected = { 5, 6, 11, 12, 13 };
+//
+//        mergeSort(test);
+//
+//        assertArrayEquals(expected, test);
+//    }
+
+
     @Test
-    public void canUseMergeSort() {
+    public void canUseQuickSort() {
         int[] test = { 12, 11, 13, 5, 6 };
         int[] expected = { 5, 6, 11, 12, 13 };
 
-        mergeSort(test);
+        quickSort(test, 12, 6);
 
         assertArrayEquals(expected, test);
     }
