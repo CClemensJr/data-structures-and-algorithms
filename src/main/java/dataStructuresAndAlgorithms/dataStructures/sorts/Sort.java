@@ -38,6 +38,7 @@ public class Sort {
     }
 
 
+
 /**
  * This method takes in an array and returns it, sorted, using the merge sort technique
  * @param arr
@@ -50,7 +51,7 @@ public class Sort {
             if (arr.length > 1) {
                 int mid = n / 2;
                 int[] b = copyOfRange(arr, 0, mid);
-                int[] c = copyOfRange(arr, mid, n);
+                int[] c = copyOfRange(arr, mid + 1, n);
 
                 mergeSort(b);
                 mergeSort(c);
@@ -101,4 +102,8 @@ public class Sort {
 
         return null;
     }
+
+
+
+
 }

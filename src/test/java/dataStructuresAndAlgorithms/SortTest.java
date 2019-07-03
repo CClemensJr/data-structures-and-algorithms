@@ -20,13 +20,13 @@ public class SortTest {
     }
 
 
-    @Test
-    public void canUseMergeSort() {
-        int[] test = { 12, 11, 13, 5, 6 };
-        int[] expected = { 5, 6, 11, 12, 13 };
-
-        mergeSort(test);
-
-        assertArrayEquals(expected, test);
-    }
+//    @Test
+//    public void canUseMergeSort() {
+//        int[] test = { 12, 11, 13, 5, 6 };
+//        int[] expected = { 5, 6, 11, 12, 13 };
+//
+//        mergeSort(test);
+//
+//        assertArrayEquals(expected, test);
+//    }
 }
