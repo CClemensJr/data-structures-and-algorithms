@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aea3860-68c0-48a8-8219-7acf4c43cf7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Hashtable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Hashtable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/HashtableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/HashtableTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -26,7 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Hashtable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
@@ -40,10 +38,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/HashtableTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="59" column="47" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
+            <state relative-caret-position="486">
+              <caret line="97" column="45" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,9 +114,9 @@
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/QUICK-SORT-LECTURE-NOTES.md" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/Sort.java" />
         <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/SortTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/HashtableTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Hashtable.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/HashtableTest.java" />
       </list>
     </option>
   </component>
@@ -237,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HashtableTest.canGetTheValue">
+  <component name="RunManager" selected="JUnit.HashtableTest.canGetValueFromCollision">
     <configuration name="HashtableTest.canAddToHashMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms.test" />
       <extension name="coverage">
@@ -270,7 +278,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashtableTest.canHashAKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HashtableTest.canGetValueFromCollision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms.test" />
       <extension name="coverage">
         <pattern>
@@ -280,7 +288,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
       <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.HashtableTest" />
-      <option name="METHOD_NAME" value="canHashAKey" />
+      <option name="METHOD_NAME" value="canGetValueFromCollision" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashtableTest.canHandleCollision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructuresAndAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.HashtableTest" />
+      <option name="METHOD_NAME" value="canHandleCollision" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -302,29 +326,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortTest.canUseQuickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructuresAndAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.SortTest" />
-      <option name="METHOD_NAME" value="canUseQuickSort" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HashtableTest.canGetValueFromCollision" />
+        <item itemvalue="JUnit.HashtableTest.canHandleCollision" />
         <item itemvalue="JUnit.HashtableTest.canGetTheValue" />
         <item itemvalue="JUnit.HashtableTest.canAddToHashMap" />
         <item itemvalue="JUnit.HashtableTest.canVerifyIfKeyExists" />
-        <item itemvalue="JUnit.HashtableTest.canHashAKey" />
-        <item itemvalue="JUnit.SortTest.canUseQuickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -342,9 +350,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HashtableTest_canAddToHashMap - 2019.07.09 at 10h 00m 56s.xml">
-      <configuration name="HashtableTest.canAddToHashMap" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HashtableTest_canGetTheValue - 2019.07.09 at 10h 03m 16s.xml">
       <configuration name="HashtableTest.canGetTheValue" configurationId="JUnit" />
     </history-entry>
@@ -371,6 +376,9 @@
     </history-entry>
     <history-entry file="HashtableTest_canGetTheValue - 2019.07.09 at 10h 25m 04s.xml">
       <configuration name="HashtableTest.canGetTheValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashtableTest_canHandleCollision - 2019.07.09 at 10h 49m 08s.xml">
+      <configuration name="HashtableTest.canHandleCollision" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -752,14 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-7" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -777,16 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/HashtableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="59" column="47" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Hashtable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -794,6 +784,24 @@
           <folding>
             <element signature="e#232#233#0" expanded="true" />
             <element signature="e#268#269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/HashtableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="97" column="45" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

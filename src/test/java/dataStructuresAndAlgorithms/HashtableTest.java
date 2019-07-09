@@ -61,4 +61,42 @@ public class HashtableTest {
 
         assertEquals(expected, actual);
     }
+
+
+    @Test
+    public void canHandleCollision() {
+        Hashtable testTable = new Hashtable(5);
+
+        String testKey = "test key";
+        String testValue = "test value";
+
+        String keyTest = "key test";
+        String valueTest = "value test";
+
+        testTable.add(testKey, testValue);
+        testTable.add(keyTest, valueTest);
+
+        assertTrue(testTable.contains(testKey));
+        assertTrue(testTable.contains(keyTest));
+    }
+
+
+    @Test
+    public void canGetValueFromCollision() {
+        Hashtable testTable = new Hashtable(5);
+
+        String testKey = "test key";
+        String testValue = "test value";
+
+        String keyTest = "key test";
+        String valueTest = "value test";
+
+        testTable.add(testKey, testValue);
+        testTable.add(keyTest, valueTest);
+
+        String expected = valueTest;
+        String actual = testTable.get(keyTest);
+
+        assertEquals(expected, actual);
+    }
 }
