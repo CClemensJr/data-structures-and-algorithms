@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8aea3860-68c0-48a8-8219-7acf4c43cf7f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Hashtable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Hashtable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/HashtableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/HashtableTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -27,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Hashtable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+            <state relative-caret-position="198">
+              <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
               <folding>
                 <element signature="e#232#233#0" expanded="true" />
                 <element signature="e#268#269#0" expanded="true" />
@@ -40,20 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/HashtableTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/LibraryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            <state relative-caret-position="441">
+              <caret line="59" column="47" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="5" />
+            <state relative-caret-position="141">
+              <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -116,8 +106,8 @@
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/QUICK-SORT-LECTURE-NOTES.md" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/Sort.java" />
         <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/SortTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Node.java" />
         <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/HashtableTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Hashtable.java" />
       </list>
     </option>
@@ -247,7 +237,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HashtableTest.canVerifyIfKeyExists">
+  <component name="RunManager" selected="JUnit.HashtableTest.canGetTheValue">
+    <configuration name="HashtableTest.canAddToHashMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructuresAndAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.HashtableTest" />
+      <option name="METHOD_NAME" value="canAddToHashMap" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashtableTest.canGetTheValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructuresAndAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.HashtableTest" />
+      <option name="METHOD_NAME" value="canGetTheValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HashtableTest.canHashAKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms.test" />
       <extension name="coverage">
@@ -280,38 +302,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortTest.canUseInsertionSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructuresAndAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.SortTest" />
-      <option name="METHOD_NAME" value="canUseInsertionSort" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortTest.canUseMergeSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructuresAndAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.SortTest" />
-      <option name="METHOD_NAME" value="canUseMergeSort" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SortTest.canUseQuickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms.test" />
       <extension name="coverage">
@@ -330,11 +320,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HashtableTest.canGetTheValue" />
+        <item itemvalue="JUnit.HashtableTest.canAddToHashMap" />
         <item itemvalue="JUnit.HashtableTest.canVerifyIfKeyExists" />
         <item itemvalue="JUnit.HashtableTest.canHashAKey" />
         <item itemvalue="JUnit.SortTest.canUseQuickSort" />
-        <item itemvalue="JUnit.SortTest.canUseMergeSort" />
-        <item itemvalue="JUnit.SortTest.canUseInsertionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -352,35 +342,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SortTest_canUseMergeSort - 2019.07.02 at 10h 42m 59s.xml">
-      <configuration name="SortTest.canUseMergeSort" configurationId="JUnit" />
+    <history-entry file="HashtableTest_canAddToHashMap - 2019.07.09 at 10h 00m 56s.xml">
+      <configuration name="HashtableTest.canAddToHashMap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortTest_canUseMergeSort - 2019.07.02 at 10h 49m 01s.xml">
-      <configuration name="SortTest.canUseMergeSort" configurationId="JUnit" />
+    <history-entry file="HashtableTest_canGetTheValue - 2019.07.09 at 10h 03m 16s.xml">
+      <configuration name="HashtableTest.canGetTheValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortTest_canUseMergeSort - 2019.07.02 at 10h 49m 32s.xml">
-      <configuration name="SortTest.canUseMergeSort" configurationId="JUnit" />
+    <history-entry file="HashtableTest_canGetTheValue - 2019.07.09 at 10h 05m 24s.xml">
+      <configuration name="HashtableTest.canGetTheValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortTest_canUseMergeSort - 2019.07.02 at 21h 40m 42s.xml">
-      <configuration name="SortTest.canUseMergeSort" configurationId="JUnit" />
+    <history-entry file="HashtableTest_canGetTheValue - 2019.07.09 at 10h 15m 50s.xml">
+      <configuration name="HashtableTest.canGetTheValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortTest_canUseMergeSort - 2019.07.02 at 21h 40m 53s.xml">
-      <configuration name="SortTest.canUseMergeSort" configurationId="JUnit" />
+    <history-entry file="HashtableTest_canGetTheValue - 2019.07.09 at 10h 17m 05s.xml">
+      <configuration name="HashtableTest.canGetTheValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortTest_canUseMergeSort - 2019.07.02 at 21h 41m 30s.xml">
-      <configuration name="SortTest.canUseMergeSort" configurationId="JUnit" />
+    <history-entry file="HashtableTest_canGetTheValue - 2019.07.09 at 10h 18m 39s.xml">
+      <configuration name="HashtableTest.canGetTheValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortTest_canUseMergeSort - 2019.07.02 at 21h 42m 15s.xml">
-      <configuration name="SortTest.canUseMergeSort" configurationId="JUnit" />
+    <history-entry file="HashtableTest_canGetTheValue - 2019.07.09 at 10h 22m 14s.xml">
+      <configuration name="HashtableTest.canGetTheValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortTest_canUseMergeSort - 2019.07.02 at 21h 42m 36s.xml">
-      <configuration name="SortTest.canUseMergeSort" configurationId="JUnit" />
+    <history-entry file="HashtableTest_canGetTheValue - 2019.07.09 at 10h 23m 21s.xml">
+      <configuration name="HashtableTest.canGetTheValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashtableTest_canHashAKey - 2019.07.08 at 22h 00m 55s.xml">
-      <configuration name="HashtableTest.canHashAKey" configurationId="JUnit" />
+    <history-entry file="HashtableTest_canGetTheValue - 2019.07.09 at 10h 24m 15s.xml">
+      <configuration name="HashtableTest.canGetTheValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashtableTest_canVerifyIfKeyExists - 2019.07.08 at 22h 15m 49s.xml">
-      <configuration name="HashtableTest.canVerifyIfKeyExists" configurationId="JUnit" />
+    <history-entry file="HashtableTest_canGetTheValue - 2019.07.09 at 10h 25m 04s.xml">
+      <configuration name="HashtableTest.canGetTheValue" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -407,12 +397,12 @@
       <window_info id="DB Browser" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26746988" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26746988" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33734939" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33734939" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32891566" />
@@ -770,13 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -787,10 +770,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/HashtableTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        <state relative-caret-position="441">
+          <caret line="59" column="47" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -799,8 +789,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Hashtable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        <state relative-caret-position="198">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
           <folding>
             <element signature="e#232#233#0" expanded="true" />
             <element signature="e#268#269#0" expanded="true" />
