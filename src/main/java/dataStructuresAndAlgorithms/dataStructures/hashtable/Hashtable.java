@@ -32,14 +32,25 @@ public class Hashtable {
 
     // get: takes in the key and returns the value from the table.
     public String get (String key) {
+        try {
+            int index  = this.hash(key);
+
+            if (this.map[index] != null) return this.map[index].getValue();
+
+        } catch (Exception err) {
+
+            System.out.println("An error has occurred: " + err);
+        }
+
         return null;
     }
+
 
     // contains: takes in the key and returns a boolean, indicating if the key exists in the table already.
     public boolean contains (String key) {
         try {
             int index  = this.hash(key);
-            
+
             if (this.map[index] != null) return true;
 
         } catch (Exception err) {
@@ -49,6 +60,7 @@ public class Hashtable {
 
         return false;
     }
+
 
     // hash: takes in an arbitrary key and returns an index in the collection.
     public int hash (String key) {
