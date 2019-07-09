@@ -21,7 +21,26 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Hashtable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -122,6 +141,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
               <item name="dataStructures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structures-and-algorithms" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="hashtable" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -331,7 +360,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="807" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23462088" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -349,7 +379,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3916084" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33734939" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32891566" />
@@ -706,6 +736,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-7" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Hashtable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
