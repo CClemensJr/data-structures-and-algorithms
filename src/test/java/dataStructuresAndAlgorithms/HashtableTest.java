@@ -13,4 +13,12 @@ public class HashtableTest {
 
         assertTrue(testIndex >= 0 && testIndex <= 4);
     }
+
+    @Test
+    public void canVerifyIfKeyDoesntExist() {
+        Hashtable testTable = new Hashtable(5);
+        String testKey = "Test";
+
+        assertFalse(testTable.contains(testKey));
+    }
 }

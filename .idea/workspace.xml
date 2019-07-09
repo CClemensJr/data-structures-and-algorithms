@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aea3860-68c0-48a8-8219-7acf4c43cf7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Hashtable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Hashtable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/HashtableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/HashtableTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -42,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/HashtableTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -249,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HashtableTest.canHashAKey">
+  <component name="RunManager" selected="JUnit.HashtableTest.canVerifyIfKeyExists">
     <configuration name="HashtableTest.canHashAKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms.test" />
       <extension name="coverage">
@@ -266,7 +266,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortTest.canNotInsertionSortStrings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HashtableTest.canVerifyIfKeyExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms.test" />
       <extension name="coverage">
         <pattern>
@@ -275,8 +275,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.SortTest" />
-      <option name="METHOD_NAME" value="canNotInsertionSortStrings" />
+      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.HashtableTest" />
+      <option name="METHOD_NAME" value="canVerifyIfKeyExists" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -332,11 +332,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HashtableTest.canVerifyIfKeyExists" />
         <item itemvalue="JUnit.HashtableTest.canHashAKey" />
         <item itemvalue="JUnit.SortTest.canUseQuickSort" />
         <item itemvalue="JUnit.SortTest.canUseMergeSort" />
         <item itemvalue="JUnit.SortTest.canUseInsertionSort" />
-        <item itemvalue="JUnit.SortTest.canNotInsertionSortStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -354,9 +354,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SortTest_canUseMergeSort - 2019.07.02 at 10h 42m 14s.xml">
-      <configuration name="SortTest.canUseMergeSort" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SortTest_canUseMergeSort - 2019.07.02 at 10h 42m 59s.xml">
       <configuration name="SortTest.canUseMergeSort" configurationId="JUnit" />
     </history-entry>
@@ -384,6 +381,9 @@
     <history-entry file="HashtableTest_canHashAKey - 2019.07.08 at 22h 00m 55s.xml">
       <configuration name="HashtableTest.canHashAKey" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HashtableTest_canVerifyIfKeyExists - 2019.07.08 at 22h 15m 49s.xml">
+      <configuration name="HashtableTest.canVerifyIfKeyExists" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -409,12 +409,12 @@
       <window_info id="DB Browser" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26746988" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26746988" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33734939" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33734939" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32891566" />
@@ -804,8 +804,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/HashtableTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="255">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
