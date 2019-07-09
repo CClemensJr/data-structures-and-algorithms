@@ -37,6 +37,16 @@ public class Hashtable {
 
     // contains: takes in the key and returns a boolean, indicating if the key exists in the table already.
     public boolean contains (String key) {
+        try {
+            int index  = this.hash(key);
+            
+            if (this.map[index] != null) return true;
+
+        } catch (Exception err) {
+
+            System.out.println("An error has occurred: " + err);
+        }
+
         return false;
     }
 
@@ -57,6 +67,7 @@ public class Hashtable {
 
             System.out.println("An error has occurred: " + err);
         }
+
         return 0;
     }
 }
