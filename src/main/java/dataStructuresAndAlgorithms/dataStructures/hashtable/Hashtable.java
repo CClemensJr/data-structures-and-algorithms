@@ -24,5 +24,24 @@ public class Hashtable {
 /****************
  * Instance Methods
  * */
+    // add: takes in both the key and value. This method should hash the key, and add the key and value pair to the table,
+    // handling collisions as needed.
+    public void add (String key, String value) {
 
+    }
+
+    // get: takes in the key and returns the value from the table.
+    public String get (String key) {
+        return null;
+    }
+
+    // contains: takes in the key and returns a boolean, indicating if the key exists in the table already.
+    public boolean contains (String key) {
+        return false;
+    }
+
+    // hash: takes in an arbitrary key and returns an index in the collection.
+    public int hash (String key) {
+        return 0;
+    }
 }
