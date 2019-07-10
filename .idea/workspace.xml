@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/repeatedWord/RepeatedWord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            <state relative-caret-position="240">
+              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,8 +40,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/RepeatedWordTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="105">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -225,23 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HashtableTest.canHandleCollision">
-    <configuration name="HashtableTest.canAddToHashMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructuresAndAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.HashtableTest" />
-      <option name="METHOD_NAME" value="canAddToHashMap" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RepeatedWordTest.canReturnFirstRepeatedWord">
     <configuration name="HashtableTest.canGetTheValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms.test" />
       <extension name="coverage">
@@ -290,7 +277,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashtableTest.canVerifyIfKeyExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RepeatedWordTest.canReturnFirstRepeatedWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms.test" />
       <extension name="coverage">
         <pattern>
@@ -299,8 +286,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.HashtableTest" />
-      <option name="METHOD_NAME" value="canVerifyIfKeyExists" />
+      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.RepeatedWordTest" />
+      <option name="METHOD_NAME" value="canReturnFirstRepeatedWord" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepeatedWordTest.canReturnNullWhenNoRepeats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructuresAndAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.RepeatedWordTest" />
+      <option name="METHOD_NAME" value="canReturnNullWhenNoRepeats" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -308,11 +311,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RepeatedWordTest.canReturnFirstRepeatedWord" />
+        <item itemvalue="JUnit.RepeatedWordTest.canReturnNullWhenNoRepeats" />
         <item itemvalue="JUnit.HashtableTest.canHandleCollision" />
         <item itemvalue="JUnit.HashtableTest.canGetValueFromCollision" />
         <item itemvalue="JUnit.HashtableTest.canGetTheValue" />
-        <item itemvalue="JUnit.HashtableTest.canAddToHashMap" />
-        <item itemvalue="JUnit.HashtableTest.canVerifyIfKeyExists" />
       </list>
     </recent_temporary>
   </component>
@@ -330,18 +333,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HashtableTest_canGetValueFromCollision - 2019.07.09 at 11h 23m 24s.xml">
-      <configuration name="HashtableTest.canGetValueFromCollision" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HashtableTest_canGetValueFromCollision - 2019.07.09 at 11h 26m 22s.xml">
-      <configuration name="HashtableTest.canGetValueFromCollision" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HashtableTest_canGetValueFromCollision - 2019.07.09 at 11h 26m 31s.xml">
-      <configuration name="HashtableTest.canGetValueFromCollision" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HashtableTest_canGetValueFromCollision - 2019.07.09 at 11h 26m 38s.xml">
-      <configuration name="HashtableTest.canGetValueFromCollision" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HashtableTest_canGetValueFromCollision - 2019.07.09 at 11h 26m 50s.xml">
       <configuration name="HashtableTest.canGetValueFromCollision" configurationId="JUnit" />
     </history-entry>
@@ -359,6 +350,18 @@
     </history-entry>
     <history-entry file="HashtableTest_canHandleCollision - 2019.07.09 at 21h 35m 36s.xml">
       <configuration name="HashtableTest.canHandleCollision" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepeatedWordTest_canReturnFirstRepeatedWord - 2019.07.10 at 09h 27m 52s.xml">
+      <configuration name="RepeatedWordTest.canReturnFirstRepeatedWord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepeatedWordTest_canReturnNullWhenNoRepeats - 2019.07.10 at 09h 29m 39s.xml">
+      <configuration name="RepeatedWordTest.canReturnNullWhenNoRepeats" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepeatedWordTest_canReturnFirstRepeatedWord - 2019.07.10 at 09h 39m 00s.xml">
+      <configuration name="RepeatedWordTest.canReturnFirstRepeatedWord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepeatedWordTest_canReturnFirstRepeatedWord - 2019.07.10 at 09h 39m 11s.xml">
+      <configuration name="RepeatedWordTest.canReturnFirstRepeatedWord" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -385,12 +388,12 @@
       <window_info id="DB Browser" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26713288" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34457833" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26626506" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.34457833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.39156628" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.39156628" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32891566" />
@@ -406,6 +409,18 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/repeatedWord/RepeatedWord.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/linkedList/Library.java">
@@ -740,16 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/LibraryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -786,17 +791,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/RepeatedWordTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/RepeatedWordTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/repeatedWord/RepeatedWord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state relative-caret-position="240">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
