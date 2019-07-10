@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aea3860-68c0-48a8-8219-7acf4c43cf7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/HashtableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/HashtableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -23,52 +23,7 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Hashtable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-              <folding>
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/HashtableTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="97" column="45" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -245,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HashtableTest.canGetValueFromCollision">
+  <component name="RunManager" selected="JUnit.HashtableTest.canHandleCollision">
     <configuration name="HashtableTest.canAddToHashMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms.test" />
       <extension name="coverage">
@@ -328,8 +283,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HashtableTest.canGetValueFromCollision" />
         <item itemvalue="JUnit.HashtableTest.canHandleCollision" />
+        <item itemvalue="JUnit.HashtableTest.canGetValueFromCollision" />
         <item itemvalue="JUnit.HashtableTest.canGetTheValue" />
         <item itemvalue="JUnit.HashtableTest.canAddToHashMap" />
         <item itemvalue="JUnit.HashtableTest.canVerifyIfKeyExists" />
@@ -350,34 +305,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HashtableTest_canGetTheValue - 2019.07.09 at 10h 03m 16s.xml">
-      <configuration name="HashtableTest.canGetTheValue" configurationId="JUnit" />
+    <history-entry file="HashtableTest_canGetValueFromCollision - 2019.07.09 at 11h 23m 24s.xml">
+      <configuration name="HashtableTest.canGetValueFromCollision" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashtableTest_canGetTheValue - 2019.07.09 at 10h 05m 24s.xml">
-      <configuration name="HashtableTest.canGetTheValue" configurationId="JUnit" />
+    <history-entry file="HashtableTest_canGetValueFromCollision - 2019.07.09 at 11h 26m 22s.xml">
+      <configuration name="HashtableTest.canGetValueFromCollision" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashtableTest_canGetTheValue - 2019.07.09 at 10h 15m 50s.xml">
-      <configuration name="HashtableTest.canGetTheValue" configurationId="JUnit" />
+    <history-entry file="HashtableTest_canGetValueFromCollision - 2019.07.09 at 11h 26m 31s.xml">
+      <configuration name="HashtableTest.canGetValueFromCollision" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashtableTest_canGetTheValue - 2019.07.09 at 10h 17m 05s.xml">
-      <configuration name="HashtableTest.canGetTheValue" configurationId="JUnit" />
+    <history-entry file="HashtableTest_canGetValueFromCollision - 2019.07.09 at 11h 26m 38s.xml">
+      <configuration name="HashtableTest.canGetValueFromCollision" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashtableTest_canGetTheValue - 2019.07.09 at 10h 18m 39s.xml">
-      <configuration name="HashtableTest.canGetTheValue" configurationId="JUnit" />
+    <history-entry file="HashtableTest_canGetValueFromCollision - 2019.07.09 at 11h 26m 50s.xml">
+      <configuration name="HashtableTest.canGetValueFromCollision" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashtableTest_canGetTheValue - 2019.07.09 at 10h 22m 14s.xml">
-      <configuration name="HashtableTest.canGetTheValue" configurationId="JUnit" />
+    <history-entry file="HashtableTest_canGetValueFromCollision - 2019.07.09 at 11h 28m 02s.xml">
+      <configuration name="HashtableTest.canGetValueFromCollision" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashtableTest_canGetTheValue - 2019.07.09 at 10h 23m 21s.xml">
-      <configuration name="HashtableTest.canGetTheValue" configurationId="JUnit" />
+    <history-entry file="HashtableTest_canGetValueFromCollision - 2019.07.09 at 11h 28m 59s.xml">
+      <configuration name="HashtableTest.canGetValueFromCollision" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashtableTest_canGetTheValue - 2019.07.09 at 10h 24m 15s.xml">
-      <configuration name="HashtableTest.canGetTheValue" configurationId="JUnit" />
+    <history-entry file="HashtableTest_canHandleCollision - 2019.07.09 at 11h 30m 38s.xml">
+      <configuration name="HashtableTest.canHandleCollision" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashtableTest_canGetTheValue - 2019.07.09 at 10h 25m 04s.xml">
-      <configuration name="HashtableTest.canGetTheValue" configurationId="JUnit" />
+    <history-entry file="HashtableTest_canHandleCollision - 2019.07.09 at 11h 31m 06s.xml">
+      <configuration name="HashtableTest.canHandleCollision" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashtableTest_canHandleCollision - 2019.07.09 at 10h 49m 08s.xml">
+    <history-entry file="HashtableTest_canHandleCollision - 2019.07.09 at 21h 35m 36s.xml">
       <configuration name="HashtableTest.canHandleCollision" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -392,7 +347,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23462088" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -405,12 +359,12 @@
       <window_info id="DB Browser" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26746988" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26713288" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34457833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33734939" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.39156628" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32891566" />
@@ -770,24 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Hashtable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-          <folding>
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -798,10 +734,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/HashtableTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="97" column="45" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
+        <state relative-caret-position="278">
+          <caret line="78" column="71" selection-start-line="78" selection-start-column="71" selection-end-line="78" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Hashtable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+          <folding>
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
           </folding>
         </state>
       </provider>
