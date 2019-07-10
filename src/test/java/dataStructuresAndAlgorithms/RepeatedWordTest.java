@@ -23,4 +23,13 @@ public class RepeatedWordTest {
 
         assertNull(actual);
     }
+
+
+    @Test
+    public void canReturnNullWhenStringEmpty() {
+        String test = " ";
+        String actual = findTheRepeatedWord(test);
+
+        assertNull(actual);
+    }
 }
