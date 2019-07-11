@@ -1,11 +1,11 @@
 package dataStructuresAndAlgorithms.dataStructures.hashtable;
 
-public class Node {
+public class Node<T> {
 /****************
  * Instance Variables
  * */
     private String key;
-    private String value;
+    private T value;
     private Node next;
 
 
@@ -14,7 +14,7 @@ public class Node {
  * */
     public Node () {}
 
-    public Node (String key, String value) {
+    public Node (String key, T value) {
         this.key = key;
         this.value = value;
     }
@@ -26,8 +26,8 @@ public class Node {
     public String getKey() { return this.key; }
     public void setKey(String key) { this.key = key; }
 
-    public String getValue() { return this.value; }
-    public void setValue(String value) { this.value = value; }
+    public T getValue() { return this.value; }
+    public void setValue(T value) { this.value = value; }
 
     public Node getNext() { return this.next; }
     public void setNext(Node next) { this.next = next; }
