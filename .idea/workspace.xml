@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8aea3860-68c0-48a8-8219-7acf4c43cf7f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/treeIntersection/TreeIntersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/treeIntersection/TreeIntersection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/HashtableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/HashtableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/TreeIntersectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/TreeIntersectionTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -24,13 +26,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/treeIntersection/TreeIntersection.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/TreeIntersectionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="69" column="64" selection-start-line="69" selection-start-column="64" selection-end-line="69" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1351#1360#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,14 +130,14 @@
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/QUICK-SORT-LECTURE-NOTES.md" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/sorts/Sort.java" />
         <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/SortTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/HashtableTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/repeatedWord/RepeatedWord.java" />
         <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/RepeatedWordTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/repeatedWord/README.md" />
-        <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/TreeIntersectionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/hashtable/Hashtable.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/HashtableTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/treeIntersection/TreeIntersection.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/TreeIntersectionTest.java" />
       </list>
     </option>
   </component>
@@ -280,7 +295,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RepeatedWordTest.canReturnNullWhenStringEmpty">
+  <component name="RunManager" selected="JUnit.TreeIntersectionTest.canReturnNullIfATreeIsEmpty">
     <configuration name="HashtableTest.canHandleCollision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms.test" />
       <extension name="coverage">
@@ -297,7 +312,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepeatedWordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeIntersectionTest.canReturnACommonValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms.test" />
       <extension name="coverage">
         <pattern>
@@ -306,29 +321,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.RepeatedWordTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RepeatedWordTest.canReturnFirstRepeatedWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructuresAndAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.RepeatedWordTest" />
-      <option name="METHOD_NAME" value="canReturnFirstRepeatedWord" />
+      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.TreeIntersectionTest" />
+      <option name="METHOD_NAME" value="canReturnACommonValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepeatedWordTest.canReturnNullWhenNoRepeats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeIntersectionTest.canReturnMultipleCommonValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms.test" />
       <extension name="coverage">
         <pattern>
@@ -337,14 +337,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.RepeatedWordTest" />
-      <option name="METHOD_NAME" value="canReturnNullWhenNoRepeats" />
+      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.TreeIntersectionTest" />
+      <option name="METHOD_NAME" value="canReturnMultipleCommonValues" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepeatedWordTest.canReturnNullWhenStringEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeIntersectionTest.canReturnMultipleCommonValuesWithDifferentSizedTrees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms.test" />
       <extension name="coverage">
         <pattern>
@@ -353,8 +353,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.RepeatedWordTest" />
-      <option name="METHOD_NAME" value="canReturnNullWhenStringEmpty" />
+      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.TreeIntersectionTest" />
+      <option name="METHOD_NAME" value="canReturnMultipleCommonValuesWithDifferentSizedTrees" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeIntersectionTest.canReturnNullIfATreeIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructuresAndAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dataStructuresAndAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="dataStructuresAndAlgorithms.TreeIntersectionTest" />
+      <option name="METHOD_NAME" value="canReturnNullIfATreeIsEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -362,10 +378,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RepeatedWordTest.canReturnNullWhenStringEmpty" />
-        <item itemvalue="JUnit.RepeatedWordTest" />
-        <item itemvalue="JUnit.RepeatedWordTest.canReturnFirstRepeatedWord" />
-        <item itemvalue="JUnit.RepeatedWordTest.canReturnNullWhenNoRepeats" />
+        <item itemvalue="JUnit.TreeIntersectionTest.canReturnNullIfATreeIsEmpty" />
+        <item itemvalue="JUnit.TreeIntersectionTest.canReturnMultipleCommonValuesWithDifferentSizedTrees" />
+        <item itemvalue="JUnit.TreeIntersectionTest.canReturnMultipleCommonValues" />
+        <item itemvalue="JUnit.TreeIntersectionTest.canReturnACommonValue" />
         <item itemvalue="JUnit.HashtableTest.canHandleCollision" />
       </list>
     </recent_temporary>
@@ -384,35 +400,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RepeatedWordTest_canReturnFirstRepeatedWord - 2019.07.10 at 09h 39m 11s.xml">
-      <configuration name="RepeatedWordTest.canReturnFirstRepeatedWord" configurationId="JUnit" />
+    <history-entry file="TreeIntersectionTest_canReturnACommonValue - 2019.07.11 at 12h 14m 20s.xml">
+      <configuration name="TreeIntersectionTest.canReturnACommonValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepeatedWordTest_canReturnFirstRepeatedWord - 2019.07.10 at 10h 31m 19s.xml">
-      <configuration name="RepeatedWordTest.canReturnFirstRepeatedWord" configurationId="JUnit" />
+    <history-entry file="TreeIntersectionTest_canReturnACommonValue - 2019.07.11 at 12h 15m 40s.xml">
+      <configuration name="TreeIntersectionTest.canReturnACommonValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepeatedWordTest_canReturnFirstRepeatedWord - 2019.07.10 at 10h 32m 30s.xml">
-      <configuration name="RepeatedWordTest.canReturnFirstRepeatedWord" configurationId="JUnit" />
+    <history-entry file="TreeIntersectionTest_canReturnMultipleCommonValues - 2019.07.11 at 12h 18m 41s.xml">
+      <configuration name="TreeIntersectionTest.canReturnMultipleCommonValues" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepeatedWordTest_canReturnFirstRepeatedWord - 2019.07.10 at 10h 33m 22s.xml">
-      <configuration name="RepeatedWordTest.canReturnFirstRepeatedWord" configurationId="JUnit" />
+    <history-entry file="TreeIntersectionTest_canReturnMultipleCommonValues - 2019.07.11 at 12h 24m 13s.xml">
+      <configuration name="TreeIntersectionTest.canReturnMultipleCommonValues" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepeatedWordTest_canReturnFirstRepeatedWord - 2019.07.10 at 10h 34m 17s.xml">
-      <configuration name="RepeatedWordTest.canReturnFirstRepeatedWord" configurationId="JUnit" />
+    <history-entry file="TreeIntersectionTest_canReturnMultipleCommonValues - 2019.07.11 at 12h 24m 56s.xml">
+      <configuration name="TreeIntersectionTest.canReturnMultipleCommonValues" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepeatedWordTest_canReturnFirstRepeatedWord - 2019.07.10 at 10h 35m 39s.xml">
-      <configuration name="RepeatedWordTest.canReturnFirstRepeatedWord" configurationId="JUnit" />
+    <history-entry file="TreeIntersectionTest_canReturnMultipleCommonValues - 2019.07.11 at 12h 27m 28s.xml">
+      <configuration name="TreeIntersectionTest.canReturnMultipleCommonValues" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepeatedWordTest_canReturnFirstRepeatedWord - 2019.07.10 at 10h 47m 40s.xml">
-      <configuration name="RepeatedWordTest.canReturnFirstRepeatedWord" configurationId="JUnit" />
+    <history-entry file="TreeIntersectionTest_canReturnMultipleCommonValues - 2019.07.11 at 12h 30m 21s.xml">
+      <configuration name="TreeIntersectionTest.canReturnMultipleCommonValues" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepeatedWordTest - 2019.07.10 at 10h 59m 01s.xml">
-      <configuration name="RepeatedWordTest" configurationId="JUnit" />
+    <history-entry file="TreeIntersectionTest_canReturnMultipleCommonValues - 2019.07.11 at 12h 30m 59s.xml">
+      <configuration name="TreeIntersectionTest.canReturnMultipleCommonValues" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepeatedWordTest - 2019.07.10 at 11h 04m 07s.xml">
-      <configuration name="RepeatedWordTest" configurationId="JUnit" />
+    <history-entry file="TreeIntersectionTest_canReturnMultipleCommonValues - 2019.07.11 at 12h 31m 31s.xml">
+      <configuration name="TreeIntersectionTest.canReturnMultipleCommonValues" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepeatedWordTest_canReturnNullWhenStringEmpty - 2019.07.10 at 11h 05m 27s.xml">
-      <configuration name="RepeatedWordTest.canReturnNullWhenStringEmpty" configurationId="JUnit" />
+    <history-entry file="TreeIntersectionTest_canReturnMultipleCommonValuesWithDifferentSizedTrees - 2019.07.11 at 12h 34m 15s.xml">
+      <configuration name="TreeIntersectionTest.canReturnMultipleCommonValuesWithDifferentSizedTrees" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -428,7 +444,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23462088" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23462088" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -439,12 +455,12 @@
       <window_info id="DB Browser" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26626506" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26626506" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34457833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.39156628" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.39156628" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32891566" />
@@ -683,16 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/TreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="151" selection-start-line="151" selection-end-line="151" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/linkedList/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -777,26 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/HashtableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="78" column="71" selection-start-line="78" selection-start-column="71" selection-end-line="78" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/LibraryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/RepeatedWordTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -814,13 +800,6 @@
             <caret line="23" selection-start-line="23" selection-end-line="23" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/TreeIntersectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -865,16 +844,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/repeatedWord/RepeatedWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="69" lean-forward="true" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/dataStructures/tree/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-272">
@@ -885,12 +854,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/LibraryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/TreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/HashtableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/repeatedWord/RepeatedWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="69" lean-forward="true" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dataStructuresAndAlgorithms/challenges/treeIntersection/TreeIntersection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataStructuresAndAlgorithms/TreeIntersectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="69" column="64" selection-start-line="69" selection-start-column="64" selection-end-line="69" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1351#1360#0" expanded="true" />
           </folding>
         </state>
       </provider>

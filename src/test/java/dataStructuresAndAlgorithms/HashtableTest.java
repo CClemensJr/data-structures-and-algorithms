@@ -5,7 +5,7 @@ import dataStructuresAndAlgorithms.dataStructures.hashtable.Node;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class HashtableTest {
+public class HashtableTest<T> {
     @Test
     public void canHashAKey() {
         Hashtable testTable = new Hashtable(5);
@@ -57,7 +57,7 @@ public class HashtableTest {
         testTable.add(testKey, testValue);
 
         String expected = testValue;
-        String actual = testTable.get(testKey);
+        T actual = (T) testTable.get(testKey);
 
         assertEquals(expected, actual);
     }
@@ -95,7 +95,7 @@ public class HashtableTest {
         testTable.add(keyTest, valueTest);
 
         String expected = valueTest;
-        String actual = testTable.get(keyTest);
+        T actual = (T) testTable.get(keyTest);
 
         assertEquals(expected, actual);
     }
