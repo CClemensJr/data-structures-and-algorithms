@@ -1,6 +1,6 @@
 package dataStructuresAndAlgorithms.dataStructures.hashtable;
 
-public class Hashtable {
+public class Hashtable<T> {
 /****************
  * Instance Variables
  * */
@@ -26,7 +26,7 @@ public class Hashtable {
  * */
     // add: takes in both the key and value. This method should hash the key, and add the key and value pair to the table,
     // handling collisions as needed.
-    public void add (String key, String value) {
+    public void add (String key, T value) {
         try {
             int index = this.hash(key);
 
@@ -46,9 +46,9 @@ public class Hashtable {
 
 
     // get: takes in the key and returns the value from the table.
-    public String get (String key) {
+    public T get (String key) {
         try {
-            if (this.contains(key)) { return this.map[hash(key)].getValue(); }
+            if (this.contains(key)) { return (T) this.map[hash(key)].getValue(); }
 
         } catch (Exception err) {
 
